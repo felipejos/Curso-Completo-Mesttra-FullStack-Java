@@ -2,4 +2,4 @@
 
 ## 📌 Índice
 👉 **Todos Links das Aulas:** [Links](docs/1_Links.md)  
-👉 **Como Aprender Programação:** [Como Aprender](docs/2_Como_Aprender.md)  
+👉 **Como Aprender Programação:** [Como Aprender Programação](docs/2_Como_Aprender.md)  
