@@ -8,7 +8,7 @@
 ---
 
 ## 01/09/2025 (Segunda-Feira) - Gustavo Maiera:
-https://youtu.be/nlLc8ywEJEghttps://youtu.be/b6cHncS6K-ghttps://youtu.be/x9l7Cao-7uw - 2º Partehttps://youtu.be/VfiGMoWbSa4https://youtu.be/8QVLMUOLKdAhttps://youtu.be/11RMCbtlDqMhttps://youtu.be/qOE6VEWVfY8https://youtu.be/szbynlLA_mohttps://youtu.be/-4rQwh6Qc7c
+https://www.youtube.com/watch?v=nlLc8ywEJEg
 
 ## 02/09/2025 (Terça-feira) - Cleber Brito: Auto Conhecimento
 https://youtu.be/vSXneD9iqfo
