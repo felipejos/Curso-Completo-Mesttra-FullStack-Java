@@ -1,0 +1,14 @@
+## 🧪 OnlineGDB (executar códigos online)
+
+https://www.onlinegdb.com/
+
+O site **onlinegdb** permite testarmos pequenos trechos de código sem a necessidade de instalarmos nenhum programa em nosso computador. Obviamente, ele é utilizado apenas para estudos iniciais. Posteriormente iremos utilizar uma IDE (Integrated Development Environment) como o **VSCode** para escrevermos os nossos códigos.
+
+### ✅ Como usar
+1. Acesse: http://www.onlinegdb.com  
+2. Selecione a linguagem **JAVA** no canto direito da tela, conforme a imagem abaixo  
+3. Clique no botão **RUN** (conforme apontado pela seta)  
+4. Você verá o resultado da execução do programa de exemplo no painel preto inferior da janela, conforme identificado no quadrado na cor laranja.
+
+### 🖼️ Imagem de referência
+![OnlineGDB - exemplo](../images/onlinegdb.png)

@@ -1,0 +1,11 @@
+## ⌨️ Comandos de entrada e saída
+
+Para quem está aprendando os primeiros passos na programação, os comandos de entrada e saída são os primeiros comandos aprendidos. Toda linguagem de programação possui comandos de entrada e saída para a programação em terminais de console.
+
+Neste artigo, você terá um detalhamento maior do que são estes comandos:
+
+### 🔎 Sugestão de pesquisa no ChatGPT
+> Sou iniciante na programação, me explique o que é um programa em terminal de console e em quais casos um programa é desenvolvido com estas características.
+
+### 🔗 Artigo
+https://www.devmedia.com.br/algoritmos-entrada-e-saida-de-dados/40748
