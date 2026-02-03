@@ -1,21 +1,21 @@
-# 🧪 Código de Exemplo para o Try/Catch
+﻿# ðŸ§ª CÃ³digo de Exemplo para o Try/Catch
 
-Analise o código abaixo, teste-o em seu computador e entenda as características de funcionamento do **Try/Catch**.
+Analise o cÃ³digo abaixo, teste-o em seu computador e entenda as caracterÃ­sticas de funcionamento do **Try/Catch**.
 
-> 💡 Dica: execute o programa mais de uma vez e teste cenários diferentes:
-> - Digitar letras no lugar de números (ex: `abc`)
-> - Digitar `0` como segundo valor (divisão por zero)
-> - Digitar valores válidos (ex: 10 e 2)
+> ðŸ’¡ Dica: execute o programa mais de uma vez e teste cenÃ¡rios diferentes:
+> - Digitar letras no lugar de nÃºmeros (ex: `abc`)
+> - Digitar `0` como segundo valor (divisÃ£o por zero)
+> - Digitar valores vÃ¡lidos (ex: 10 e 2)
 
 ---
 
-## ✅ Código de exemplo
+## âœ… CÃ³digo de exemplo
 
     // importa a classe scanner para lidar com a entrada de dados
     import java.util.Scanner; 
     // importa a classe InputMismatchException para tratar erros de entrada de dados
     import java.util.InputMismatchException; 
-    // importa a classe ArithmeticException para tratar erros aritméticos
+    // importa a classe ArithmeticException para tratar erros aritmÃ©ticos
     import java.lang.ArithmeticException; 
 
     public class App{
@@ -31,23 +31,29 @@ Analise o código abaixo, teste-o em seu computador e entenda as característica
                 System.out.print("Digite o valor 2: "); 
                 valor2 = teclado.nextInt();
 
-                // Isso gera uma exceção quando o valor2 é zero
+                // Isso gera uma exceÃ§Ã£o quando o valor2 Ã© zero
                 float resultado = (valor1 / valor2); 
 
                 // imprime o resultado com 2 casas decimais
-                System.out.printf("O resultado é: %.2f", resultado);
+                System.out.printf("O resultado Ã©: %.2f", resultado);
             } catch (InputMismatchException e) {
-                // trata o erro quando o usuário digita um valor que não é um número inteiro
-                System.out.println("Erro: você deve digitar um número inteiro.");
+                // trata o erro quando o usuÃ¡rio digita um valor que nÃ£o Ã© um nÃºmero inteiro
+                System.out.println("Erro: vocÃª deve digitar um nÃºmero inteiro.");
             } catch (ArithmeticException e) {
-                // trata o erro quando o usuário tenta dividir por zero
-                System.out.println("Erro: não é possível dividir por zero.");
+                // trata o erro quando o usuÃ¡rio tenta dividir por zero
+                System.out.println("Erro: nÃ£o Ã© possÃ­vel dividir por zero.");
             } catch (Exception e) {
-                // trata qualquer outro erro que possa ocorrer que não foi previsto
+                // trata qualquer outro erro que possa ocorrer que nÃ£o foi previsto
                 System.out.println("\nErro: Desconhecido.");
-                // imprimindo os detalhes do erro para ajudar na identificação da exceção
+                // imprimindo os detalhes do erro para ajudar na identificaÃ§Ã£o da exceÃ§Ã£o
                 e.printStackTrace();
             }          
 
         }
     }
+
+<!-- nav_start -->
+---
+Anterior: [CompilaÃ§Ã£o, InterpretaÃ§Ã£o e HÃ­brido](../docs/36_Compilacao_Interpretacao_Hibrido.md) | Próximo: [SugestÃ£o ExercÃ­cio](../docs/38_Sugestao_Exercicio.md) | [Voltar ao Índice](../README.md)
+<!-- nav_end -->
+

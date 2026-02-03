@@ -1,14 +1,14 @@
-# Vídeos Sobre Estruturas de Decisão
+﻿# VÃ­deos Sobre Estruturas de DecisÃ£o
 
-Todos os vídeos a seguir são vídeos gravados sobre a parte de lógica de programação de **estruturas de decisão**.
+Todos os vÃ­deos a seguir sÃ£o vÃ­deos gravados sobre a parte de lÃ³gica de programaÃ§Ã£o de **estruturas de decisÃ£o**.
 
-A linguagem utilizada nestes vídeo foi o **portugol**. Mas, mesmo sendo o portugol, o importante é a explicação dos conceitos.
+A linguagem utilizada nestes vÃ­deo foi o **portugol**. Mas, mesmo sendo o portugol, o importante Ã© a explicaÃ§Ã£o dos conceitos.
 
-Vocês verão que converter o código de portugol para **Java** não é muito complexo. Então recomendo fortemente que os iniciantes assistam todos os vídeos para as próximas aulas. Abraço.
+VocÃªs verÃ£o que converter o cÃ³digo de portugol para **Java** nÃ£o Ã© muito complexo. EntÃ£o recomendo fortemente que os iniciantes assistam todos os vÃ­deos para as prÃ³ximas aulas. AbraÃ§o.
 
 ---
 
-## Explicação básica sobre Estrutura de Decisão
+## ExplicaÃ§Ã£o bÃ¡sica sobre Estrutura de DecisÃ£o
 
 https://www.youtube.com/watch?v=8LdC_QCR4zQ
 
@@ -24,7 +24,7 @@ https://www.youtube.com/watch?v=STCz-GZJVUo
 
 ---
 
-## Exercícios Estruturas Simples
+## ExercÃ­cios Estruturas Simples
 
 https://www.youtube.com/watch?v=rvUjgqmxAfQ
 
@@ -92,7 +92,7 @@ https://youtu.be/qpVhC6vjmqk
 
 ---
 
-## Exercícios de Estrututura de Decisão Composta
+## ExercÃ­cios de Estrututura de DecisÃ£o Composta
 
 https://www.youtube.com/watch?v=9KKFwX1a4VY
 
@@ -133,3 +133,9 @@ https://www.youtube.com/watch?v=Q_3-c2nYgjw
 https://www.youtube.com/watch?v=AkC9Zk-VX50
 
 [![Assistir no YouTube](https://img.youtube.com/vi/AkC9Zk-VX50/hqdefault.jpg)](https://www.youtube.com/watch?v=AkC9Zk-VX50)
+
+<!-- nav_start -->
+---
+Anterior: [Resumo Estruturas de DecisÃ£o](../docs/57_Resumo_Estruturas_Decisao.md) | Próximo: [Lista de ExercÃ­cios 03 - Estruturas de DecisÃ£o](../docs/59_Lista_Exercicios_03.md) | [Voltar ao Índice](../README.md)
+<!-- nav_end -->
+

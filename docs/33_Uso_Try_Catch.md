@@ -1,117 +1,123 @@
-# 🧯 Uso do Try/Catch
+﻿# ðŸ§¯ Uso do Try/Catch
 
-No Java, o **tratamento de exceções** é uma maneira de lidar com erros que podem acontecer enquanto um programa está sendo executado. Erros são eventos inesperados que podem fazer o programa parar ou funcionar de forma incorreta.
+No Java, o **tratamento de exceÃ§Ãµes** Ã© uma maneira de lidar com erros que podem acontecer enquanto um programa estÃ¡ sendo executado. Erros sÃ£o eventos inesperados que podem fazer o programa parar ou funcionar de forma incorreta.
 
-Para evitar que o programa “quebre” quando um erro acontece, usamos o **tratamento de exceções** com as palavras-chave:
+Para evitar que o programa â€œquebreâ€ quando um erro acontece, usamos o **tratamento de exceÃ§Ãµes** com as palavras-chave:
 
-- `try` → **tenta** executar um trecho de código
-- `catch` → **captura e trata** o erro caso ele aconteça
+- `try` â†’ **tenta** executar um trecho de cÃ³digo
+- `catch` â†’ **captura e trata** o erro caso ele aconteÃ§a
 
 ---
 
-## 1) ⚠️ O que é uma Exceção?
+## 1) âš ï¸ O que Ã© uma ExceÃ§Ã£o?
 
-Uma exceção é como um “alerta” que indica que algo deu errado.
+Uma exceÃ§Ã£o Ã© como um â€œalertaâ€ que indica que algo deu errado.
 
-✅ Exemplos comuns:
-- Tentar dividir um número por **zero**
-- Tentar abrir um arquivo que **não existe**
-- Digitar texto quando o programa espera um **número**
+âœ… Exemplos comuns:
+- Tentar dividir um nÃºmero por **zero**
+- Tentar abrir um arquivo que **nÃ£o existe**
+- Digitar texto quando o programa espera um **nÃºmero**
 
-Quando isso acontece, o Java **lança** (gera) uma exceção. Se você **não tratar**, o programa pode **parar a execução**.
+Quando isso acontece, o Java **lanÃ§a** (gera) uma exceÃ§Ã£o. Se vocÃª **nÃ£o tratar**, o programa pode **parar a execuÃ§Ã£o**.
 
 ### Exemplo (sem tratamento)
 
     public class Main{
         public static void main(String[] args) {
-            // Tentamos fazer uma divisão
-            int resultado = 10 / 0; // Isso gera uma exceção
+            // Tentamos fazer uma divisÃ£o
+            int resultado = 10 / 0; // Isso gera uma exceÃ§Ã£o
 
             System.out.println("O programa continua executando...");
         }
     }
 
-Ao executar, o programa **não termina** e aparece algo como:
+Ao executar, o programa **nÃ£o termina** e aparece algo como:
 
     Exception in thread "main" java.lang.ArithmeticException: / by zero
         at Main.main(Main.java:13)
 
 ---
 
-## 2) 🧪 O bloco `try`
+## 2) ðŸ§ª O bloco `try`
 
-O bloco `try` é onde você coloca o código que **pode dar erro**.
+O bloco `try` Ã© onde vocÃª coloca o cÃ³digo que **pode dar erro**.
 
-É como dizer:  
-> “Vou tentar executar isso aqui, mas pode acontecer algum problema.”
+Ã‰ como dizer:  
+> â€œVou tentar executar isso aqui, mas pode acontecer algum problema.â€
 
     try {
-        // Código que pode gerar uma exceção
-        int resultado = 10 / 0; // Isso vai gerar uma exceção
+        // CÃ³digo que pode gerar uma exceÃ§Ã£o
+        int resultado = 10 / 0; // Isso vai gerar uma exceÃ§Ã£o
     }
 
 ---
 
-## 3) 🛠️ O bloco `catch`
+## 3) ðŸ› ï¸ O bloco `catch`
 
-Se uma exceção ocorrer dentro do `try`, o Java “pula” direto para o `catch`.
+Se uma exceÃ§Ã£o ocorrer dentro do `try`, o Java â€œpulaâ€ direto para o `catch`.
 
-É como dizer:  
-> “Se der erro, trate aqui e mostre uma mensagem.”
+Ã‰ como dizer:  
+> â€œSe der erro, trate aqui e mostre uma mensagem.â€
 
     try {
-        int resultado = 10 / 0; // Isso vai gerar uma exceção
+        int resultado = 10 / 0; // Isso vai gerar uma exceÃ§Ã£o
     } catch (Exception e) {
-        // Código para lidar com a exceção
-        System.out.println("Erro: Não é possível dividir por zero.");
+        // CÃ³digo para lidar com a exceÃ§Ã£o
+        System.out.println("Erro: NÃ£o Ã© possÃ­vel dividir por zero.");
     }
 
 ---
 
-## 4) ✅ Exemplo completo (Try/Catch funcionando)
+## 4) âœ… Exemplo completo (Try/Catch funcionando)
 
     public class Main{
         public static void main(String[] args) {
             try {
-                // Tentamos fazer uma divisão
-                int resultado = 10 / 0; // Isso gera uma exceção
+                // Tentamos fazer uma divisÃ£o
+                int resultado = 10 / 0; // Isso gera uma exceÃ§Ã£o
             } catch (Exception e) {
-                // Se ocorrer uma exceção, isso é executado
-                System.out.println("Erro: Não é possível dividir por zero.");
+                // Se ocorrer uma exceÃ§Ã£o, isso Ã© executado
+                System.out.println("Erro: NÃ£o Ã© possÃ­vel dividir por zero.");
             }
 
             System.out.println("O programa continua executando...");
         }
     }
 
-📌 Execute esse exemplo e note que, mesmo com erro, o programa **continua** e imprime:
+ðŸ“Œ Execute esse exemplo e note que, mesmo com erro, o programa **continua** e imprime:
 
 - a mensagem do `catch`
 - e depois: **"O programa continua executando..."**
 
-✅ Agora faça um teste:
-- Troque o `0` por outro número (ex: `2`)
+âœ… Agora faÃ§a um teste:
+- Troque o `0` por outro nÃºmero (ex: `2`)
 - Execute novamente
-- Você verá que **não ocorre erro**, pois a divisão passa a ser válida.
+- VocÃª verÃ¡ que **nÃ£o ocorre erro**, pois a divisÃ£o passa a ser vÃ¡lida.
 
 ---
 
-## 🧠 O que acontece no código?
+## ðŸ§  O que acontece no cÃ³digo?
 
-- O código dentro do `try` tenta fazer a divisão.
-- Dividir por zero não é permitido → o Java lança uma exceção.
-- O `catch` captura a exceção e executa o tratamento.
-- O programa continua normalmente após o `catch`.
+- O cÃ³digo dentro do `try` tenta fazer a divisÃ£o.
+- Dividir por zero nÃ£o Ã© permitido â†’ o Java lanÃ§a uma exceÃ§Ã£o.
+- O `catch` captura a exceÃ§Ã£o e executa o tratamento.
+- O programa continua normalmente apÃ³s o `catch`.
 
 ---
 
-## 💡 Por que usar `try` e `catch`?
+## ðŸ’¡ Por que usar `try` e `catch`?
 
-Usar `try/catch` deixa seu programa mais **robusto** e evita que ele “morra” ao encontrar um problema.
+Usar `try/catch` deixa seu programa mais **robusto** e evita que ele â€œmorraâ€ ao encontrar um problema.
 
-✅ Em vez de parar tudo, ele pode:
-- mostrar uma mensagem clara para o usuário
+âœ… Em vez de parar tudo, ele pode:
+- mostrar uma mensagem clara para o usuÃ¡rio
 - pedir uma nova entrada
 - continuar o fluxo do sistema
 
-Isso melhora muito a **experiência do usuário** e a qualidade do seu código.
+Isso melhora muito a **experiÃªncia do usuÃ¡rio** e a qualidade do seu cÃ³digo.
+
+<!-- nav_start -->
+---
+Anterior: [VÃ­deo: Formatando casas decimais](../docs/32_Video_Casas_Decimais.md) | Próximo: [VÃ­deo 01: Try Catch](../docs/34_Video_01_Try_Catch.md) | [Voltar ao Índice](../README.md)
+<!-- nav_end -->
+

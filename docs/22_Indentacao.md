@@ -1,34 +1,34 @@
-# Indentação
+﻿# IndentaÃ§Ã£o
 
-## O que é Indentação?
+## O que Ã© IndentaÃ§Ã£o?
 
-Indentação é o processo de usar espaços ou tabulações para alinhar o código de forma que ele fique visualmente organizado. No código, isso geralmente significa adicionar espaços ou tabulações antes de linhas de código para mostrar que elas estão dentro de blocos ou seções diferentes.
+IndentaÃ§Ã£o Ã© o processo de usar espaÃ§os ou tabulaÃ§Ãµes para alinhar o cÃ³digo de forma que ele fique visualmente organizado. No cÃ³digo, isso geralmente significa adicionar espaÃ§os ou tabulaÃ§Ãµes antes de linhas de cÃ³digo para mostrar que elas estÃ£o dentro de blocos ou seÃ§Ãµes diferentes.
 
 ---
 
-## Por que a Indentação é Importante?
+## Por que a IndentaÃ§Ã£o Ã© Importante?
 
 ### Clareza e Legibilidade
 
-- **Facilita a Leitura:** Código bem indentado é mais fácil de ler e entender. Se você usa indentação consistente, fica claro qual código pertence a qual bloco ou estrutura. Por exemplo, um bloco de código dentro de uma função ou um loop está claramente separado do restante do código.
-- **Ajuda na Estrutura:** A indentação ajuda a visualizar a estrutura do programa, mostrando claramente quais comandos estão dentro de quais blocos de código.
+- **Facilita a Leitura:** CÃ³digo bem indentado Ã© mais fÃ¡cil de ler e entender. Se vocÃª usa indentaÃ§Ã£o consistente, fica claro qual cÃ³digo pertence a qual bloco ou estrutura. Por exemplo, um bloco de cÃ³digo dentro de uma funÃ§Ã£o ou um loop estÃ¡ claramente separado do restante do cÃ³digo.
+- **Ajuda na Estrutura:** A indentaÃ§Ã£o ajuda a visualizar a estrutura do programa, mostrando claramente quais comandos estÃ£o dentro de quais blocos de cÃ³digo.
 
 ### Evita Erros
 
-- **Organização:** Se o código não estiver bem indentado, pode ser difícil ver onde começa e termina um bloco de código, como um `if` ou um `for`. Isso pode levar a erros, como colocar comandos no lugar errado.
-- **Facilita a Identificação de Problemas:** Com uma boa indentação, você pode identificar mais facilmente onde algo pode estar errado, como uma chave (`{`) que está faltando ou sobrando.
+- **OrganizaÃ§Ã£o:** Se o cÃ³digo nÃ£o estiver bem indentado, pode ser difÃ­cil ver onde comeÃ§a e termina um bloco de cÃ³digo, como um `if` ou um `for`. Isso pode levar a erros, como colocar comandos no lugar errado.
+- **Facilita a IdentificaÃ§Ã£o de Problemas:** Com uma boa indentaÃ§Ã£o, vocÃª pode identificar mais facilmente onde algo pode estar errado, como uma chave (`{`) que estÃ¡ faltando ou sobrando.
 
-### Padrão de Código
+### PadrÃ£o de CÃ³digo
 
-- **Consistência:** Usar um padrão de indentação ajuda a manter o código consistente, especialmente quando várias pessoas estão trabalhando no mesmo projeto. Isso facilita a colaboração e revisão de código.
+- **ConsistÃªncia:** Usar um padrÃ£o de indentaÃ§Ã£o ajuda a manter o cÃ³digo consistente, especialmente quando vÃ¡rias pessoas estÃ£o trabalhando no mesmo projeto. Isso facilita a colaboraÃ§Ã£o e revisÃ£o de cÃ³digo.
 
 ---
 
-## Como Indentar o Código
+## Como Indentar o CÃ³digo
 
-Aqui está um exemplo básico de código Java para mostrar a importância da indentação:
+Aqui estÃ¡ um exemplo bÃ¡sico de cÃ³digo Java para mostrar a importÃ¢ncia da indentaÃ§Ã£o:
 
-### Sem Indentação
+### Sem IndentaÃ§Ã£o
 
     public class Main{
     public static void main(String[] args) {
@@ -36,12 +36,12 @@ Aqui está um exemplo básico de código Java para mostrar a importância da ind
     int idade;
     float peso;
 
-    nome = "Rogério";
+    nome = "RogÃ©rio";
     int = 42;
     peso = 88.5f;
     }
 
-### Com Indentação
+### Com IndentaÃ§Ã£o
 
     public class Main{
         public static void main(String[] args) {
@@ -49,7 +49,7 @@ Aqui está um exemplo básico de código Java para mostrar a importância da ind
              int idade;
              float peso;
 
-             nome = "Rogério";
+             nome = "RogÃ©rio";
              int = 42;
              peso = 88.5f;
         }
@@ -57,14 +57,20 @@ Aqui está um exemplo básico de código Java para mostrar a importância da ind
 
 ---
 
-## Regras Básicas de Indentação
+## Regras BÃ¡sicas de IndentaÃ§Ã£o
 
-- **Consistência:** Use o mesmo padrão de indentação. Sempre utilize **1 TAB** para indentar o seu código.
-- **Blocos de Código:** Sempre que você abrir um bloco de código com `{`, coloque o próximo nível de código dentro desse bloco com uma indentação.
-- **Fechamento de Blocos:** Quando você fechar um bloco de código com `}`, alinhe com o nível anterior.
+- **ConsistÃªncia:** Use o mesmo padrÃ£o de indentaÃ§Ã£o. Sempre utilize **1 TAB** para indentar o seu cÃ³digo.
+- **Blocos de CÃ³digo:** Sempre que vocÃª abrir um bloco de cÃ³digo com `{`, coloque o prÃ³ximo nÃ­vel de cÃ³digo dentro desse bloco com uma indentaÃ§Ã£o.
+- **Fechamento de Blocos:** Quando vocÃª fechar um bloco de cÃ³digo com `}`, alinhe com o nÃ­vel anterior.
 
 ---
 
-## Conclusão
+## ConclusÃ£o
 
-A indentação é uma prática essencial para escrever código claro e organizado. Ela ajuda a garantir que seu código seja legível e compreensível, o que é fundamental para evitar erros e colaborar com outras pessoas. Boa indentação é uma habilidade básica, mas muito importante, para qualquer programador!
+A indentaÃ§Ã£o Ã© uma prÃ¡tica essencial para escrever cÃ³digo claro e organizado. Ela ajuda a garantir que seu cÃ³digo seja legÃ­vel e compreensÃ­vel, o que Ã© fundamental para evitar erros e colaborar com outras pessoas. Boa indentaÃ§Ã£o Ã© uma habilidade bÃ¡sica, mas muito importante, para qualquer programador!
+
+<!-- nav_start -->
+---
+Anterior: [Caractere de Escape \\](../docs/21_Caractere_de_Escape.md) | Próximo: [Conceito: Operadores MatemÃ¡ticos](../docs/23_Conceito_Operadores_Matematicos.md) | [Voltar ao Índice](../README.md)
+<!-- nav_end -->
+

@@ -1,8 +1,8 @@
-# ✅ Conceito Switch Case
+﻿# âœ… Conceito Switch Case
 
-O **switch case** é uma estrutura de controle de fluxo usada em linguagens como **Java**, **C** e **JavaScript** para executar **blocos diferentes de código** conforme o valor de uma variável.
+O **switch case** Ã© uma estrutura de controle de fluxo usada em linguagens como **Java**, **C** e **JavaScript** para executar **blocos diferentes de cÃ³digo** conforme o valor de uma variÃ¡vel.
 
-Ele é uma alternativa mais **organizada e legível** ao uso de muitos `if` e `else if`, principalmente quando você faz várias comparações do tipo:
+Ele Ã© uma alternativa mais **organizada e legÃ­vel** ao uso de muitos `if` e `else if`, principalmente quando vocÃª faz vÃ¡rias comparaÃ§Ãµes do tipo:
 
 - `numero == 1`
 - `numero == 2`
@@ -11,16 +11,16 @@ Ele é uma alternativa mais **organizada e legível** ao uso de muitos `if` e `e
 
 ---
 
-## 🎯 Exemplo com if / else if
+## ðŸŽ¯ Exemplo com if / else if
 
-Imagine um código para converter um número para sua escrita por extenso:
+Imagine um cÃ³digo para converter um nÃºmero para sua escrita por extenso:
 
 if (numero == 1) {
    System.out.print("um")
 } else if (numero == 2) {
    System.out.print("dois")
 } else if (numero == 3) {
-   System.out.print("três")
+   System.out.print("trÃªs")
 } else if (numero == 4) {
    System.out.print("quatro")
 } else if (numero == 5) {
@@ -35,20 +35,20 @@ if (numero == 1) {
    System.out.print("9")
 }
 
-✅ Note que nesse código estamos sempre comparando a variável **numero** com igualdade `==`.
+âœ… Note que nesse cÃ³digo estamos sempre comparando a variÃ¡vel **numero** com igualdade `==`.
 
-Quando isso acontece, podemos usar o **switch case**, evitando repetir `numero == ...` várias vezes.
+Quando isso acontece, podemos usar o **switch case**, evitando repetir `numero == ...` vÃ¡rias vezes.
 
 ---
 
-## ✅ Mesmo exemplo (trecho) com if / else if
+## âœ… Mesmo exemplo (trecho) com if / else if
 
 if (numero == 1) {
             System.out.print("um");
          } else if (numero == 2) {
             System.out.print("dois");
          } else if (numero == 3) {
-            System.out.print("três");
+            System.out.print("trÃªs");
          } else if (numero == 4) {
             System.out.print("quatro");
          } else if (numero == 5) {
@@ -65,17 +65,17 @@ if (numero == 1) {
 
 ---
 
-## ⭐ O papel do `default` (como se fosse um else)
+## â­ O papel do `default` (como se fosse um else)
 ![OnlineGDB - exemplo](../images/switch.png)
 
-O **switch case** também pode ter um comportamento igual ao `else`.  
-Ou seja, se o valor **não se encaixar em nenhum case**, você define um padrão com `default` (normalmente a última opção).
+O **switch case** tambÃ©m pode ter um comportamento igual ao `else`.  
+Ou seja, se o valor **nÃ£o se encaixar em nenhum case**, vocÃª define um padrÃ£o com `default` (normalmente a Ãºltima opÃ§Ã£o).
 
 ---
 
-## ✅ Exemplo de agrupamento de condições
+## âœ… Exemplo de agrupamento de condiÃ§Ãµes
 
-Caso você tenha um trecho equivalente a este:
+Caso vocÃª tenha um trecho equivalente a este:
 
 if (numero == 1 || numero == 2) {
       //execute algo
@@ -99,11 +99,17 @@ switch (numero) {
         break;
 }
 
-📌 **Como funciona aqui?**
-- Como não temos nada logo depois de `case 1`, ele “cai” para o próximo (`case 2`) e executa o bloco.
-- Então esse bloco será executado se `numero` for **1 ou 2**.
+ðŸ“Œ **Como funciona aqui?**
+- Como nÃ£o temos nada logo depois de `case 1`, ele â€œcaiâ€ para o prÃ³ximo (`case 2`) e executa o bloco.
+- EntÃ£o esse bloco serÃ¡ executado se `numero` for **1 ou 2**.
 
 O mesmo ocorre com **3, 4, 5 e 6**:
-- Como não há código individual nesses `case`, todos executam o mesmo bloco `"// Execute isto"`.
+- Como nÃ£o hÃ¡ cÃ³digo individual nesses `case`, todos executam o mesmo bloco `"// Execute isto"`.
 
 ---
+
+<!-- nav_start -->
+---
+Anterior: [Lista de ExercÃ­cios 03 - Estruturas de DecisÃ£o](../docs/59_Lista_Exercicios_03.md) | Próximo: [VÃ­deo Switch Case](../docs/61_Video_Switch_Case.md) | [Voltar ao Índice](../README.md)
+<!-- nav_end -->
+

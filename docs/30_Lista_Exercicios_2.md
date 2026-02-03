@@ -1,50 +1,56 @@
-# 📚 Lista de Exercícios 2
+﻿# ðŸ“š Lista de ExercÃ­cios 2
 
-> ✅ **Observação:** Estes exercícios **não precisam ser entregues**.
+> âœ… **ObservaÃ§Ã£o:** Estes exercÃ­cios **nÃ£o precisam ser entregues**.
 
 ---
 
-## 👋 Olá, pessoal!
+## ðŸ‘‹ OlÃ¡, pessoal!
 
 No link compartilhado abaixo, temos uma pasta chamada:
 
-📁 **01: Lógica de Programação**  
+ðŸ“ **01: LÃ³gica de ProgramaÃ§Ã£o**  
 https://drive.google.com/drive/folders/1rOzA0BT9-lkSRwYcxMnyS-dwR6d0xK5-
 
 ---
 
-## 📘 Livro 1 — Exercícios (Páginas 56 e 57)
+## ðŸ“˜ Livro 1 â€” ExercÃ­cios (PÃ¡ginas 56 e 57)
 
 Dentro da pasta, existe o livro:
 
-📖 **"Algoritmos Lógica para desenvolvimento de programação de computadores POO"**
+ðŸ“– **"Algoritmos LÃ³gica para desenvolvimento de programaÃ§Ã£o de computadores POO"**
 
-✅ Nas **páginas 56 e 57**, há vários enunciados de exercícios que vocês podem utilizar para treinar a programação com os comandos básicos que vimos até agora.
-
----
-
-## 🧠 Recomendação para iniciantes (Páginas 1 a 55)
-
-Sugiro também, para quem está começando, que leia toda a parte teórica:
-
-📌 **da página 1 até a página 55**
-
-Mesmo o livro usando **português estruturado**, os conceitos se aplicam a qualquer linguagem. Isso faz dele uma **ótima referência conceitual** para acompanhar as explicações que utilizaremos na academia.
-
-🔁 Com o tempo, vocês vão perceber que não é difícil converter os exemplos do livro (português estruturado) para **Java**.
+âœ… Nas **pÃ¡ginas 56 e 57**, hÃ¡ vÃ¡rios enunciados de exercÃ­cios que vocÃªs podem utilizar para treinar a programaÃ§Ã£o com os comandos bÃ¡sicos que vimos atÃ© agora.
 
 ---
 
-## 💡 Incentivo
+## ðŸ§  RecomendaÃ§Ã£o para iniciantes (PÃ¡ginas 1 a 55)
 
-🚀 Eu instigo vocês fortemente a lerem este livro.
+Sugiro tambÃ©m, para quem estÃ¡ comeÃ§ando, que leia toda a parte teÃ³rica:
+
+ðŸ“Œ **da pÃ¡gina 1 atÃ© a pÃ¡gina 55**
+
+Mesmo o livro usando **portuguÃªs estruturado**, os conceitos se aplicam a qualquer linguagem. Isso faz dele uma **Ã³tima referÃªncia conceitual** para acompanhar as explicaÃ§Ãµes que utilizaremos na academia.
+
+ðŸ” Com o tempo, vocÃªs vÃ£o perceber que nÃ£o Ã© difÃ­cil converter os exemplos do livro (portuguÃªs estruturado) para **Java**.
 
 ---
 
-## 📗 Livro 2 — Referência adicional
+## ðŸ’¡ Incentivo
 
-Outro livro disponível na mesma pasta:
+ðŸš€ Eu instigo vocÃªs fortemente a lerem este livro.
 
-📖 **"Introdução à Programação 500 Algoritmos Resolvidos"**
+---
 
-Ele traz exemplos em português estruturado que podem servir como **referência para treinar a conversão** desses programas para **código Java**.
+## ðŸ“— Livro 2 â€” ReferÃªncia adicional
+
+Outro livro disponÃ­vel na mesma pasta:
+
+ðŸ“– **"IntroduÃ§Ã£o Ã  ProgramaÃ§Ã£o 500 Algoritmos Resolvidos"**
+
+Ele traz exemplos em portuguÃªs estruturado que podem servir como **referÃªncia para treinar a conversÃ£o** desses programas para **cÃ³digo Java**.
+
+<!-- nav_start -->
+---
+Anterior: [InstalaÃ§Ã£o do VSCode e Plugins](../docs/29_Instalacao_VSCode_Plugins.md) | Próximo: [Comando printf()](../docs/31_Comando_printf.md) | [Voltar ao Índice](../README.md)
+<!-- nav_end -->
+

@@ -1,21 +1,21 @@
-# 🧩 If Else: Exercício 2
+﻿# ðŸ§© If Else: ExercÃ­cio 2
 
 ---
 
-## 📌 Enunciado
+## ðŸ“Œ Enunciado
 
     //Escreva um algoritmo que leia 4 notas de um aluno de 0 a 10.
     //Leia a quantidade de aulas que foram ministradas e a quantidade de aulas que o aluno faltou.
-    //Calcule uma media simples entre as 4 notas e também o percentual de faltas do aluno.
+    //Calcule uma media simples entre as 4 notas e tambÃ©m o percentual de faltas do aluno.
     //Ao termino informe o aluno foi:
     //Reprovado por falta. PercentualFaltas >= 25
     //Aprovado. MediaNotas notas >= 6
-    //Recuperação. MediaNotas >= 3 e < 6
+    //RecuperaÃ§Ã£o. MediaNotas >= 3 e < 6
     //Reprovado por Nota. MediaNotas < 3
 
 ---
 
-## ✅ Versão principal (mais eficiente)
+## âœ… VersÃ£o principal (mais eficiente)
 
     import java.util.Scanner;
 
@@ -51,16 +51,16 @@
             percentualFaltas = (qtdeFaltas * 100) / qtdeAulasDadas;
 
             if (percentualFaltas > 25){
-                //é executado se a condicao (percentualFaltas > 25) for verdadeira
+                //Ã© executado se a condicao (percentualFaltas > 25) for verdadeira
                 System.out.printf("Aluno reprovado por faltas (%.1f%%) faltas.", percentualFaltas);
             }  else if (media >= 6) {
-                //é executado se a condicao (media >= 6) for verdadeira
-                System.out.printf("Aluno aprovado, a média foi %.2f pontos.", media);
+                //Ã© executado se a condicao (media >= 6) for verdadeira
+                System.out.printf("Aluno aprovado, a mÃ©dia foi %.2f pontos.", media);
             } else if (media >= 4){
-                // é executado se a condicao (media >= 4) for verdadeira
-                System.out.printf("Aluno de recuperação, a média foi %.2f pontos.", media);
+                // Ã© executado se a condicao (media >= 4) for verdadeira
+                System.out.printf("Aluno de recuperaÃ§Ã£o, a mÃ©dia foi %.2f pontos.", media);
             } else {
-                // é executado se a condicao (media < 4) for verdadeira
+                // Ã© executado se a condicao (media < 4) for verdadeira
                 System.out.printf("Aluno reprovado por nota. Nota final %.2f pontos.", media);
             }  
 
@@ -70,65 +70,71 @@
 
 ---
 
-## 🔎 Outras versões (menos eficientes) — apenas olhando para o bloco `if/else`
+## ðŸ”Ž Outras versÃµes (menos eficientes) â€” apenas olhando para o bloco `if/else`
 
-### 1) Versão com condições repetidas
+### 1) VersÃ£o com condiÃ§Ãµes repetidas
 
     if (media >= 6 && percentualFaltas < 25) {
-        //é executado se a condicao (media >= 6) for verdadeira
-        System.out.printf("Aluno aprovado, a média foi %.2f pontos.", media);
+        //Ã© executado se a condicao (media >= 6) for verdadeira
+        System.out.printf("Aluno aprovado, a mÃ©dia foi %.2f pontos.", media);
     } else if (media >= 4 && percentualFaltas < 25){
-        // é executado se a condicao (media >= 4) for verdadeira
-        System.out.printf("Aluno de recuperação, a média foi %.2f pontos.", media);
+        // Ã© executado se a condicao (media >= 4) for verdadeira
+        System.out.printf("Aluno de recuperaÃ§Ã£o, a mÃ©dia foi %.2f pontos.", media);
     } else if (media < 4 && percentualFaltas < 25){
-        // é executado se a condicao (media < 4) for verdadeira
+        // Ã© executado se a condicao (media < 4) for verdadeira
         System.out.printf("Aluno reprovado por nota. Nota final %.2f pontos.", media);
     } else if (percentualFaltas > 25 && percentualFaltas < 25){
-        //é executado se a condicao (percentualFaltas > 25) for verdadeira
+        //Ã© executado se a condicao (percentualFaltas > 25) for verdadeira
         System.out.printf("Aluno reprovado por faltas (%.1f%%) faltas.", percentualFaltas);
     }
 
-> ⚠️ Observação: esse último `else if` tem uma condição impossível  
-> `percentualFaltas > 25 && percentualFaltas < 25` nunca será verdadeira ao mesmo tempo.
+> âš ï¸ ObservaÃ§Ã£o: esse Ãºltimo `else if` tem uma condiÃ§Ã£o impossÃ­vel  
+> `percentualFaltas > 25 && percentualFaltas < 25` nunca serÃ¡ verdadeira ao mesmo tempo.
 
 ---
 
-### 2) Versão reorganizada
+### 2) VersÃ£o reorganizada
 
     if (percentualFaltas > 25){
-        //é executado se a condicao (percentualFaltas > 25) for verdadeira
+        //Ã© executado se a condicao (percentualFaltas > 25) for verdadeira
         System.out.printf("Aluno reprovado por faltas (%.1f%%) faltas.", percentualFaltas);
     }  else if (media >= 4 && media < 6) {
-        // é executado se a condicao (media >= 4) for verdadeira
-        System.out.printf("Aluno de recuperação, a média foi %.2f pontos.", media);
+        // Ã© executado se a condicao (media >= 4) for verdadeira
+        System.out.printf("Aluno de recuperaÃ§Ã£o, a mÃ©dia foi %.2f pontos.", media);
     } else if (media >= 6) {
-        //é executado se a condicao (media >= 6) for verdadeira
-        System.out.printf("Aluno aprovado, a média foi %.2f pontos.", media);
+        //Ã© executado se a condicao (media >= 6) for verdadeira
+        System.out.printf("Aluno aprovado, a mÃ©dia foi %.2f pontos.", media);
     } else if (media < 4){
-        // é executado se a condicao (media < 4) for verdadeira
+        // Ã© executado se a condicao (media < 4) for verdadeira
         System.out.printf("Aluno reprovado por nota. Nota final %.2f pontos.", media);
     }
 
 ---
 
-### 3) Versão com `if` aninhado (mais verbosa)
+### 3) VersÃ£o com `if` aninhado (mais verbosa)
 
     if (percentualFaltas > 25){
-        //é executado se a condicao (percentualFaltas > 25) for verdadeira
+        //Ã© executado se a condicao (percentualFaltas > 25) for verdadeira
         System.out.printf("Aluno reprovado por faltas (%.1f%%) faltas.", percentualFaltas);
     }  else {
         if (media >= 6) {
-            //é executado se a condicao (media >= 6) for verdadeira
-            System.out.printf("Aluno aprovado, a média foi %.2f pontos.", media);
+            //Ã© executado se a condicao (media >= 6) for verdadeira
+            System.out.printf("Aluno aprovado, a mÃ©dia foi %.2f pontos.", media);
         } else {
             if (media >= 4) {
-                // é executado se a condicao (media >= 4) for verdadeira
-                System.out.printf("Aluno de recuperação, a média foi %.2f pontos.", media);
+                // Ã© executado se a condicao (media >= 4) for verdadeira
+                System.out.printf("Aluno de recuperaÃ§Ã£o, a mÃ©dia foi %.2f pontos.", media);
             } else {
                 if (media < 4){
-                    // é executado se a condicao (media < 4) for verdadeira
+                    // Ã© executado se a condicao (media < 4) for verdadeira
                     System.out.printf("Aluno reprovado por nota. Nota final %.2f pontos.", media);
                 }
             }
         }
     }
+
+<!-- nav_start -->
+---
+Anterior: [If Else: ExercÃ­cio 1](../docs/44_If_Else_Exercicio_1.md) | Próximo: [Desafio Jogo da Forca](../docs/46_Desafio_Jogo_Forca.md) | [Voltar ao Índice](../README.md)
+<!-- nav_end -->
+

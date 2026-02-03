@@ -1,15 +1,15 @@
-# Comandos para leitura de números
+﻿# Comandos para leitura de nÃºmeros
 
-Dependendo do tipo de dados que o nosso programa em JAVA for realizar a leitura, é necessário utilizarmos comandos diferentes para cada tipo de dados. Desta forma, se formos ler um texto, um número inteiro ou um número fracionário, é necessário utilizarmos o comando correto para que seja possível armazenarmos este valor corretamente no tipo de variável que escolhemos.
+Dependendo do tipo de dados que o nosso programa em JAVA for realizar a leitura, Ã© necessÃ¡rio utilizarmos comandos diferentes para cada tipo de dados. Desta forma, se formos ler um texto, um nÃºmero inteiro ou um nÃºmero fracionÃ¡rio, Ã© necessÃ¡rio utilizarmos o comando correto para que seja possÃ­vel armazenarmos este valor corretamente no tipo de variÃ¡vel que escolhemos.
 
-Abaixo temos os métodos da classe `Scanner` que se encarregam de fazer a leitura e conversão dos dados para o tipo de dados correto:
+Abaixo temos os mÃ©todos da classe `Scanner` que se encarregam de fazer a leitura e conversÃ£o dos dados para o tipo de dados correto:
 
-- `next()` — retorna uma cadeia de caracteres simples, ou seja, que não usa o caractere espaço em branco;
-- `nextDouble()` — retorna um número em notação de ponto flutuante normalizada em precisão dupla de 64 bits (usado para receber valores reais ou monetários);
-- `hasNextDouble()` — retorna `true` se o próximo dado de entrada pode ser interpretado como um valor `double`;
-- `nextInt()` — retorna um número inteiro de 32 bits;
-- `nextLine()` — retorna uma cadeia de caracteres;
-- `nextLong()` — retorna um número inteiro de 64 bits.
+- `next()` â€” retorna uma cadeia de caracteres simples, ou seja, que nÃ£o usa o caractere espaÃ§o em branco;
+- `nextDouble()` â€” retorna um nÃºmero em notaÃ§Ã£o de ponto flutuante normalizada em precisÃ£o dupla de 64 bits (usado para receber valores reais ou monetÃ¡rios);
+- `hasNextDouble()` â€” retorna `true` se o prÃ³ximo dado de entrada pode ser interpretado como um valor `double`;
+- `nextInt()` â€” retorna um nÃºmero inteiro de 32 bits;
+- `nextLine()` â€” retorna uma cadeia de caracteres;
+- `nextLong()` â€” retorna um nÃºmero inteiro de 64 bits.
 
 ---
 
@@ -35,7 +35,7 @@ public class Main{
         double altura = scanner.nextDouble();
 
         // Lendo um boolean
-        System.out.print("Você gosta de Java? (true/false): ");
+        System.out.print("VocÃª gosta de Java? (true/false): ");
         boolean gostaDeJava = scanner.nextBoolean();
 
         // Consumir a quebra de linha restante
@@ -46,8 +46,8 @@ public class Main{
         System.out.print("Digite a primeira letra do seu sobrenome: ");
         char inicialSobrenome = scanner.nextLine().charAt(0);
 
-        // Exibindo os dados lidos. Para entender a função do sinal de +, leia o 
-        // próximo artigo "Concatenação de Dados"
+        // Exibindo os dados lidos. Para entender a funÃ§Ã£o do sinal de +, leia o 
+        // prÃ³ximo artigo "ConcatenaÃ§Ã£o de Dados"
         System.out.println("\n=== Dados Lidos ===");
         System.out.println("Nome: " + nome);
         System.out.println("Idade: " + idade);
@@ -59,3 +59,8 @@ public class Main{
     }
 }
 ```
+<!-- nav_start -->
+---
+Anterior: [AtribuiÃ§Ã£o direta de dados](../docs/17_Atribuicao_Direta.md) | Próximo: [Realizando a limpeza do buffer](../docs/19_Limpeza_Buffer.md) | [Voltar ao Índice](../README.md)
+<!-- nav_end -->
+

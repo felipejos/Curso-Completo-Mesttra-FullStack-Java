@@ -1,13 +1,13 @@
-# Diferença entre `print` e `println` em Java ☕
+﻿# DiferenÃ§a entre `print` e `println` em Java â˜•
 
-Diferença entre print e println
+DiferenÃ§a entre print e println
 
-Em Java, System.out.print e System.out.println são usados para imprimir texto no console, mas há uma diferença fundamental entre eles.
+Em Java, System.out.print e System.out.println sÃ£o usados para imprimir texto no console, mas hÃ¡ uma diferenÃ§a fundamental entre eles.
 
-Diferença Principal:
-System.out.print: Imprime o texto, mas não adiciona uma nova linha no exibição dos dados na console. Isso significa que o próximo texto impresso será mostrado na mesma linha na console.
+DiferenÃ§a Principal:
+System.out.print: Imprime o texto, mas nÃ£o adiciona uma nova linha no exibiÃ§Ã£o dos dados na console. Isso significa que o prÃ³ximo texto impresso serÃ¡ mostrado na mesma linha na console.
 
-System.out.println: Imprime o texto e, em seguida, adiciona uma nova linha na console. Isso significa que o próximo texto impresso será mostrado na linha seguinte.
+System.out.println: Imprime o texto e, em seguida, adiciona uma nova linha na console. Isso significa que o prÃ³ximo texto impresso serÃ¡ mostrado na linha seguinte.
 
 Exemplos:
 - Usando System.out.print:
@@ -19,10 +19,10 @@ public class Main {
         System.out.print("World!");
     }
 }
-Saída na console:
+SaÃ­da na console:
 
 Hello, World!
-Explicação: Ambos os textos foram impressos na mesma linha porque System.out.print não adiciona uma nova linha ao término da impressão dos dados.
+ExplicaÃ§Ã£o: Ambos os textos foram impressos na mesma linha porque System.out.print nÃ£o adiciona uma nova linha ao tÃ©rmino da impressÃ£o dos dados.
 
 Usando System.out.println:
 
@@ -32,11 +32,11 @@ public class Main {
         System.out.println("World!");
     }
 }
-Saída na console:
+SaÃ­da na console:
 
 Hello,
 World!
-Explicação: Cada chamada de System.out.println adiciona uma nova linha após imprimir o texto, então "World!" é impresso na linha seguinte.
+ExplicaÃ§Ã£o: Cada chamada de System.out.println adiciona uma nova linha apÃ³s imprimir o texto, entÃ£o "World!" Ã© impresso na linha seguinte.
 
 Combinando System.out.print e System.out.println:
 
@@ -47,13 +47,18 @@ public class Main {
        System.out.print("Welcome to Java Programming.");
     }
 }
-Saída:
+SaÃ­da:
 
 Hello, World!
 Welcome to Java Programming.
-Explicação: O primeiro System.out.print imprime "Hello, " sem adicionar uma nova linha, então "World!" aparece na mesma linha. O segundo System.out.println adiciona uma nova linha após "World!", então "Welcome to Java Programming." aparece na linha seguinte.
+ExplicaÃ§Ã£o: O primeiro System.out.print imprime "Hello, " sem adicionar uma nova linha, entÃ£o "World!" aparece na mesma linha. O segundo System.out.println adiciona uma nova linha apÃ³s "World!", entÃ£o "Welcome to Java Programming." aparece na linha seguinte.
 
 Resumo:
 Use System.out.print quando quiser que o texto seja impresso na mesma linha.
-Use System.out.println quando quiser que o texto seja impresso e movido para a próxima linha.
-Isso é essencial para controlar a formatação da saída no console, dependendo do que você deseja que o usuário veja.
+Use System.out.println quando quiser que o texto seja impresso e movido para a prÃ³xima linha.
+Isso Ã© essencial para controlar a formataÃ§Ã£o da saÃ­da no console, dependendo do que vocÃª deseja que o usuÃ¡rio veja.
+<!-- nav_start -->
+---
+Anterior: [Leitura de Dados com a Classe Scanner](../docs/12_Leitura_Dados_Scanner.md) | Próximo: [VariÃ¡veis](../docs/14_Variaveis.md) | [Voltar ao Índice](../README.md)
+<!-- nav_end -->
+

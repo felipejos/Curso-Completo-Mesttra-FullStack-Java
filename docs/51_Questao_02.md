@@ -1,10 +1,10 @@
-# ✅ Respostas — Expressões Lógicas (Java)
+﻿# âœ… Respostas â€” ExpressÃµes LÃ³gicas (Java)
 
 ---
 
-## 1) “tenhoOvos ou o preço dos ovos que faltam para completar 5 é menor que o dinheiro que tenho.”
+## 1) â€œtenhoOvos ou o preÃ§o dos ovos que faltam para completar 5 Ã© menor que o dinheiro que tenho.â€
 
-✅ Expressão correta:
+âœ… ExpressÃ£o correta:
 
 `tenhoOvos || (((5 - qtdeOvosQueTenho) * precoOvo) < dinheiroQueTenho)`
 
@@ -12,33 +12,33 @@
 
 ## 2) Resultado de `((x + 11) != (y + 2)) || (x < 10)`
 
-Variáveis:
+VariÃ¡veis:
 
     int x = 9;
     int y = 20;
 
-Cálculo:
+CÃ¡lculo:
 - (x + 11) = 9 + 11 = 20
 - (y + 2) = 20 + 2 = 22
-- (20 != 22) → true
-- (x < 10) → (9 < 10) → true
-- true || true → ✅ **true**
+- (20 != 22) â†’ true
+- (x < 10) â†’ (9 < 10) â†’ true
+- true || true â†’ âœ… **true**
 
-✅ Resposta: **True (Verdadeiro)**
+âœ… Resposta: **True (Verdadeiro)**
 
 ---
 
-## 3) “tenhoOvos e tenhoFarinha e fornoLigado”
+## 3) â€œtenhoOvos e tenhoFarinha e fornoLigadoâ€
 
-Variáveis:
+VariÃ¡veis:
 
     boolean tenhoOvos;
     boolean tenhoFarinha;
     boolean fornoDesligado;
 
-Se existe `fornoDesligado`, então `fornoLigado` é a negação disso:
+Se existe `fornoDesligado`, entÃ£o `fornoLigado` Ã© a negaÃ§Ã£o disso:
 
-✅ Expressão correta:
+âœ… ExpressÃ£o correta:
 
 `(tenhoOvos && tenhoFarinha && ! fornoDesligado)`
 
@@ -46,33 +46,33 @@ Se existe `fornoDesligado`, então `fornoLigado` é a negação disso:
 
 ## 4) Resultado de `(estaFrio && estaNublado && (tenhoChocolateQuente || meuDinheiro >= 35.60))`
 
-Variáveis:
+VariÃ¡veis:
 
     boolean estaFrio = true;
     boolean estaNublado = true;
     boolean tenhoChocolateQuente = false
     float meuDinheiro = 40.55;
 
-Cálculo:
+CÃ¡lculo:
 - (tenhoChocolateQuente || meuDinheiro >= 35.60)
-- false || (40.55 >= 35.60) → false || true → true
-- true && true && true → ✅ true
+- false || (40.55 >= 35.60) â†’ false || true â†’ true
+- true && true && true â†’ âœ… true
 
-✅ Resposta: **True (Verdadeiro)**
+âœ… Resposta: **True (Verdadeiro)**
 
 ---
 
-## 5) “x não é igual a 90”
+## 5) â€œx nÃ£o Ã© igual a 90â€
 
-✅ Expressão correta:
+âœ… ExpressÃ£o correta:
 
 `x != 90`
 
 ---
 
-## 6) “x é igual a 90 e y é menor que 12”
+## 6) â€œx Ã© igual a 90 e y Ã© menor que 12â€
 
-✅ Expressão correta:
+âœ… ExpressÃ£o correta:
 
 `(x == 90) && (y < 12)`
 
@@ -80,43 +80,49 @@ Cálculo:
 
 ## 7) Resultado de `(estaSol || estaNublado)`
 
-Variáveis:
+VariÃ¡veis:
 
     boolean estaSol = true;
     boolean estaNublado = false;
 
-Cálculo:
-- true || false → ✅ true
+CÃ¡lculo:
+- true || false â†’ âœ… true
 
-✅ Resposta: **True (Verdadeiro)**
+âœ… Resposta: **True (Verdadeiro)**
 
 ---
 
 ## 8) Resultado de `(estaFrio && estaNublado && tenhoChocolateQuente)`
 
-Variáveis:
+VariÃ¡veis:
 
     boolean estaFrio = true;
     boolean estaNublado = false;
     boolean tenhoChocolateQuente = true
 
-Cálculo:
-- true && false && true → ✅ false
+CÃ¡lculo:
+- true && false && true â†’ âœ… false
 
-✅ Resposta: **False (Falso)**
+âœ… Resposta: **False (Falso)**
 
 ---
 
-## 9) “x é maior ou igual a 90 e x é menor ou igual a 100”
+## 9) â€œx Ã© maior ou igual a 90 e x Ã© menor ou igual a 100â€
 
-✅ Expressão correta:
+âœ… ExpressÃ£o correta:
 
 `(x <= 100) && (x >= 90)`
 
 ---
 
-## 10) “notaFinalAluno está entre 30 (incluso) e 60 (não incluso) e percentualFaltas é menor a 20%”
+## 10) â€œnotaFinalAluno estÃ¡ entre 30 (incluso) e 60 (nÃ£o incluso) e percentualFaltas Ã© menor a 20%â€
 
-✅ Expressão correta:
+âœ… ExpressÃ£o correta:
 
 `notaFinalAluno >= 30 && notaFinalAluno < 60 && percentualFaltas < 0.2`
+
+<!-- nav_start -->
+---
+Anterior: [QuestÃ£o 01](../docs/50_Questao_01.md) | Próximo: [QuestÃ£o 03](../docs/52_Questao_03.md) | [Voltar ao Índice](../README.md)
+<!-- nav_end -->
+

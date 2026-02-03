@@ -1,57 +1,63 @@
-# ✅ Respostas — Expressões Lógicas (Java)
+﻿# âœ… Respostas â€” ExpressÃµes LÃ³gicas (Java)
 
 ---
 
-## 1) “tenhoOvos ou o preço dos ovos que faltam para completar 5 é menor que o dinheiro que tenho.”
+## 1) â€œtenhoOvos ou o preÃ§o dos ovos que faltam para completar 5 Ã© menor que o dinheiro que tenho.â€
 
-✅ Alternativa correta:
+âœ… Alternativa correta:
 
 `tenhoOvos || (((5 - qtdeOvosQueTenho) * precoOvo) < dinheiroQueTenho)`
 
 ---
 
-## 2) “tenhoOvos e tenhoFarinha e fornoLigado”
+## 2) â€œtenhoOvos e tenhoFarinha e fornoLigadoâ€
 
-✅ Alternativa correta:
+âœ… Alternativa correta:
 
 `(tenhoOvos && tenhoFarinha && ! fornoDesligado)`
 
 ---
 
-## 3) “notaFinalAluno está entre 30 (incluso) e 60 (não incluso) e percentualFaltas é menor a 20%”
+## 3) â€œnotaFinalAluno estÃ¡ entre 30 (incluso) e 60 (nÃ£o incluso) e percentualFaltas Ã© menor a 20%â€
 
-✅ Alternativa correta:
+âœ… Alternativa correta:
 
 `notaFinalAluno >= 30 && notaFinalAluno < 60 && percentualFaltas < 0.2`
 
 ---
 
-## 4) “notaFinalAluno é maior ou igual a 60 e percentualFaltas é menor a 20%”
+## 4) â€œnotaFinalAluno Ã© maior ou igual a 60 e percentualFaltas Ã© menor a 20%â€
 
-✅ Alternativa correta:
+âœ… Alternativa correta:
 
 `(notaFinalAluno >= 60) && (percentualFaltas < 0.2)`
 
 ---
 
-## 5) “x é maior ou igual a 90 e x é menor ou igual a 100”
+## 5) â€œx Ã© maior ou igual a 90 e x Ã© menor ou igual a 100â€
 
-✅ Alternativa correta:
+âœ… Alternativa correta:
 
 `(x <= 100) && (x >= 90)`
 
 ---
 
-## 6) “x não é igual a 90”
+## 6) â€œx nÃ£o Ã© igual a 90â€
 
-✅ Alternativa correta:
+âœ… Alternativa correta:
 
 `x != 90`
 
 ---
 
-## 7) “x é igual a 90 e y é menor que 12”
+## 7) â€œx Ã© igual a 90 e y Ã© menor que 12â€
 
-✅ Alternativa correta:
+âœ… Alternativa correta:
 
 `(x == 90) && (y < 12)`
+
+<!-- nav_start -->
+---
+Anterior: [QuestÃ£o 02](../docs/51_Questao_02.md) | Próximo: [QuestÃ£o 04](../docs/53_Questao_04.md) | [Voltar ao Índice](../README.md)
+<!-- nav_end -->
+

@@ -1,22 +1,22 @@
-# 🖨️ Comando `printf()`
+﻿# ðŸ–¨ï¸ Comando `printf()`
 
-## ✅ O que é `printf` em Java?
+## âœ… O que Ã© `printf` em Java?
 
-O `printf` é um método usado para imprimir **texto formatado** no console. Ou seja, além de usar `print` ou `println`, o programador ainda tem a opção de utilizar o `printf`, que traz algumas características a mais.
+O `printf` Ã© um mÃ©todo usado para imprimir **texto formatado** no console. Ou seja, alÃ©m de usar `print` ou `println`, o programador ainda tem a opÃ§Ã£o de utilizar o `printf`, que traz algumas caracterÃ­sticas a mais.
 
 Ele vem da linguagem **C** e significa **"print formatted"** (imprimir formatado).
 
 ---
 
-## 🧩 Sintaxe básica
+## ðŸ§© Sintaxe bÃ¡sica
 
-    System.out.printf("texto com formatação desejado", variavel1, variavel2, variavel3);
+    System.out.printf("texto com formataÃ§Ã£o desejado", variavel1, variavel2, variavel3);
 
-O `printf` utiliza **caracteres formatadores** (`%s`, `%d`, `%f`...) que definem como os valores das variáveis devem ser exibidos, bem como o seu formato.
+O `printf` utiliza **caracteres formatadores** (`%s`, `%d`, `%f`...) que definem como os valores das variÃ¡veis devem ser exibidos, bem como o seu formato.
 
 ---
 
-## 🧪 Exemplo simples
+## ðŸ§ª Exemplo simples
 
     public class Main {
         public static void main(String[] args) {
@@ -27,42 +27,42 @@ O `printf` utiliza **caracteres formatadores** (`%s`, `%d`, `%f`...) que definem
         }
     }
 
-✅ O resultado impresso será:
+âœ… O resultado impresso serÃ¡:
 
     Nome: Maria  Idade: 25
 
 ---
 
-## 🎯 Como os formatadores funcionam?
+## ðŸŽ¯ Como os formatadores funcionam?
 
-A primeira função do caractere de formatação é marcar a posição dentro do texto a ser formatado: **em qual posição uma variável deverá ter o conteúdo inserido dentro da frase.**
+A primeira funÃ§Ã£o do caractere de formataÃ§Ã£o Ã© marcar a posiÃ§Ã£o dentro do texto a ser formatado: **em qual posiÃ§Ã£o uma variÃ¡vel deverÃ¡ ter o conteÃºdo inserido dentro da frase.**
 
 No exemplo acima:
 
-- `%s` (**string**) determina que a variável `nome` será impressa na posição do `%s`.
-- `%d` (**inteiro**) determina que a variável `idade` será impressa na posição do `%d`.
-- `%f` (**float**) determina que a variável `peso` será impressa na posição do `%f`.
+- `%s` (**string**) determina que a variÃ¡vel `nome` serÃ¡ impressa na posiÃ§Ã£o do `%s`.
+- `%d` (**inteiro**) determina que a variÃ¡vel `idade` serÃ¡ impressa na posiÃ§Ã£o do `%d`.
+- `%f` (**float**) determina que a variÃ¡vel `peso` serÃ¡ impressa na posiÃ§Ã£o do `%f`.
 
-📌 Note que as variáveis são separadas por **vírgulas** e o conteúdo é inserido nas posições dos formatadores, respeitando a ordem:
+ðŸ“Œ Note que as variÃ¡veis sÃ£o separadas por **vÃ­rgulas** e o conteÃºdo Ã© inserido nas posiÃ§Ãµes dos formatadores, respeitando a ordem:
 
-- 1º formatador → 1ª variável  
-- 2º formatador → 2ª variável  
-- 3º formatador → 3ª variável  
+- 1Âº formatador â†’ 1Âª variÃ¡vel  
+- 2Âº formatador â†’ 2Âª variÃ¡vel  
+- 3Âº formatador â†’ 3Âª variÃ¡vel  
 
 ---
 
-## 🧷 Marcadores de formatação mais comuns
+## ðŸ§· Marcadores de formataÃ§Ã£o mais comuns
 
 | Marcador | Tipo de dado | Exemplo |
 |---------:|--------------|---------|
 | `%s`     | `String` (texto) | `"Maria"` |
-| `%d`     | `int` (número inteiro) | `25` |
-| `%f`     | `float/double` (número decimal) | `3.14` |
+| `%d`     | `int` (nÃºmero inteiro) | `25` |
+| `%f`     | `float/double` (nÃºmero decimal) | `3.14` |
 | `%.2f`   | decimal com 2 casas | `3.14` (formata para 2 casas decimais) |
 
 ---
 
-## 📐 Alinhamento de texto
+## ðŸ“ Alinhamento de texto
 
 Exemplo:
 
@@ -73,24 +73,30 @@ Exemplo:
           System.out.printf("+----------------------+----------+\n");
           System.out.printf("| %-20s | %8.2f |\n", "Arroz", 6.78);
           System.out.printf("| %-20s | %8.2f |\n", "Feijao", 9.18);
-          System.out.printf("| %-20s | %8.2f |\n", "Açucar", 4.28);
-          System.out.printf("| %-20s | %8.2f |\n", "Café", 3.70);
+          System.out.printf("| %-20s | %8.2f |\n", "AÃ§ucar", 4.28);
+          System.out.printf("| %-20s | %8.2f |\n", "CafÃ©", 3.70);
           System.out.printf("+----------------------+----------+\n");
       }
     }
 
-### 📌 O que significa cada formatador?
+### ðŸ“Œ O que significa cada formatador?
 
-- `%-20s` → alinha à esquerda e ocupa 20 espaços.
-- `%5.2f` → alinha à direita com 5 espaços, e dois caracteres depois da vírgula.
+- `%-20s` â†’ alinha Ã  esquerda e ocupa 20 espaÃ§os.
+- `%5.2f` â†’ alinha Ã  direita com 5 espaÃ§os, e dois caracteres depois da vÃ­rgula.
 
-✅ Saída:
+âœ… SaÃ­da:
 
     +----------------------+----------+
     | Produto              |    Valor |
     +----------------------+----------+
     | Arroz                |     6.78 |
     | Feijao               |     9.18 |
-    | Açucar               |     4.28 |
-    | Café                 |     3.70 |
+    | AÃ§ucar               |     4.28 |
+    | CafÃ©                 |     3.70 |
     +----------------------+----------+
+
+<!-- nav_start -->
+---
+Anterior: [Lista de ExercÃ­cios 2](../docs/30_Lista_Exercicios_2.md) | Próximo: [VÃ­deo: Formatando casas decimais](../docs/32_Video_Casas_Decimais.md) | [Voltar ao Índice](../README.md)
+<!-- nav_end -->
+

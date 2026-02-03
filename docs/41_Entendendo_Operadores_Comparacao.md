@@ -1,6 +1,6 @@
-# 🔎 Entendendo os Operadores de Comparação
+﻿# ðŸ”Ž Entendendo os Operadores de ComparaÃ§Ã£o
 
-Os operadores **relacionais** (ou **de comparação**) avaliam dois operandos. Mais precisamente, eles definem se o operando à esquerda é:
+Os operadores **relacionais** (ou **de comparaÃ§Ã£o**) avaliam dois operandos. Mais precisamente, eles definem se o operando Ã  esquerda Ã©:
 
 - menor
 - menor ou igual
@@ -9,33 +9,33 @@ Os operadores **relacionais** (ou **de comparação**) avaliam dois operandos. M
 - igual
 - diferente
 
-➡️ O resultado de uma comparação sempre será um **booleano**: `true` (verdadeiro) ou `false` (falso).
+âž¡ï¸ O resultado de uma comparaÃ§Ã£o sempre serÃ¡ um **booleano**: `true` (verdadeiro) ou `false` (falso).
 
 ---
 
-## ✅ Operadores de comparação
+## âœ… Operadores de comparaÃ§Ã£o
 
 - `==`  
-  Utilizado quando desejamos verificar se uma variável é **igual** a outra.
+  Utilizado quando desejamos verificar se uma variÃ¡vel Ã© **igual** a outra.
 
 - `!=`  
-  Utilizado quando desejamos verificar se uma variável é **diferente** de outra.
+  Utilizado quando desejamos verificar se uma variÃ¡vel Ã© **diferente** de outra.
 
 - `>`  
-  Utilizado quando desejamos verificar se uma variável é **maior** que outra.
+  Utilizado quando desejamos verificar se uma variÃ¡vel Ã© **maior** que outra.
 
 - `>=`  
-  Utilizado quando desejamos verificar se uma variável é **maior ou igual** a outra.
+  Utilizado quando desejamos verificar se uma variÃ¡vel Ã© **maior ou igual** a outra.
 
 - `<`  
-  Utilizado quando desejamos verificar se uma variável é **menor** que outra.
+  Utilizado quando desejamos verificar se uma variÃ¡vel Ã© **menor** que outra.
 
 - `<=`  
-  Utilizado quando desejamos verificar se uma variável é **menor ou igual** a outra.
+  Utilizado quando desejamos verificar se uma variÃ¡vel Ã© **menor ou igual** a outra.
 
 ---
 
-## 🧪 Exemplo em Java
+## ðŸ§ª Exemplo em Java
 
     public class Main{
         public static void main(String[] args) {
@@ -66,3 +66,9 @@ Os operadores **relacionais** (ou **de comparação**) avaliam dois operandos. M
 
         }
     }
+
+<!-- nav_start -->
+---
+Anterior: [OperaÃ§Ãµes de ComparaÃ§Ã£o](../docs/40_Operacoes_Comparacao.md) | Próximo: [Operadores LÃ³gico](../docs/42_Operadores_Logico.md) | [Voltar ao Índice](../README.md)
+<!-- nav_end -->
+

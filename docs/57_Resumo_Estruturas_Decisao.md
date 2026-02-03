@@ -1,28 +1,34 @@
-# Resumo Estruturas de Decisão
+﻿# Resumo Estruturas de DecisÃ£o
 
-## Estrutura de Decisão Simples
-**Estrutura de Decisão Simples:** Nesta estrutura nosso código consegue avaliar e executar um bloco de comandos para apenas uma única condição.
+## Estrutura de DecisÃ£o Simples
+**Estrutura de DecisÃ£o Simples:** Nesta estrutura nosso cÃ³digo consegue avaliar e executar um bloco de comandos para apenas uma Ãºnica condiÃ§Ã£o.
 ![OnlineGDB - exemplo](../images/1_decisao.png)
 ---
 
-## Estrutura de Decisão Composta
-**Estrutura de Decisão Composta:** Nesta estrutura nosso código consegue avaliar e executar dois blocos de comandos para duas condições.
+## Estrutura de DecisÃ£o Composta
+**Estrutura de DecisÃ£o Composta:** Nesta estrutura nosso cÃ³digo consegue avaliar e executar dois blocos de comandos para duas condiÃ§Ãµes.
 ![OnlineGDB - exemplo](../images/2_decisao.png)
 ---
 
-## Estrutura de Decisão Múltipla
-**Estrutura de Decisão Múltipla:** Nesta estrutura nosso código consegue avaliar e executar três blocos de comandos para cada uma das respectivas condições.
+## Estrutura de DecisÃ£o MÃºltipla
+**Estrutura de DecisÃ£o MÃºltipla:** Nesta estrutura nosso cÃ³digo consegue avaliar e executar trÃªs blocos de comandos para cada uma das respectivas condiÃ§Ãµes.
 ![OnlineGDB - exemplo](../images/3_decisao.png)
 ---
 
-## Estruturas que não existem
+## Estruturas que nÃ£o existem
 
 ### Else sem um if iniciando:
     else {
     }
 
-### Else com uma condição se if antes:
+### Else com uma condiÃ§Ã£o se if antes:
     else (condicao) {
     }
 
+
+
+<!-- nav_start -->
+---
+Anterior: [Conceito de Estruturas de DecisÃ£o](../docs/56_Conceito_Estruturas_Decisao.md) | Próximo: [VÃ­deos Sobre Estruturas de DecisÃ£o](../docs/58_Videos_Estruturas_Decisao.md) | [Voltar ao Índice](../README.md)
+<!-- nav_end -->
 

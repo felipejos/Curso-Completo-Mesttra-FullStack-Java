@@ -1,11 +1,11 @@
-# ✅ Solução — Lista de Exercícios 1
+﻿# âœ… SoluÃ§Ã£o â€” Lista de ExercÃ­cios 1
 
-Abaixo estão as soluções dos exercícios da **Lista 1**.  
-> 💡 Dica: copie **um exercício por vez** para testar no seu editor/IDE, porque cada solução possui uma classe principal (`Main` ou `App`) e imports próprios.
+Abaixo estÃ£o as soluÃ§Ãµes dos exercÃ­cios da **Lista 1**.  
+> ðŸ’¡ Dica: copie **um exercÃ­cio por vez** para testar no seu editor/IDE, porque cada soluÃ§Ã£o possui uma classe principal (`Main` ou `App`) e imports prÃ³prios.
 
 ---
 
-## 🟦 Exercício 01 — Terreno (área e valor de venda)
+## ðŸŸ¦ ExercÃ­cio 01 â€” Terreno (Ã¡rea e valor de venda)
 
     // importa a classe scanner para lidar com a entrada de dados
     import java.util.InputMismatchException;
@@ -39,7 +39,7 @@ Abaixo estão as soluções dos exercícios da **Lista 1**.
 
 ---
 
-## 🟩 Exercício 02 — Quantos salários mínimos ganha
+## ðŸŸ© ExercÃ­cio 02 â€” Quantos salÃ¡rios mÃ­nimos ganha
 
     // importa a classe scanner para lidar com a entrada de dados
     import java.util.InputMismatchException;
@@ -54,21 +54,21 @@ Abaixo estão as soluções dos exercícios da **Lista 1**.
                     
                     teclado = new Scanner(System.in);  //Teclado sera util para lermos os valores do teclado
                     
-                    System.out.print("Digite o valor do salário do funcionário: R$ ");
+                    System.out.print("Digite o valor do salÃ¡rio do funcionÃ¡rio: R$ ");
                     salarioFuncionario = teclado.nextFloat();
                     
-                    System.out.print("Digite o valor do salário mínimo: R$ ");
+                    System.out.print("Digite o valor do salÃ¡rio mÃ­nimo: R$ ");
                     salarioMinimo = teclado.nextFloat();
                     
                     resultado = (salarioFuncionario / salarioMinimo);
                     
-                    System.out.print("O funcionario ganha " + resultado + " salários. ");
+                    System.out.print("O funcionario ganha " + resultado + " salÃ¡rios. ");
             }
     }
 
 ---
 
-## 🟨 Exercício 03 — Ferraduras para os cavalos
+## ðŸŸ¨ ExercÃ­cio 03 â€” Ferraduras para os cavalos
 
     // importa a classe scanner para lidar com a entrada de dados
     import java.util.InputMismatchException;
@@ -92,7 +92,7 @@ Abaixo estão as soluções dos exercícios da **Lista 1**.
                 
                 System.out.print("Para equipa " +  qtdeCavalos + " cavalos sera qasto R$ " + (qtdeCavalos * 4 * valorFerradura) + " reais. ");
             }  catch (InputMismatchException e) {
-                System.out.println("Voce digitou um valor invalido. Por favor, digite apenas números.");
+                System.out.println("Voce digitou um valor invalido. Por favor, digite apenas nÃºmeros.");
             } catch (Exception e) {
                 System.out.println("Ocorreu um erro inesperado: ");
                 e.printStackTrace();
@@ -105,7 +105,7 @@ Abaixo estão as soluções dos exercícios da **Lista 1**.
 
 ---
 
-## 🟥 Exercício 04 — Reajuste + descontos INSS e FGTS
+## ðŸŸ¥ ExercÃ­cio 04 â€” Reajuste + descontos INSS e FGTS
 
     import java.util.InputMismatchException;
     import java.util.Scanner;
@@ -122,7 +122,7 @@ Abaixo estão as soluções dos exercícios da **Lista 1**.
             teclado = new Scanner(System.in);  //Teclado sera util para lermos os valores do teclado
 
             try{
-                System.out.print("Digite o valor do salário: R$ ");
+                System.out.print("Digite o valor do salÃ¡rio: R$ ");
                 salario = teclado.nextFloat();
                 
                 //salarioReajustado =  (salario * 0.15f) + salario;
@@ -139,7 +139,7 @@ Abaixo estão as soluções dos exercícios da **Lista 1**.
                 System.out.println("Total de descontos (INSS + FGTS): R$ " + totalDesconto );
                 System.out.println("Salario Final: R$ " + (salarioReajustado - totalDesconto) );
             }  catch (InputMismatchException e) {
-                System.out.println("Voce digitou um valor invalido. Por favor, digite apenas números.");
+                System.out.println("Voce digitou um valor invalido. Por favor, digite apenas nÃºmeros.");
             } catch (Exception e) {
                 System.out.println("Ocorreu um erro inesperado: ");
                 e.printStackTrace();
@@ -152,7 +152,7 @@ Abaixo estão as soluções dos exercícios da **Lista 1**.
 
 ---
 
-## 🟪 Exercício 05 — Gasto total com anéis dos frangos
+## ðŸŸª ExercÃ­cio 05 â€” Gasto total com anÃ©is dos frangos
 
     // importa a classe scanner para lidar com a entrada de dados
     import java.util.InputMismatchException;
@@ -175,10 +175,10 @@ Abaixo estão as soluções dos exercícios da **Lista 1**.
                 
                 gastoTotalAneis = qtdeFrangos * (valorChipIdentificacao + (2 * valorChipAlimento));
 
-                System.out.printf("O valor total para identicar %d frangos é R$ %.2f reais.", qtdeFrangos, gastoTotalAneis);
+                System.out.printf("O valor total para identicar %d frangos Ã© R$ %.2f reais.", qtdeFrangos, gastoTotalAneis);
             } catch (InputMismatchException e) {
-                // trata o erro quando o usuário digita um valor que não é um número inteiro
-                System.out.println("Erro: você deve digitar um número inteiro.");
+                // trata o erro quando o usuÃ¡rio digita um valor que nÃ£o Ã© um nÃºmero inteiro
+                System.out.println("Erro: vocÃª deve digitar um nÃºmero inteiro.");
             } catch (Exception e){
                 // trata qualquer outro erro que possa ocorrer
                 System.out.println("\nErro inesperado: ");
@@ -191,7 +191,7 @@ Abaixo estão as soluções dos exercícios da **Lista 1**.
 
 ---
 
-## 🟫 Exercício 06 — Ingredientes (kg) para sanduíches
+## ðŸŸ« ExercÃ­cio 06 â€” Ingredientes (kg) para sanduÃ­ches
 
     import java.util.InputMismatchException;
     import java.util.Scanner; 
@@ -215,13 +215,13 @@ Abaixo estão as soluções dos exercícios da **Lista 1**.
                 pesoPresuntoKgs = (qtdeSanduiches * qtdeFatiasPresunto * fatiaPresuntoGrms) / 1000;
                 pesoHamburguerKgs = (qtdeSanduiches * qtdeHamburguer * hamburguerGrms) / 1000;
 
-                System.out.printf("\nPara fabricar %d sanduiches, você precisará de:\n\n", qtdeSanduiches);
+                System.out.printf("\nPara fabricar %d sanduiches, vocÃª precisarÃ¡ de:\n\n", qtdeSanduiches);
                 System.out.printf("%.2f kg de mussarela\n", pesoMussarelaKgs);
                 System.out.printf("%.2f kg de presunto\n", pesoPresuntoKgs);
                 System.out.printf("%.2f kg de hamburguer\n", pesoHamburguerKgs);
 
             }  catch (InputMismatchException e) {
-                System.out.println("Voce digitou um valor invalido. Por favor, digite apenas números.");
+                System.out.println("Voce digitou um valor invalido. Por favor, digite apenas nÃºmeros.");
             } catch (Exception e) {
                 System.out.println("Ocorreu um erro inesperado: ");
                 e.printStackTrace();
@@ -231,3 +231,9 @@ Abaixo estão as soluções dos exercícios da **Lista 1**.
             teclado.close();                
         }
     }
+
+<!-- nav_start -->
+---
+Anterior: [SugestÃ£o ExercÃ­cio](../docs/38_Sugestao_Exercicio.md) | Próximo: [OperaÃ§Ãµes de ComparaÃ§Ã£o](../docs/40_Operacoes_Comparacao.md) | [Voltar ao Índice](../README.md)
+<!-- nav_end -->
+

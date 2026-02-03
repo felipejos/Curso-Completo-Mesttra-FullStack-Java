@@ -1,57 +1,57 @@
-# Teoria If Else
+﻿# Teoria If Else
 
-## Estruturas de Decisão em Programação
+## Estruturas de DecisÃ£o em ProgramaÃ§Ã£o
 
-### O que são Estruturas de Decisão?
+### O que sÃ£o Estruturas de DecisÃ£o?
 
-Em qualquer sistema — seja um site, aplicativo, jogo ou software corporativo — as decisões fazem parte do comportamento esperado. Por exemplo:
+Em qualquer sistema â€” seja um site, aplicativo, jogo ou software corporativo â€” as decisÃµes fazem parte do comportamento esperado. Por exemplo:
 
 - Um jogo precisa verificar se o jogador perdeu ou venceu.
-- Um site precisa saber se o usuário está logado para liberar o acesso.
-- Um caixa eletrônico precisa saber se há saldo suficiente antes de permitir um saque.
+- Um site precisa saber se o usuÃ¡rio estÃ¡ logado para liberar o acesso.
+- Um caixa eletrÃ´nico precisa saber se hÃ¡ saldo suficiente antes de permitir um saque.
 
-Essas decisões são feitas com **estruturas de decisão**, que são instruções que dizem ao computador:
+Essas decisÃµes sÃ£o feitas com **estruturas de decisÃ£o**, que sÃ£o instruÃ§Ãµes que dizem ao computador:
 
-> “Se tal condição for verdadeira, então faça isso; senão, faça outra coisa.”
+> â€œSe tal condiÃ§Ã£o for verdadeira, entÃ£o faÃ§a isso; senÃ£o, faÃ§a outra coisa.â€
 
 ---
 
 ### Como funcionam?
 
-O computador executa as instruções de cima para baixo, linha por linha.  
-Quando ele encontra uma estrutura de decisão, ele avalia uma condição (por exemplo: `idade > 18`). Essa condição só tem dois resultados possíveis:
+O computador executa as instruÃ§Ãµes de cima para baixo, linha por linha.  
+Quando ele encontra uma estrutura de decisÃ£o, ele avalia uma condiÃ§Ã£o (por exemplo: `idade > 18`). Essa condiÃ§Ã£o sÃ³ tem dois resultados possÃ­veis:
 
-- ✅ **Verdadeiro (true):** a condição é satisfeita e o bloco de código associado é executado.
-- ❌ **Falso (false):** a condição não é satisfeita e o programa pode seguir outro caminho (caso exista um `else`, por exemplo).
+- âœ… **Verdadeiro (true):** a condiÃ§Ã£o Ã© satisfeita e o bloco de cÃ³digo associado Ã© executado.
+- âŒ **Falso (false):** a condiÃ§Ã£o nÃ£o Ã© satisfeita e o programa pode seguir outro caminho (caso exista um `else`, por exemplo).
 
 ---
 
-## ✅ Principais Estruturas de Decisão em Java
+## âœ… Principais Estruturas de DecisÃ£o em Java
 
 ### 1) `if` (se)
 
-A estrutura mais básica.  
-Ela executa um bloco de código **somente se a condição for verdadeira**.
+A estrutura mais bÃ¡sica.  
+Ela executa um bloco de cÃ³digo **somente se a condiÃ§Ã£o for verdadeira**.
 
 **Exemplo:**
 
     int idade = 20;
 
     if (idade >= 18) {
-        System.out.println("Você é maior de idade.");
+        System.out.println("VocÃª Ã© maior de idade.");
     }
 
-**Explicação:**
-- A condição `idade >= 18` é avaliada.
-- Como a idade é 20, o resultado é **verdadeiro**.
-- O programa executa o código dentro do bloco `{}`.
+**ExplicaÃ§Ã£o:**
+- A condiÃ§Ã£o `idade >= 18` Ã© avaliada.
+- Como a idade Ã© 20, o resultado Ã© **verdadeiro**.
+- O programa executa o cÃ³digo dentro do bloco `{}`.
 
 ---
 
 ### 2) `if` + `else`
 
 Permite dois caminhos:  
-- um se a condição for verdadeira  
+- um se a condiÃ§Ã£o for verdadeira  
 - outro se for falsa
 
 **Exemplo:**
@@ -61,18 +61,18 @@ Permite dois caminhos:
     if (idade >= 18) {
         System.out.println("Pode entrar na festa.");
     } else {
-        System.out.println("Você ainda é menor de idade.");
+        System.out.println("VocÃª ainda Ã© menor de idade.");
     }
 
-**Explicação:**
-- Se a idade for maior ou igual a 18 → entra na festa.
-- Se não for → exibe outra mensagem.
+**ExplicaÃ§Ã£o:**
+- Se a idade for maior ou igual a 18 â†’ entra na festa.
+- Se nÃ£o for â†’ exibe outra mensagem.
 
 ---
 
 ### 3) `if` + `else if` + `else`
 
-Quando você precisa verificar **várias condições diferentes**.
+Quando vocÃª precisa verificar **vÃ¡rias condiÃ§Ãµes diferentes**.
 
 **Exemplo:**
 
@@ -89,36 +89,36 @@ Quando você precisa verificar **várias condições diferentes**.
     }
 
 **Como funciona:**
-- O Java verifica as condições **em ordem**, de cima para baixo.
-- Assim que encontra a **primeira condição verdadeira**, ele executa aquele bloco e ignora o restante.
+- O Java verifica as condiÃ§Ãµes **em ordem**, de cima para baixo.
+- Assim que encontra a **primeira condiÃ§Ã£o verdadeira**, ele executa aquele bloco e ignora o restante.
 
 ---
 
-## ⚠️ Dicas e Cuidados Importantes
+## âš ï¸ Dicas e Cuidados Importantes
 
-### 1) Comparação de Strings
+### 1) ComparaÃ§Ã£o de Strings
 
-Para comparar textos em Java, **não use `==`**.  
-Isso compara endereços de memória, e não o conteúdo.
+Para comparar textos em Java, **nÃ£o use `==`**.  
+Isso compara endereÃ§os de memÃ³ria, e nÃ£o o conteÃºdo.
 
-✅ Use o método `.equals()`:
+âœ… Use o mÃ©todo `.equals()`:
 
-    String nome = "João";
+    String nome = "JoÃ£o";
 
-    if (nome.equals("João")) {
-        System.out.println("Bem-vindo, João!");
+    if (nome.equals("JoÃ£o")) {
+        System.out.println("Bem-vindo, JoÃ£o!");
     }
 
 ---
 
 ### 2) Sempre use chaves `{}` para blocos
 
-Mesmo que seja só uma linha, usar `{}`:
+Mesmo que seja sÃ³ uma linha, usar `{}`:
 - evita erros,
 - melhora a legibilidade,
-- deixa o código mais seguro.
+- deixa o cÃ³digo mais seguro.
 
-✅ Boa prática:
+âœ… Boa prÃ¡tica:
 
     if (x > 10) {
         System.out.println("Maior que 10");
@@ -129,13 +129,19 @@ Mesmo que seja só uma linha, usar `{}`:
 ### 3) Cuidado com a ordem no `else if`
 
 O Java para de avaliar os blocos assim que encontra o primeiro `true`.  
-Se você colocar uma condição muito genérica no topo, as outras nunca serão verificadas.
+Se vocÃª colocar uma condiÃ§Ã£o muito genÃ©rica no topo, as outras nunca serÃ£o verificadas.
 
-❌ Ordem errada:
+âŒ Ordem errada:
 
     if (nota >= 50) {
         System.out.println("Passou");
     } else if (nota >= 70) {
-        // Nunca será executado, pois 70 também é maior que 50
+        // Nunca serÃ¡ executado, pois 70 tambÃ©m Ã© maior que 50
         System.out.println("Nota B");
     }
+
+<!-- nav_start -->
+---
+Anterior: [QuestÃ£o 05](../docs/54_Questao_05.md) | Próximo: [Conceito de Estruturas de DecisÃ£o](../docs/56_Conceito_Estruturas_Decisao.md) | [Voltar ao Índice](../README.md)
+<!-- nav_end -->
+
