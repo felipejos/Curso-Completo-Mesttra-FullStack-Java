@@ -1,123 +1,169 @@
-﻿# ConcatenaÃ§Ã£o de Dados
-
-**Prompt no chatgpt:** Explique o conceito de concatenaÃ§Ã£o de dados para um iniciante em programaÃ§Ã£o e dÃª exemplos simples em java.
+﻿# Concatenação de Dados
 
 ---
 
-## âœ… O que Ã© concatenaÃ§Ã£o de dados?
+## Conteúdo
 
-**ConcatenaÃ§Ã£o** significa **juntar informaÃ§Ãµes (dados)** para formar uma Ãºnica coisa.
+**Prompt no chatgpt:** Explique o conceito de concatenação de dados para um iniciante em programação e dê exemplos simples em java.
 
-Na programaÃ§Ã£o, geralmente usamos **concatenaÃ§Ã£o de Strings** (textos). Ou seja: juntar dois ou mais textos para formar um novo texto.
+---
+
+## ✅ O que é concatenação de dados?
+
+**Concatenação** significa **juntar informações (dados)** para formar uma única coisa.
+
+Na programação, geralmente usamos **concatenação de Strings** (textos). Ou seja: juntar dois ou mais textos para formar um novo texto.
 
 ---
 
 ## Exemplo simples na vida real
 
-Imagine que vocÃª tem duas palavras:
+Imagine que você tem duas palavras:
 
-- `"OlÃ¡"`
+- `"Olá"`
 - `"mundo"`
 
-Se vocÃª concatenar essas palavras, o resultado serÃ¡:
+Se você concatenar essas palavras, o resultado será:
 
-- `"OlÃ¡mundo"`
+- `"Olámundo"`
 
 ---
 
 ## Exemplo simples em Java
 
-```java
-public class Main {
-    public static void main(String[] args) {
-        String nome = "RogÃ©rio";
-        String sobrenome = "Freitas Ribeiro";
+    public class Main {
+        public static void main(String[] args) {
+            String nome = "Rogério";
+            String sobrenome = "Freitas Ribeiro";
 
-        // O resultado impresso serÃ¡ RogÃ©rioFreitas Ribeiro
-        // O sÃ­mbolo + quando inserido entre duas palavras "strings", faz com
-        // que o conteÃºdo seja concatenado, ou seja, os valores serÃ£o colocados
-        // um na frente do outro
-        System.out.println(nome + sobrenome);
+            // O resultado impresso será RogérioFreitas Ribeiro
+            // O símbolo + quando inserido entre duas palavras "strings", faz com
+            // que o conteúdo seja concatenado, ou seja, os valores serão colocados
+            // um na frente do outro
+            System.out.println(nome + sobrenome);
 
-        // Neste caso o resultado serÃ¡ RogÃ©rio Freitas Ribeiro
-        // Note que serÃ¡ juntado um espaÃ§o entre o nome e sobrenome. Este espaÃ§o
-        // precisa ser escrito entre aspas
-        System.out.println(nome + " " + sobrenome);
+            // Neste caso o resultado será Rogério Freitas Ribeiro
+            // Note que será juntado um espaço entre o nome e sobrenome. Este espaço
+            // precisa ser escrito entre aspas
+            System.out.println(nome + " " + sobrenome);
+        }
     }
-}
-```
-## ExplicaÃ§Ã£o
 
-Criamos duas variÃ¡veis do tipo `String` (texto): `nome` e `sobrenome`.
+---
 
-Usamos o sÃ­mbolo `+` para juntar (concatenar) as variÃ¡veis.
+## Explicação
+
+Criamos duas variáveis do tipo `String` (texto): `nome` e `sobrenome`.
+
+Usamos o símbolo `+` para juntar (concatenar) as variáveis.
 
 O resultado foi impresso na tela.
 
-### SaÃ­da
+---
 
-```
-RogÃ©rioFreitas Ribeiro
-RogÃ©rio Freitas Ribeiro
-```
+## Saída
 
+    RogérioFreitas Ribeiro
+    Rogério Freitas Ribeiro
 
-**Note:** na primeira impressÃ£o o nome saiu â€œcoladoâ€ no sobrenome. Para inserir um espaÃ§o, foi necessÃ¡rio usar `" "`.
+**Note:** na primeira impressão o nome saiu “colado” no sobrenome. Para inserir um espaço, foi necessário usar `" "`.
 
 ---
 
-## Concatenando texto com nÃºmero
+## Concatenando texto com número
 
-VocÃª tambÃ©m pode concatenar texto com nÃºmeros. O nÃºmero serÃ¡ transformado em texto automaticamente.
+Você também pode concatenar texto com números. O número será transformado em texto automaticamente.
 
-```java
-public class Main {
-    public static void main(String[] args) {
-        String nome = "Maria";
-        int idade = 30;
-        String frase = nome + " tem " + idade + " anos.";
+    public class Main {
+        public static void main(String[] args) {
+            String nome = "Maria";
+            int idade = 30;
+            String frase = nome + " tem " + idade + " anos.";
 
-        // SerÃ¡ impresso na tela: Maria tem 30 anos.
-        System.out.println(frase);
+            // Será impresso na tela: Maria tem 30 anos.
+            System.out.println(frase);
+        }
     }
-}
-```
 
-âœ… Exemplo direto no System.out.println
+---
 
-```java
-public class Main {
-    public static void main(String[] args) {
-        String nome = "Lucas";
-        int idade = 25;
+## ✅ Exemplo direto no System.out.println
 
-        // O nome Ã© Lucas e a idade Ã© 25 anos.
-        System.out.println("O nome Ã© " + nome + " e a idade Ã© " + idade + " anos.");
+    public class Main {
+        public static void main(String[] args) {
+            String nome = "Lucas";
+            int idade = 25;
+
+            // O nome é Lucas e a idade é 25 anos.
+            System.out.println("O nome é " + nome + " e a idade é " + idade + " anos.");
+        }
     }
-}
-```
+
+---
 
 ## O que acontece aqui
 
-- `"O nome Ã© "` Ã© uma `String`
-- `nome` Ã© uma variÃ¡vel do tipo `String`
-- `" e a idade Ã© "` Ã© outra `String`
-- `idade` Ã© uma variÃ¡vel do tipo `int` (nÃºmero)
-- `" anos."` tambÃ©m Ã© uma `String`
-- O operador `+` concatena tudo em uma Ãºnica mensagem
+- `"O nome é "` é uma `String`
+- `nome` é uma variável do tipo `String`
+- `" e a idade é "` é outra `String`
+- `idade` é uma variável do tipo `int` (número)
+- `" anos."` também é uma `String`
+- O operador `+` concatena tudo em uma única mensagem
 
 ---
 
-## â­ Dica para iniciantes
+## ⭐ Dica para iniciantes
 
-Sempre que vocÃª usar o operador `+` com pelo menos uma `String`, o Java vai tratar tudo como texto.
+Sempre que você usar o operador `+` com pelo menos uma `String`, o Java vai tratar tudo como texto.
 
-Para deixar o texto mais legÃ­vel, lembre-se de incluir espaÃ§os quando necessÃ¡rio:
+Para deixar o texto mais legível, lembre-se de incluir espaços quando necessário:
 
-```java
-"OlÃ¡, " + nome
-"OlÃ¡," + nome
-```
+    "Olá, " + nome
+    "Olá," + nome
+
+---
+
+# Complemento da Lição
+
+## 1) Pegadinha clássica: soma vs concatenação
+Quando você usa `+` com **String**, ele concatena.
+Quando você usa `+` com **números**, ele soma.
+
+O detalhe é: se **uma parte já virou String**, o resto vira texto também.
+
+Exemplo (pra pensar antes de rodar):
+    System.out.println(1 + 2 + "3");
+    System.out.println("1" + 2 + 3);
+
+---
+
+## 2) Como controlar a ordem (parênteses)
+Se você quer somar antes de virar texto:
+    System.out.println("Total: " + (1 + 2));
+
+Sem parênteses:
+    System.out.println("Total: " + 1 + 2);
+
+---
+
+## 3) Exercícios rápidos (fixação)
+
+1) Preveja a saída (sem executar):
+    System.out.println(10 + 5 + "kg");
+2) Preveja a saída (sem executar):
+    System.out.println("kg" + 10 + 5);
+3) Faça sair exatamente:
+   - `Resultado: 15kg`
+   usando `10` e `5`.
+
+---
+
+## 4) Pergunta única (para checar que fixou)
+O que acontece com `+` quando pelo menos um dos lados é `String`: ele soma ou concatena?
+
+---
+
+---
 
 <!-- nav_start -->
 ---

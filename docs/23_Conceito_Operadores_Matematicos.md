@@ -1,13 +1,17 @@
-﻿# Conceito: Operadores MatemÃ¡ticos
-
-Nas linguagens de programaÃ§Ã£o quando desejamos realizar operaÃ§Ãµes matemÃ¡ticos utilizamos os operadores matemÃ¡ticos. Em Java, os operadores aritmÃ©ticos sÃ£o basicamente os mesmos utilizados em outras linguagens de programaÃ§Ã£o. Aqui estÃ£o os principais operadores aritmÃ©ticos e o que eles fazem:
+﻿# Conceito: Operadores Matemáticos
 
 ---
 
-## AdiÃ§Ã£o (+)
+## Conceito: Operadores Matemáticos
+
+Nas linguagens de programação quando desejamos realizar operações matemáticos utilizamos os operadores matemáticos. Em Java, os operadores aritméticos são basicamente os mesmos utilizados em outras linguagens de programação. Aqui estão os principais operadores aritméticos e o que eles fazem:
+
+---
+
+## Adição (`+`)
 
 **Uso:** `a + b`  
-**DescriÃ§Ã£o:** Soma os valores das variÃ¡veis `a` e `b`. Se `a` e `b` forem nÃºmeros, o resultado serÃ¡ a soma desses nÃºmeros. Se forem strings, o operador realiza a concatenaÃ§Ã£o das strings.
+**Descrição:** Soma os valores das variáveis `a` e `b`. Se `a` e `b` forem números, o resultado será a soma desses números. Se forem strings, o operador realiza a concatenação das strings.
 
     public class Main{
         public static void main(String[] args) {
@@ -22,25 +26,25 @@ Nas linguagens de programaÃ§Ã£o quando desejamos realizar operaÃ§Ãµes ma
             soma = (a + b);
             System.out.println("Soma: " + soma);  //Soma: 10
 
-            //a variavel concatenacao contera o valor 
-            String concatenacao = "OlÃ¡, " + "Mundo!"; 
-            System.out.println("ConcatenaÃ§Ã£o: " + concatenacao);  //ConcatenaÃ§Ã£o: "OlÃ¡, Mundo!" 
+            //a variavel concatenacao contera o valor
+            String concatenacao = "Olá, " + "Mundo!";
+            System.out.println("Concatenação: " + concatenacao);  //Concatenação: "Olá, Mundo!"
         }
     }
 
 ---
 
-## SubtraÃ§Ã£o (-)
+## Subtração (`-`)
 
 **Uso:** `a - b`  
-**DescriÃ§Ã£o:** Subtrai o valor de `b` do valor de `a`. O resultado Ã© a diferenÃ§a entre `a` e `b`.
+**Descrição:** Subtrai o valor de `b` do valor de `a`. O resultado é a diferença entre `a` e `b`.
 
     public class Main{
         public static void main(String[] args) {
             int subtracao;
             int a, b;
 
-            subtracao = (10 - 4); 
+            subtracao = (10 - 4);
             System.out.println("Subtracao: " + subtracao);   //Subtracao: 6
 
             a = 17;
@@ -52,17 +56,17 @@ Nas linguagens de programaÃ§Ã£o quando desejamos realizar operaÃ§Ãµes ma
 
 ---
 
-## MultiplicaÃ§Ã£o (*)
+## Multiplicação (`*`)
 
 **Uso:** `a * b`  
-**DescriÃ§Ã£o:** Multiplica os valores de `a` e `b`. O resultado Ã© o produto desses valores.
+**Descrição:** Multiplica os valores de `a` e `b`. O resultado é o produto desses valores.
 
     public class Main{
         public static void main(String[] args) {
             int produto;
             int a, b;
 
-            produto = (7 * 6); 
+            produto = (7 * 6);
             System.out.println("Produto: " + produto);      //Produto: 42
 
             a = 4;
@@ -74,46 +78,46 @@ Nas linguagens de programaÃ§Ã£o quando desejamos realizar operaÃ§Ãµes ma
 
 ---
 
-## DivisÃ£o (/)
+## Divisão (`/`)
 
 **Uso:** `a / b`  
-**DescriÃ§Ã£o:** Divide o valor de `a` pelo valor de `b`. O resultado Ã© o quociente da divisÃ£o. Para inteiros, a divisÃ£o descarta a parte decimal (ou seja, faz uma divisÃ£o inteira). Para nÃºmeros de ponto flutuante (`float` ou `double`), a parte decimal Ã© preservada.
+**Descrição:** Divide o valor de `a` pelo valor de `b`. O resultado é o quociente da divisão. Para inteiros, a divisão descarta a parte decimal (ou seja, faz uma divisão inteira). Para números de ponto flutuante (`float` ou `double`), a parte decimal é preservada.
 
-No caso de uma divisÃ£o entre dois nÃºmeros inteiros, basta realizar a conversÃ£o de tipos utilizando a tÃ©cnica de *casting* adicionando a palavra `(float)` atravÃ©s de uma das duas variÃ¡veis inteiras, o que irÃ¡ forÃ§ar o Java a considerar o resultado no formato fracionÃ¡rio.
+No caso de uma divisão entre dois números inteiros, basta realizar a conversão de tipos utilizando a técnica de *casting* adicionando a palavra `(float)` através de uma das duas variáveis inteiras, o que irá forçar o Java a considerar o resultado no formato fracionário.
 
     public class Main{
         public static void main(String[] args) {
             float divisao;
             int a, b;
 
-            divisao = (10 / 6); 
-            System.out.println("DivisÃ£o: " + divisao); //DivisÃ£o: 1
+            divisao = (10 / 6);
+            System.out.println("Divisão: " + divisao); //Divisão: 1
 
             a = 13;
             b = 4;
             divisao = (a / b);
-            System.out.println("DivisÃ£o: " + divisao); //DivisÃ£o: 3 
+            System.out.println("Divisão: " + divisao); //Divisão: 3
 
             a = 6;
             b = 5;
             divisao = ((float) a / b);
-            System.out.println("DivisÃ£o: " + divisao); //DivisÃ£o: 1.2   
+            System.out.println("Divisão: " + divisao); //Divisão: 1.2
         }
     }
 
 ---
 
-## MÃ³dulo (%)
+## Módulo (`%`)
 
 **Uso:** `a % b`  
-**DescriÃ§Ã£o:** Calcula o resto da divisÃ£o de `a` por `b`. Ã‰ Ãºtil para encontrar se um nÃºmero Ã© divisÃ­vel por outro ou para realizar operaÃ§Ãµes cÃ­clicas.
+**Descrição:** Calcula o resto da divisão de `a` por `b`. É útil para encontrar se um número é divisível por outro ou para realizar operações cíclicas.
 
     public class Main{
         public static void main(String[] args) {
             float resto;
             int a, b;
 
-            resto = (10 % 6); 
+            resto = (10 % 6);
             System.out.println("Resto: " + resto); //Resto: 4
 
             a = 7;
@@ -122,6 +126,49 @@ No caso de uma divisÃ£o entre dois nÃºmeros inteiros, basta realizar a conve
             System.out.println("Resto: " + resto); //Resto: 2
         }
     }
+
+---
+
+# Complemento da Lição
+
+## 1) Regra prática para não errar divisão
+Se `a` e `b` forem `int`, então `a / b` vira **divisão inteira** (corta a parte decimal).
+
+Para manter decimal:
+- transforme pelo menos um lado em `float` ou `double`
+
+Exemplos (para você comparar mentalmente):
+    System.out.println(10 / 6);
+    System.out.println((float) 10 / 6);
+
+---
+
+## 2) Onde o módulo (`%`) aparece em programas reais
+- saber se é **par/ímpar**: `n % 2`
+- rodízio / ciclos (ex.: “a cada 3 itens”): `contador % 3`
+- validar múltiplos (ex.: múltiplo de 5): `n % 5 == 0`
+
+---
+
+## 3) Exercícios rápidos (fixação)
+
+1) Sem executar: qual saída você espera?
+    System.out.println(9 / 2);
+    System.out.println(9 % 2);
+
+2) Faça um programa que leia um número e diga:
+- “Par” se `n % 2 == 0`
+- “Ímpar” caso contrário
+
+3) Faça um programa que calcule:
+- média de 3 notas (use `double`)
+
+---
+
+## 4) Pergunta única (para checar que fixou)
+Qual operador você usa para descobrir o **resto** de uma divisão?
+
+---
 
 <!-- nav_start -->
 ---
