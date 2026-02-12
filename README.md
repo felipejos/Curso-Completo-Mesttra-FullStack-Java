@@ -234,6 +234,8 @@
 
 - Preparação para API HTTP
   - [Vídeos: Preparação para aplicação backend no formato de API HTTP](docs/164_Preparacao_API_HTTP.md)
+
+- Roteiros de Estudo
   - [Roteiros de Estudo](docs/165_Roteiros_Estudo.md)
   - [Orientações](docs/166_Orientacoes.md)
   - [Java Básico](docs/167_Java_Basico.md)
