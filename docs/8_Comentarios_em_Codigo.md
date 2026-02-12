@@ -1,3 +1,7 @@
+# 💬 Comentários em Código
+
+---
+
 ## 💬 Comentários em Código
 
 Neste artigo temos uma abordagem rápida e simples do motivo de utilizarmos comentários em programação.
@@ -12,7 +16,10 @@ Caso tenha dúvidas em termos durante a leitura, pesquise o termo na internet ou
 
 > Sou totalmente iniciante em programação, me explique sem detalhes muito profundos o que significa um compilador.
 
-### 🔗 Artigo
+---
+
+## 🔗 Artigo
+
 https://comoprogramarjava.com.br/comentarios-em-java/
 
 ---
@@ -21,18 +28,72 @@ https://comoprogramarjava.com.br/comentarios-em-java/
 
 No Java, um comentário pode ser escrito em qualquer ponto do código. Veja os exemplos abaixo:
 
-```java
-//exemplo de comentario 1
+    //exemplo de comentario 1
 
-public class Main { //exemplo de comentario 2
+    public class Main { //exemplo de comentario 2
 
-//exemplo de comentario 3
+    //exemplo de comentario 3
 
-    public static void main(String[] args) { //exemplo de comentario 4
-        System.out.print("Olá seja bem vindo: "); //exemplo de comentario 5
+        public static void main(String[] args) { //exemplo de comentario 4
+            System.out.print("Olá seja bem vindo: "); //exemplo de comentario 5
+        }
+    //exemplo de comentario 6
     }
-//exemplo de comentario 6
-}
+
+---
+
+# Complemento da Lição
+
+## 1) Para que comentários realmente servem (prática)
+
+Comentários servem para **explicar intenção e contexto**, principalmente quando:
+- existe uma regra de negócio (“por que isso é assim”)
+- existe uma restrição técnica (“por que não dá para fazer diferente”)
+- existe risco/pegadinha (“se mexer aqui, quebra ali”)
+
+📌 Um comentário bom ajuda um humano a entender rápido.
+
+---
+
+## 2) Comentário bom x comentário ruim (bem direto)
+
+### Comentário ruim (repete o óbvio)
+    i++; // incrementa i
+
+### Comentário bom (explica o motivo)
+    // Soma 1 porque o menu começa em 1 (não em 0)
+    opcao++;
+
+---
+
+## 3) Tipos de comentário no Java (e quando usar)
+
+### 3.1 `//` (linha)
+Use para:
+- observação curta
+- TODO rápido
+
+### 3.2 `/* ... */` (bloco)
+Use para:
+- explicação maior
+- regra mais detalhada
+
+### 3.3 `/** ... */` (JavaDoc)
+Use para:
+- documentar métodos/classes (IDE ajuda)
+
+---
+
+## 4) Exercícios rápidos (fixação)
+
+1) Pegue um trecho do seu projeto e escreva 2 comentários:
+   - 1 explicando **uma regra**
+   - 1 explicando **um risco/pegadinha**
+2) Reescreva um comentário “óbvio” para virar um comentário que explique **por quê**.
+3) Crie um TODO real:
+    - `// TODO: validar e-mail antes de salvar`
+
+---
 
 <!-- nav_start -->
 ---
