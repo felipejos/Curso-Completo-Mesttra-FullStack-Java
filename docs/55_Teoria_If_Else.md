@@ -1,57 +1,59 @@
 ﻿# Teoria If Else
 
-## Estruturas de DecisÃ£o em ProgramaÃ§Ã£o
+---
 
-### O que sÃ£o Estruturas de DecisÃ£o?
+## Estruturas de Decisão em Programação
 
-Em qualquer sistema â€” seja um site, aplicativo, jogo ou software corporativo â€” as decisÃµes fazem parte do comportamento esperado. Por exemplo:
+### O que são Estruturas de Decisão?
+
+Em qualquer sistema — seja um site, aplicativo, jogo ou software corporativo — as decisões fazem parte do comportamento esperado. Por exemplo:
 
 - Um jogo precisa verificar se o jogador perdeu ou venceu.
-- Um site precisa saber se o usuÃ¡rio estÃ¡ logado para liberar o acesso.
-- Um caixa eletrÃ´nico precisa saber se hÃ¡ saldo suficiente antes de permitir um saque.
+- Um site precisa saber se o usuário está logado para liberar o acesso.
+- Um caixa eletrônico precisa saber se há saldo suficiente antes de permitir um saque.
 
-Essas decisÃµes sÃ£o feitas com **estruturas de decisÃ£o**, que sÃ£o instruÃ§Ãµes que dizem ao computador:
+Essas decisões são feitas com **estruturas de decisão**, que são instruções que dizem ao computador:
 
-> â€œSe tal condiÃ§Ã£o for verdadeira, entÃ£o faÃ§a isso; senÃ£o, faÃ§a outra coisa.â€
+> “Se tal condição for verdadeira, então faça isso; senão, faça outra coisa.”
 
 ---
 
 ### Como funcionam?
 
-O computador executa as instruÃ§Ãµes de cima para baixo, linha por linha.  
-Quando ele encontra uma estrutura de decisÃ£o, ele avalia uma condiÃ§Ã£o (por exemplo: `idade > 18`). Essa condiÃ§Ã£o sÃ³ tem dois resultados possÃ­veis:
+O computador executa as instruções de cima para baixo, linha por linha.  
+Quando ele encontra uma estrutura de decisão, ele avalia uma condição (por exemplo: `idade > 18`). Essa condição só tem dois resultados possíveis:
 
-- âœ… **Verdadeiro (true):** a condiÃ§Ã£o Ã© satisfeita e o bloco de cÃ³digo associado Ã© executado.
-- âŒ **Falso (false):** a condiÃ§Ã£o nÃ£o Ã© satisfeita e o programa pode seguir outro caminho (caso exista um `else`, por exemplo).
+- ✅ **Verdadeiro (true):** a condição é satisfeita e o bloco de código associado é executado.
+- ❌ **Falso (false):** a condição não é satisfeita e o programa pode seguir outro caminho (caso exista um `else`, por exemplo).
 
 ---
 
-## âœ… Principais Estruturas de DecisÃ£o em Java
+## ✅ Principais Estruturas de Decisão em Java
 
 ### 1) `if` (se)
 
-A estrutura mais bÃ¡sica.  
-Ela executa um bloco de cÃ³digo **somente se a condiÃ§Ã£o for verdadeira**.
+A estrutura mais básica.  
+Ela executa um bloco de código **somente se a condição for verdadeira**.
 
 **Exemplo:**
 
     int idade = 20;
 
     if (idade >= 18) {
-        System.out.println("VocÃª Ã© maior de idade.");
+        System.out.println("Você é maior de idade.");
     }
 
-**ExplicaÃ§Ã£o:**
-- A condiÃ§Ã£o `idade >= 18` Ã© avaliada.
-- Como a idade Ã© 20, o resultado Ã© **verdadeiro**.
-- O programa executa o cÃ³digo dentro do bloco `{}`.
+**Explicação:**
+- A condição `idade >= 18` é avaliada.
+- Como a idade é 20, o resultado é **verdadeiro**.
+- O programa executa o código dentro do bloco `{}`.
 
 ---
 
 ### 2) `if` + `else`
 
-Permite dois caminhos:  
-- um se a condiÃ§Ã£o for verdadeira  
+Permite dois caminhos:
+- um se a condição for verdadeira
 - outro se for falsa
 
 **Exemplo:**
@@ -61,18 +63,18 @@ Permite dois caminhos:
     if (idade >= 18) {
         System.out.println("Pode entrar na festa.");
     } else {
-        System.out.println("VocÃª ainda Ã© menor de idade.");
+        System.out.println("Você ainda é menor de idade.");
     }
 
-**ExplicaÃ§Ã£o:**
-- Se a idade for maior ou igual a 18 â†’ entra na festa.
-- Se nÃ£o for â†’ exibe outra mensagem.
+**Explicação:**
+- Se a idade for maior ou igual a 18 → entra na festa.
+- Se não for → exibe outra mensagem.
 
 ---
 
 ### 3) `if` + `else if` + `else`
 
-Quando vocÃª precisa verificar **vÃ¡rias condiÃ§Ãµes diferentes**.
+Quando você precisa verificar **várias condições diferentes**.
 
 **Exemplo:**
 
@@ -89,36 +91,36 @@ Quando vocÃª precisa verificar **vÃ¡rias condiÃ§Ãµes diferentes**.
     }
 
 **Como funciona:**
-- O Java verifica as condiÃ§Ãµes **em ordem**, de cima para baixo.
-- Assim que encontra a **primeira condiÃ§Ã£o verdadeira**, ele executa aquele bloco e ignora o restante.
+- O Java verifica as condições **em ordem**, de cima para baixo.
+- Assim que encontra a **primeira condição verdadeira**, ele executa aquele bloco e ignora o restante.
 
 ---
 
-## âš ï¸ Dicas e Cuidados Importantes
+## ⚠️ Dicas e Cuidados Importantes
 
-### 1) ComparaÃ§Ã£o de Strings
+### 1) Comparação de Strings
 
-Para comparar textos em Java, **nÃ£o use `==`**.  
-Isso compara endereÃ§os de memÃ³ria, e nÃ£o o conteÃºdo.
+Para comparar textos em Java, **não use `==`**.  
+Isso compara endereços de memória, e não o conteúdo.
 
-âœ… Use o mÃ©todo `.equals()`:
+✅ Use o método `.equals()`:
 
-    String nome = "JoÃ£o";
+    String nome = "João";
 
-    if (nome.equals("JoÃ£o")) {
-        System.out.println("Bem-vindo, JoÃ£o!");
+    if (nome.equals("João")) {
+        System.out.println("Bem-vindo, João!");
     }
 
 ---
 
 ### 2) Sempre use chaves `{}` para blocos
 
-Mesmo que seja sÃ³ uma linha, usar `{}`:
+Mesmo que seja só uma linha, usar `{}`:
 - evita erros,
 - melhora a legibilidade,
-- deixa o cÃ³digo mais seguro.
+- deixa o código mais seguro.
 
-âœ… Boa prÃ¡tica:
+✅ Boa prática:
 
     if (x > 10) {
         System.out.println("Maior que 10");
@@ -129,16 +131,67 @@ Mesmo que seja sÃ³ uma linha, usar `{}`:
 ### 3) Cuidado com a ordem no `else if`
 
 O Java para de avaliar os blocos assim que encontra o primeiro `true`.  
-Se vocÃª colocar uma condiÃ§Ã£o muito genÃ©rica no topo, as outras nunca serÃ£o verificadas.
+Se você colocar uma condição muito genérica no topo, as outras nunca serão verificadas.
 
-âŒ Ordem errada:
+❌ Ordem errada:
 
     if (nota >= 50) {
         System.out.println("Passou");
     } else if (nota >= 70) {
-        // Nunca serÃ¡ executado, pois 70 tambÃ©m Ã© maior que 50
+        // Nunca será executado, pois 70 também é maior que 50
         System.out.println("Nota B");
     }
+
+---
+
+## Complemento da Lição
+
+### ✅ Regra prática para montar `else if` sem errar
+Quando você trabalha com “faixas” (nota, idade, IMC, etc.), a forma mais segura é:
+- **começar do maior para o menor**, ou
+- garantir que cada faixa seja **exclusiva** (não “engula” a próxima).
+
+Exemplo de ordem correta (maior para menor):
+
+    if (nota >= 90) {
+        System.out.println("Nota A");
+    } else if (nota >= 70) {
+        System.out.println("Nota B");
+    } else if (nota >= 60) {
+        System.out.println("Nota C");
+    } else {
+        System.out.println("Reprovado");
+    }
+
+---
+
+### 🧠 Conceito importante: “curto-circuito” (`&&` e `||`)
+- `A && B` → se **A for false**, o Java nem avalia **B**
+- `A || B` → se **A for true**, o Java nem avalia **B**
+
+Isso ajuda a evitar erro e deixar o código mais eficiente.
+
+Exemplo clássico (evita erro):
+
+    if (altura > 0 && peso > 0) {
+        double imc = peso / (altura * altura);
+        System.out.println(imc);
+    }
+
+---
+
+### 🧩 Exercícios rápidos (sem gabarito aqui)
+1) Crie um `if/else` que diga se um número `n` é **par** ou **ímpar**.
+2) Crie um `if/else if/else` que classifique idade:
+   - `>= 18` adulto
+   - `>= 13` adolescente
+   - senão criança
+3) Dado `nota = 70`, escreva um `if/else if` que imprima:
+   - “Aprovado” se `nota >= 60`
+   - “Recuperação” se `nota >= 40`
+   - “Reprovado” caso contrário
+
+---
 
 <!-- nav_start -->
 ---

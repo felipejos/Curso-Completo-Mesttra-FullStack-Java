@@ -1,8 +1,10 @@
-﻿# âœ… Conceito Switch Case
+﻿# ✅ Conceito Switch Case
 
-O **switch case** Ã© uma estrutura de controle de fluxo usada em linguagens como **Java**, **C** e **JavaScript** para executar **blocos diferentes de cÃ³digo** conforme o valor de uma variÃ¡vel.
+---
 
-Ele Ã© uma alternativa mais **organizada e legÃ­vel** ao uso de muitos `if` e `else if`, principalmente quando vocÃª faz vÃ¡rias comparaÃ§Ãµes do tipo:
+O **switch case** é uma estrutura de controle de fluxo usada em linguagens como **Java**, **C** e **JavaScript** para executar **blocos diferentes de código** conforme o valor de uma variável.
+
+Ele é uma alternativa mais **organizada e legível** ao uso de muitos `if` e `else if`, principalmente quando você faz várias comparações do tipo:
 
 - `numero == 1`
 - `numero == 2`
@@ -11,100 +13,151 @@ Ele Ã© uma alternativa mais **organizada e legÃ­vel** ao uso de muitos `if` 
 
 ---
 
-## ðŸŽ¯ Exemplo com if / else if
+## 🎯 Exemplo com if / else if
 
-Imagine um cÃ³digo para converter um nÃºmero para sua escrita por extenso:
+Imagine um código para converter um número para sua escrita por extenso:
 
-if (numero == 1) {
-   System.out.print("um")
-} else if (numero == 2) {
-   System.out.print("dois")
-} else if (numero == 3) {
-   System.out.print("trÃªs")
-} else if (numero == 4) {
-   System.out.print("quatro")
-} else if (numero == 5) {
-   System.out.print("cinco")
-} else if (numero == 6) {
-   System.out.print("seis")
-} else if (numero == 7) {
-   System.out.print("sete")
-} else if (numero == 8) {
-   System.out.print("oito")
-} else if (numero == 9) {
-   System.out.print("9")
-}
+    if (numero == 1) {
+       System.out.print("um")
+    } else if (numero == 2) {
+       System.out.print("dois")
+    } else if (numero == 3) {
+       System.out.print("três")
+    } else if (numero == 4) {
+       System.out.print("quatro")
+    } else if (numero == 5) {
+       System.out.print("cinco")
+    } else if (numero == 6) {
+       System.out.print("seis")
+    } else if (numero == 7) {
+       System.out.print("sete")
+    } else if (numero == 8) {
+       System.out.print("oito")
+    } else if (numero == 9) {
+       System.out.print("9")
+    }
 
-âœ… Note que nesse cÃ³digo estamos sempre comparando a variÃ¡vel **numero** com igualdade `==`.
+✅ Note que nesse código estamos sempre comparando a variável **numero** com igualdade `==`.
 
-Quando isso acontece, podemos usar o **switch case**, evitando repetir `numero == ...` vÃ¡rias vezes.
-
----
-
-## âœ… Mesmo exemplo (trecho) com if / else if
-
-if (numero == 1) {
-            System.out.print("um");
-         } else if (numero == 2) {
-            System.out.print("dois");
-         } else if (numero == 3) {
-            System.out.print("trÃªs");
-         } else if (numero == 4) {
-            System.out.print("quatro");
-         } else if (numero == 5) {
-            System.out.print("cinco");
-         } else if (numero == 6) {
-            System.out.print("seis");
-         } else if (numero == 7) {
-            System.out.print("sete");
-         } else if (numero == 8) {
-            System.out.print("oito");
-         } else if (numero == 9) {
-            System.out.print("9");
-         }
+Quando isso acontece, podemos usar o **switch case**, evitando repetir `numero == ...` várias vezes.
 
 ---
 
-## â­ O papel do `default` (como se fosse um else)
+## ✅ Mesmo exemplo (trecho) com if / else if
+
+    if (numero == 1) {
+                System.out.print("um");
+             } else if (numero == 2) {
+                System.out.print("dois");
+             } else if (numero == 3) {
+                System.out.print("três");
+             } else if (numero == 4) {
+                System.out.print("quatro");
+             } else if (numero == 5) {
+                System.out.print("cinco");
+             } else if (numero == 6) {
+                System.out.print("seis");
+             } else if (numero == 7) {
+                System.out.print("sete");
+             } else if (numero == 8) {
+                System.out.print("oito");
+             } else if (numero == 9) {
+                System.out.print("9");
+             }
+
+---
+
+## ⭐ O papel do `default` (como se fosse um else)
 ![OnlineGDB - exemplo](../images/switch.png)
 
-O **switch case** tambÃ©m pode ter um comportamento igual ao `else`.  
-Ou seja, se o valor **nÃ£o se encaixar em nenhum case**, vocÃª define um padrÃ£o com `default` (normalmente a Ãºltima opÃ§Ã£o).
+O **switch case** também pode ter um comportamento igual ao `else`.  
+Ou seja, se o valor **não se encaixar em nenhum case**, você define um padrão com `default` (normalmente a última opção).
 
 ---
 
-## âœ… Exemplo de agrupamento de condiÃ§Ãµes
+## ✅ Exemplo de agrupamento de condições
 
-Caso vocÃª tenha um trecho equivalente a este:
+Caso você tenha um trecho equivalente a este:
 
-if (numero == 1 || numero == 2) {
-      //execute algo
-} else if (numero >= 3 && numero <= 6 ) {
-      //execute isto
-}
+    if (numero == 1 || numero == 2) {
+          //execute algo
+    } else if (numero >= 3 && numero <= 6 ) {
+          //execute isto
+    }
 
 Podemos atingir o mesmo resultado usando:
 
-switch (numero) {
-    case 1:
-    case 2:
-        // Execute algo
-        break;
+    switch (numero) {
+        case 1:
+        case 2:
+            // Execute algo
+            break;
 
-    case 3:
-    case 4:
-    case 5:
-    case 6:
-        // Execute isto
-        break;
-}
+        case 3:
+        case 4:
+        case 5:
+        case 6:
+            // Execute isto
+            break;
+    }
 
-ðŸ“Œ **Como funciona aqui?**
-- Como nÃ£o temos nada logo depois de `case 1`, ele â€œcaiâ€ para o prÃ³ximo (`case 2`) e executa o bloco.
-- EntÃ£o esse bloco serÃ¡ executado se `numero` for **1 ou 2**.
+📌 **Como funciona aqui?**
+- Como não temos nada logo depois de `case 1`, ele “cai” para o próximo (`case 2`) e executa o bloco.
+- Então esse bloco será executado se `numero` for **1 ou 2**.
 
 O mesmo ocorre com **3, 4, 5 e 6**:
-- Como nÃ£o hÃ¡ cÃ³digo individual nesses `case`, todos executam o mesmo bloco `"// Execute isto"`.
+- Como não há código individual nesses `case`, todos executam o mesmo bloco `"// Execute isto"`.
+
+---
+
+## Complemento da Lição
+
+### ✅ Quando vale a pena usar `switch` (regra prática)
+Use `switch` quando:
+- você está comparando **uma mesma variável**
+- com **valores fixos** (igualdade)
+- e teria muitos `else if`
+
+Ex.: menu (1, 2, 3), dia da semana (1..7), opções de sistema, letras específicas.
+
+---
+
+### ⚠️ O `break` é o “freio”
+Sem `break`, o Java continua executando os próximos `case` (isso se chama **fall-through**).
+
+Exemplo do problema (sem `break`):
+    switch (numero) {
+        case 1:
+            System.out.println("um");
+        case 2:
+            System.out.println("dois");
+    }
+
+Se `numero = 1`, imprime:
+- "um"
+- "dois"
+
+---
+
+### ✅ `switch` moderno (Java 14+): formato mais limpo
+Em versões mais novas do Java, existe o `switch` com seta `->`:
+
+    switch (numero) {
+        case 1 -> System.out.println("um");
+        case 2 -> System.out.println("dois");
+        default -> System.out.println("inválido");
+    }
+
+Nesse formato:
+- não precisa `break`
+- fica bem mais legível
+
+---
+
+### 🎯 Exercício rápido (para fixar)
+Pegue o **Exercício 06 — Dia da semana** (1 a 7) e pense:
+- como ficaria com `if/else if/else`
+- e como ficaria com `switch` usando `default` para inválido
 
 ---
 

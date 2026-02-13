@@ -1,120 +1,184 @@
-﻿# ðŸ§¯ Uso do Try/Catch
-
-No Java, o **tratamento de exceÃ§Ãµes** Ã© uma maneira de lidar com erros que podem acontecer enquanto um programa estÃ¡ sendo executado. Erros sÃ£o eventos inesperados que podem fazer o programa parar ou funcionar de forma incorreta.
-
-Para evitar que o programa â€œquebreâ€ quando um erro acontece, usamos o **tratamento de exceÃ§Ãµes** com as palavras-chave:
-
-- `try` â†’ **tenta** executar um trecho de cÃ³digo
-- `catch` â†’ **captura e trata** o erro caso ele aconteÃ§a
+﻿# 🧯 Uso do Try/Catch
 
 ---
 
-## 1) âš ï¸ O que Ã© uma ExceÃ§Ã£o?
+## Uso do Try/Catch
 
-Uma exceÃ§Ã£o Ã© como um â€œalertaâ€ que indica que algo deu errado.
+No Java, o **tratamento de exceções** é uma maneira de lidar com erros que podem acontecer enquanto um programa está sendo executado. Erros são eventos inesperados que podem fazer o programa parar ou funcionar de forma incorreta.
 
-âœ… Exemplos comuns:
-- Tentar dividir um nÃºmero por **zero**
-- Tentar abrir um arquivo que **nÃ£o existe**
-- Digitar texto quando o programa espera um **nÃºmero**
+Para evitar que o programa “quebre” quando um erro acontece, usamos o **tratamento de exceções** com as palavras-chave:
 
-Quando isso acontece, o Java **lanÃ§a** (gera) uma exceÃ§Ã£o. Se vocÃª **nÃ£o tratar**, o programa pode **parar a execuÃ§Ã£o**.
+- `try` → **tenta** executar um trecho de código
+- `catch` → **captura e trata** o erro caso ele aconteça
+
+---
+
+## 1) ⚠️ O que é uma Exceção?
+
+Uma exceção é como um “alerta” que indica que algo deu errado.
+
+✅ Exemplos comuns:
+- Tentar dividir um número por **zero**
+- Tentar abrir um arquivo que **não existe**
+- Digitar texto quando o programa espera um **número**
+
+Quando isso acontece, o Java **lança** (gera) uma exceção. Se você **não tratar**, o programa pode **parar a execução**.
 
 ### Exemplo (sem tratamento)
 
-    public class Main{
+    public class Main {
         public static void main(String[] args) {
-            // Tentamos fazer uma divisÃ£o
-            int resultado = 10 / 0; // Isso gera uma exceÃ§Ã£o
+            // Tentamos fazer uma divisão
+            int resultado = 10 / 0; // Isso gera uma exceção
 
             System.out.println("O programa continua executando...");
         }
     }
 
-Ao executar, o programa **nÃ£o termina** e aparece algo como:
+Ao executar, o programa **não termina** e aparece algo como:
 
     Exception in thread "main" java.lang.ArithmeticException: / by zero
         at Main.main(Main.java:13)
 
 ---
 
-## 2) ðŸ§ª O bloco `try`
+## 2) 🧪 O bloco `try`
 
-O bloco `try` Ã© onde vocÃª coloca o cÃ³digo que **pode dar erro**.
+O bloco `try` é onde você coloca o código que **pode dar erro**.
 
-Ã‰ como dizer:  
-> â€œVou tentar executar isso aqui, mas pode acontecer algum problema.â€
+É como dizer:  
+> “Vou tentar executar isso aqui, mas pode acontecer algum problema.”
 
     try {
-        // CÃ³digo que pode gerar uma exceÃ§Ã£o
-        int resultado = 10 / 0; // Isso vai gerar uma exceÃ§Ã£o
+        // Código que pode gerar uma exceção
+        int resultado = 10 / 0; // Isso vai gerar uma exceção
     }
 
 ---
 
-## 3) ðŸ› ï¸ O bloco `catch`
+## 3) 🛠️ O bloco `catch`
 
-Se uma exceÃ§Ã£o ocorrer dentro do `try`, o Java â€œpulaâ€ direto para o `catch`.
+Se uma exceção ocorrer dentro do `try`, o Java “pula” direto para o `catch`.
 
-Ã‰ como dizer:  
-> â€œSe der erro, trate aqui e mostre uma mensagem.â€
+É como dizer:  
+> “Se der erro, trate aqui e mostre uma mensagem.”
 
     try {
-        int resultado = 10 / 0; // Isso vai gerar uma exceÃ§Ã£o
+        int resultado = 10 / 0; // Isso vai gerar uma exceção
     } catch (Exception e) {
-        // CÃ³digo para lidar com a exceÃ§Ã£o
-        System.out.println("Erro: NÃ£o Ã© possÃ­vel dividir por zero.");
+        // Código para lidar com a exceção
+        System.out.println("Erro: Não é possível dividir por zero.");
     }
 
 ---
 
-## 4) âœ… Exemplo completo (Try/Catch funcionando)
+## 4) ✅ Exemplo completo (Try/Catch funcionando)
 
-    public class Main{
+    public class Main {
         public static void main(String[] args) {
             try {
-                // Tentamos fazer uma divisÃ£o
-                int resultado = 10 / 0; // Isso gera uma exceÃ§Ã£o
+                // Tentamos fazer uma divisão
+                int resultado = 10 / 0; // Isso gera uma exceção
             } catch (Exception e) {
-                // Se ocorrer uma exceÃ§Ã£o, isso Ã© executado
-                System.out.println("Erro: NÃ£o Ã© possÃ­vel dividir por zero.");
+                // Se ocorrer uma exceção, isso é executado
+                System.out.println("Erro: Não é possível dividir por zero.");
             }
 
             System.out.println("O programa continua executando...");
         }
     }
 
-ðŸ“Œ Execute esse exemplo e note que, mesmo com erro, o programa **continua** e imprime:
+📌 Execute esse exemplo e note que, mesmo com erro, o programa **continua** e imprime:
 
 - a mensagem do `catch`
 - e depois: **"O programa continua executando..."**
 
-âœ… Agora faÃ§a um teste:
-- Troque o `0` por outro nÃºmero (ex: `2`)
+✅ Agora faça um teste:
+- Troque o `0` por outro número (ex: `2`)
 - Execute novamente
-- VocÃª verÃ¡ que **nÃ£o ocorre erro**, pois a divisÃ£o passa a ser vÃ¡lida.
+- Você verá que **não ocorre erro**, pois a divisão passa a ser válida.
 
 ---
 
-## ðŸ§  O que acontece no cÃ³digo?
+## 🧠 O que acontece no código?
 
-- O cÃ³digo dentro do `try` tenta fazer a divisÃ£o.
-- Dividir por zero nÃ£o Ã© permitido â†’ o Java lanÃ§a uma exceÃ§Ã£o.
-- O `catch` captura a exceÃ§Ã£o e executa o tratamento.
-- O programa continua normalmente apÃ³s o `catch`.
+- O código dentro do `try` tenta fazer a divisão.
+- Dividir por zero não é permitido → o Java lança uma exceção.
+- O `catch` captura a exceção e executa o tratamento.
+- O programa continua normalmente após o `catch`.
 
 ---
 
-## ðŸ’¡ Por que usar `try` e `catch`?
+## 💡 Por que usar `try` e `catch`?
 
-Usar `try/catch` deixa seu programa mais **robusto** e evita que ele â€œmorraâ€ ao encontrar um problema.
+Usar `try/catch` deixa seu programa mais **robusto** e evita que ele “morra” ao encontrar um problema.
 
-âœ… Em vez de parar tudo, ele pode:
-- mostrar uma mensagem clara para o usuÃ¡rio
+✅ Em vez de parar tudo, ele pode:
+- mostrar uma mensagem clara para o usuário
 - pedir uma nova entrada
 - continuar o fluxo do sistema
 
-Isso melhora muito a **experiÃªncia do usuÃ¡rio** e a qualidade do seu cÃ³digo.
+Isso melhora muito a **experiência do usuário** e a qualidade do seu código.
+
+---
+
+# Complemento da Lição
+
+## 1) O que você deve gravar (regra de ouro)
+Se um erro pode acontecer **por causa do usuário, do arquivo, da rede ou do banco**, você precisa tratar.
+
+Exemplos práticos:
+- usuário digitou letra quando era número
+- arquivo não existe
+- conexão com banco falhou
+- conversão de texto para número falhou
+
+---
+
+## 2) O `catch` mais correto para o exemplo da divisão
+No exemplo da divisão por zero, a exceção mais específica é:
+
+- `ArithmeticException`
+
+Isso é melhor do que capturar tudo com `Exception`, porque deixa claro **qual erro** você está tratando.
+
+Exemplo:
+
+    try {
+        int resultado = 10 / 0;
+    } catch (ArithmeticException e) {
+        System.out.println("Erro: divisão por zero.");
+    }
+
+---
+
+## 3) Try/Catch + Scanner (caso mais comum em exercícios)
+Um erro muito comum é o usuário digitar texto quando o programa espera número.
+
+Exemplo (ideia do padrão):
+
+    try {
+        System.out.print("Digite um número: ");
+        int n = teclado.nextInt();
+    } catch (Exception e) {
+        System.out.println("Você digitou algo inválido.");
+        teclado.nextLine(); // limpa o buffer
+    }
+
+---
+
+## 4) Exercício rápido (fixação)
+Faça um programa que:
+1) pede um número inteiro
+2) tenta dividir `10` por esse número
+3) se o usuário digitar `0`, mostre uma mensagem amigável e não deixe o programa quebrar
+
+---
+
+## 5) Pergunta única (para checar que fixou)
+No Java, qual bloco é executado quando ocorre um erro dentro do `try`?
+
+---
 
 <!-- nav_start -->
 ---

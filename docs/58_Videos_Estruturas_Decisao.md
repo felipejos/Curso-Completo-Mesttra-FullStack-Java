@@ -1,14 +1,16 @@
-﻿# VÃ­deos Sobre Estruturas de DecisÃ£o
-
-Todos os vÃ­deos a seguir sÃ£o vÃ­deos gravados sobre a parte de lÃ³gica de programaÃ§Ã£o de **estruturas de decisÃ£o**.
-
-A linguagem utilizada nestes vÃ­deo foi o **portugol**. Mas, mesmo sendo o portugol, o importante Ã© a explicaÃ§Ã£o dos conceitos.
-
-VocÃªs verÃ£o que converter o cÃ³digo de portugol para **Java** nÃ£o Ã© muito complexo. EntÃ£o recomendo fortemente que os iniciantes assistam todos os vÃ­deos para as prÃ³ximas aulas. AbraÃ§o.
+﻿# Vídeos Sobre Estruturas de Decisão
 
 ---
 
-## ExplicaÃ§Ã£o bÃ¡sica sobre Estrutura de DecisÃ£o
+Todos os vídeos a seguir são vídeos gravados sobre a parte de lógica de programação de **estruturas de decisão**.
+
+A linguagem utilizada nestes vídeo foi o **portugol**. Mas, mesmo sendo o portugol, o importante é a explicação dos conceitos.
+
+Vocês verão que converter o código de portugol para **Java** não é muito complexo. Então recomendo fortemente que os iniciantes assistam todos os vídeos para as próximas aulas. Abraço.
+
+---
+
+## Explicação básica sobre Estrutura de Decisão
 
 https://www.youtube.com/watch?v=8LdC_QCR4zQ
 
@@ -24,7 +26,7 @@ https://www.youtube.com/watch?v=STCz-GZJVUo
 
 ---
 
-## ExercÃ­cios Estruturas Simples
+## Exercícios Estruturas Simples
 
 https://www.youtube.com/watch?v=rvUjgqmxAfQ
 
@@ -92,7 +94,7 @@ https://youtu.be/qpVhC6vjmqk
 
 ---
 
-## ExercÃ­cios de Estrututura de DecisÃ£o Composta
+## Exercícios de Estrututura de Decisão Composta
 
 https://www.youtube.com/watch?v=9KKFwX1a4VY
 
@@ -133,6 +135,59 @@ https://www.youtube.com/watch?v=Q_3-c2nYgjw
 https://www.youtube.com/watch?v=AkC9Zk-VX50
 
 [![Assistir no YouTube](https://img.youtube.com/vi/AkC9Zk-VX50/hqdefault.jpg)](https://www.youtube.com/watch?v=AkC9Zk-VX50)
+
+---
+
+## Complemento da Lição
+
+### 🧭 Roteiro recomendado (ordem para assistir e aprender mais rápido)
+1) **Explicação básica sobre Estrutura de Decisão**
+2) **Estrutura Simples if**
+3) **Exercícios Estruturas Simples**
+4) **Estrutura if else**
+5) **Estrutura if else if**
+6) **Estrutura switch case**
+7) **Exercícios de Estrututura de Decisão Composta**
+
+---
+
+### ✅ O que você deve conseguir fazer após assistir
+- Ler uma frase e transformar em condição:
+  - “Se for maior que 10…”
+  - “Se estiver entre 30 e 60…”
+- Montar `if`, `if/else`, `if/else if/else` com faixas corretas
+- Entender quando usar `switch` (múltiplas opções fixas)
+
+---
+
+### 🧠 Tradução do Portugol para Java (mapa rápido)
+- `se (condicao) entao` → `if (condicao) {`
+- `senao` → `} else {`
+- `senao se` → `} else if (condicao) {`
+- `fimse` → `}`
+
+---
+
+### ⚠️ Dica que evita 80% dos erros em `else if`
+Em classificações por faixa (nota, IMC, idade), use:
+- do **maior para o menor**, ou
+- garanta faixas exclusivas (ex.: `>= 30` e `< 60`)
+
+---
+
+### 🎯 Exercícios rápidos (para acompanhar os vídeos)
+1) Faça um programa que leia um número e diga se é **positivo, negativo ou zero**.
+2) Leia a idade e diga:
+   - `>= 18` adulto
+   - `>= 13` adolescente
+   - senão criança
+3) Leia nota (0–100) e imprima:
+   - `>= 90` A
+   - `>= 70` B
+   - `>= 60` C
+   - senão reprovado
+
+---
 
 <!-- nav_start -->
 ---
