@@ -1,4 +1,4 @@
-# Padrão Arquitetural - MVC
+﻿# Padrão Arquitetural - MVC
 
 ---
 
@@ -141,5 +141,5 @@ Isso funciona no começo, mas cresce rápido e vira difícil de manter e testar.
 
 <!-- nav_start -->
 ---
-Anterior: [VÃ­deos: Gerenciando Contatos V2](../docs/163_Videos_Contatos_V2.md) | Próximo: [Roteiros de Estudo](../docs/165_Roteiros_Estudo.md) | [Voltar ao Índice](../README.md)
+Anterior: [165 Padrões Arquiteturais e Padrões de Projeto](../docs/165_Padrões_Arquiteturais_e_Padrões_de_Projeto.md) | Proximo: [167 Desafio](../docs/167_Desafio.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->

@@ -36,6 +36,5 @@ Escreva em 5 linhas:
 
 <!-- nav_start -->
 ---
-Anterior: [Como Aprender ProgramaÃ§Ã£o](../docs/2_Como_Aprender.md) | Próximo: [Antes de Desistir](../docs/4_Antes_de_desistir.md) | [Voltar ao Índice](../README.md)
+Anterior: [2 Como Aprender](../docs/2_Como_Aprender.md) | Proximo: [4 Antes de desistir](../docs/4_Antes_de_desistir.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

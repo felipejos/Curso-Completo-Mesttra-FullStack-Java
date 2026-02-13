@@ -93,6 +93,5 @@ Exemplo de teste no Workbench (conceito):
 
 <!-- nav_start -->
 ---
-Anterior: [IntroduÃ§Ã£o ao Banco de Dados](../docs/139_Introducao_Banco_de_Dados.md) | Próximo: [Resumo comando SELECT Banco de Dados](../docs/141_Resumo_SELECT.md) | [Voltar ao Índice](../README.md)
+Anterior: [139 Introducao Banco de Dados](../docs/139_Introducao_Banco_de_Dados.md) | Proximo: [141 Resumo SELECT](../docs/141_Resumo_SELECT.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

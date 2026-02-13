@@ -163,8 +163,8 @@ Quando algo der errado, anote assim:
 4) No “alterar”, permita alterar apenas os campos informados (deixar em branco mantém).
 
 ---
+
 <!-- nav_start -->
 ---
-Anterior: [Gerenciamento de Contatos V2](../docs/161_Contatos_V2.md) | Próximo: [VÃ­deos: Gerenciando Contatos V2](../docs/163_Videos_Contatos_V2.md) | [Voltar ao Índice](../README.md)
+Anterior: [161 Contatos V2](../docs/161_Contatos_V2.md) | Proximo: [163 Videos Contatos V2](../docs/163_Videos_Contatos_V2.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

@@ -220,6 +220,5 @@ Use entradas simples para confirmar a saída:
 
 <!-- nav_start -->
 ---
-Anterior: [If Else: ExercÃ­cio 1](../docs/44_If_Else_Exercicio_1.md) | Próximo: [Desafio Jogo da Forca](../docs/46_Desafio_Jogo_Forca.md) | [Voltar ao Índice](../README.md)
+Anterior: [44 If Else Exercicio 1](../docs/44_If_Else_Exercicio_1.md) | Proximo: [46 Desafio Jogo Forca](../docs/46_Desafio_Jogo_Forca.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

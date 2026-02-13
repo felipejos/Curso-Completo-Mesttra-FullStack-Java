@@ -36,6 +36,5 @@ Escreva em 5 linhas:
 
 <!-- nav_start -->
 ---
-Anterior: [Links](../docs/1_Links.md) | Próximo: [Ansiedade](../docs/3_Ansiedade.md) | [Voltar ao Índice](../README.md)
+Anterior: [1 Links](../docs/1_Links.md) | Proximo: [3 Ansiedade](../docs/3_Ansiedade.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

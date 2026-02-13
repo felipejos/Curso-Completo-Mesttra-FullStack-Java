@@ -195,6 +195,5 @@ Exemplo clássico (evita erro):
 
 <!-- nav_start -->
 ---
-Anterior: [QuestÃ£o 05](../docs/54_Questao_05.md) | Próximo: [Conceito de Estruturas de DecisÃ£o](../docs/56_Conceito_Estruturas_Decisao.md) | [Voltar ao Índice](../README.md)
+Anterior: [54 Questao 05](../docs/54_Questao_05.md) | Proximo: [56 Conceito Estruturas Decisao](../docs/56_Conceito_Estruturas_Decisao.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

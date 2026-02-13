@@ -359,7 +359,5 @@
 
 <!-- nav_start -->
 ---
-Anterior: [CÃ¡lculo de Venda](../docs/95_Calculo_Venda.md) | Próximo: [Lista de ExercÃ­cios](../docs/98_Lista_08.md) | [Voltar ao Índice](../README.md)
+Anterior: [95 Calculo Venda](../docs/95_Calculo_Venda.md) | Proximo: [98 Lista 08](../docs/98_Lista_08.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-
-

@@ -1,4 +1,4 @@
-# Desafio: Refatorar para MVC (Console + MySQL)
+﻿# Desafio: Refatorar para MVC (Console + MySQL)
 
 ---
 
@@ -660,5 +660,5 @@ Você quer que a **View** trate entradas inválidas (ex.: letra em vez de númer
 
 <!-- nav_start -->
 ---
-Anterior: [VÃ­deos: Gerenciando Contatos V2](../docs/163_Videos_Contatos_V2.md) | Próximo: [Roteiros de Estudo](../docs/165_Roteiros_Estudo.md) | [Voltar ao Índice](../README.md)
+Anterior: [166 Padrão Arquitetural MVC](../docs/166_Padrão_Arquitetural_MVC.md) | Proximo: [168 Preparação para aplicação backend no formato de API HTTP](../docs/168_Preparação_para_aplicação_backend_no_formato_de_API_HTTP.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->

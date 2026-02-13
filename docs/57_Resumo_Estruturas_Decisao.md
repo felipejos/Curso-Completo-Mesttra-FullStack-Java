@@ -93,9 +93,7 @@ Transforme essas frases em estrutura:
 
 ---
 
-
 <!-- nav_start -->
 ---
-Anterior: [Conceito de Estruturas de DecisÃ£o](../docs/56_Conceito_Estruturas_Decisao.md) | Próximo: [VÃ­deos Sobre Estruturas de DecisÃ£o](../docs/58_Videos_Estruturas_Decisao.md) | [Voltar ao Índice](../README.md)
+Anterior: [56 Conceito Estruturas Decisao](../docs/56_Conceito_Estruturas_Decisao.md) | Proximo: [58 Videos Estruturas Decisao](../docs/58_Videos_Estruturas_Decisao.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

@@ -558,6 +558,5 @@ https://youtu.be/-4rQwh6Qc7c
 
 <!-- nav_start -->
 ---
-Próximo: [Como Aprender ProgramaÃ§Ã£o](../docs/2_Como_Aprender.md) | [Voltar ao Índice](../README.md)
+Proximo: [2 Como Aprender](../docs/2_Como_Aprender.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

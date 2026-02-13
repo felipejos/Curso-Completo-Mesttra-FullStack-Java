@@ -191,6 +191,5 @@ Em classificações por faixa (nota, IMC, idade), use:
 
 <!-- nav_start -->
 ---
-Anterior: [Resumo Estruturas de DecisÃ£o](../docs/57_Resumo_Estruturas_Decisao.md) | Próximo: [Lista de ExercÃ­cios 03 - Estruturas de DecisÃ£o](../docs/59_Lista_Exercicios_03.md) | [Voltar ao Índice](../README.md)
+Anterior: [57 Resumo Estruturas Decisao](../docs/57_Resumo_Estruturas_Decisao.md) | Proximo: [59 Lista Exercicios 03](../docs/59_Lista_Exercicios_03.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

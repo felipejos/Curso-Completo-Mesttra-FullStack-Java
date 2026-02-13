@@ -83,6 +83,5 @@ Se algo não funcionar, você pode verificar apenas a função responsável, iso
 
 <!-- nav_start -->
 ---
-Anterior: [Realizando o Debug de CÃ³digo](../docs/83_Debug_Codigo.md) | Próximo: [Procedimentos](../docs/85_Procedimentos.md) | [Voltar ao Índice](../README.md)
+Anterior: [83 Debug Codigo](../docs/83_Debug_Codigo.md) | Proximo: [85 Procedimentos](../docs/85_Procedimentos.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

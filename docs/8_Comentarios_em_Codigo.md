@@ -1,4 +1,4 @@
-# 💬 Comentários em Código
+﻿# 💬 Comentários em Código
 
 ---
 
@@ -97,6 +97,5 @@ Use para:
 
 <!-- nav_start -->
 ---
-Anterior: [Linguagens de Programação](../docs/7_Linguagens_de_Programacao.md) | Pr�ximo: [Comandos de entrada e saída](../docs/9_Comandos_Entrada_Saida.md) | [Voltar ao �ndice](../README.md)
+Anterior: [7 Linguagens de Programacao](../docs/7_Linguagens_de_Programacao.md) | Proximo: [9 Comandos Entrada Saida](../docs/9_Comandos_Entrada_Saida.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

@@ -1,5 +1,7 @@
 ﻿# Desafio: Algoritmo para Validação de CPF
 
+---
+
 ## O que é o CPF?
 O CPF (Cadastro de Pessoas Físicas) é composto por **11 dígitos**.  
 Em determinados sistemas é necessário identificar se um CPF informado não foi digitado incorretamente. Para isto, o CPF possui um conjunto de **dois dígitos** conhecidos como **dígito verificador**. Esses dois dígitos podem ser calculados através de um algoritmo para identificar erros de digitação.
@@ -136,8 +138,92 @@ Utilizando como exemplo o código abaixo, desenvolva o seu algoritmo completo de
         }
     }
 
+---
+
+## Complemento da Lição
+
+### 🧩 Plano de implementação (bem objetivo)
+1) **Ler o CPF** como `String`.
+2) **Normalizar a entrada** (remover `.` e `-`, se você quiser aceitar máscara).
+3) **Validações rápidas**
+   - tamanho == 11
+   - só dígitos
+   - não ser sequência repetida (ex.: todos iguais)
+4) **Calcular DV1** usando os 9 primeiros dígitos e pesos 10..2
+5) **Calcular DV2** usando os 9 primeiros + DV1 e pesos 11..2
+6) **Comparar** DV1 e DV2 calculados com os dois últimos do CPF informado
+7) Imprimir **“CPF válido”** ou **“CPF inválido”**
+
+---
+
+### ✅ Dica prática para não se perder nos pesos
+Você pode fazer um loop que:
+- começa com `peso = 10` (ou 11)
+- vai diminuindo
+- soma `digito * peso`
+
+Exemplo mental:
+- 9 dígitos → pesos 10 até 2 (total 9 pesos)
+- 10 dígitos → pesos 11 até 2 (total 10 pesos)
+
+---
+
+### 🧠 Estrutura (esqueleto) sem “entregar tudo pronto”
+Use esse esqueleto e preencha os `TODO` (isso treina o raciocínio):
+
+    import java.util.Scanner;
+
+    public class Main {
+        public static void main(String[] args) {
+            Scanner teclado = new Scanner(System.in);
+
+            System.out.print("Digite o seu CPF: ");
+            String cpf = teclado.nextLine();
+
+            // TODO 1) normalizar (se necessário): remover "." e "-"
+            // cpf = cpf.replace(".", "").replace("-", "");
+
+            // TODO 2) validar tamanho == 11
+            // TODO 3) validar só dígitos (Character.isDigit)
+            // TODO 4) validar não ser sequência repetida
+
+            // TODO 5) separar base e dígitos informados
+            // String base9 = cpf.substring(0, 9);
+            // int dvInformado1 = cpf.charAt(9) - '0';
+            // int dvInformado2 = cpf.charAt(10) - '0';
+
+            // TODO 6) calcular dv1 (pesos 10..2)
+            // int dv1 = ...
+
+            // TODO 7) calcular dv2 (pesos 11..2 usando base9 + dv1)
+            // int dv2 = ...
+
+            // TODO 8) comparar dv1/dv2 com dvInformado1/dvInformado2 e imprimir resultado
+
+            teclado.close();
+        }
+    }
+
+---
+
+### 🧪 Testes que você deve fazer (mínimo)
+- Um CPF válido conhecido (ex.: o do enunciado `12345678909`)
+- Um CPF com DV errado (troque o último dígito)
+- Sequência repetida: `11111111111`
+- Entrada com letras: `123abc78909`
+- Entrada com máscara: `123.456.789-09` (se você decidir aceitar)
+
+---
+
+### ✅ Checkpoint (1 passo por vez)
+Comece só com a parte de **normalização + validação do tamanho e dígitos**.
+Depois você parte para o cálculo do DV1 e DV2.
+
+---
+
+**Pergunta (uma só):** no seu programa, você vai aceitar CPF com máscara (`123.456.789-09`) ou somente números (`12345678909`)?
+
 <!-- nav_start -->
 ---
-Anterior: [VÃ­deo Operador TernÃ¡rio](../docs/63_Video_Operador_Ternario.md) | Próximo: [Desafio: Algoritmo para validaÃ§Ã£o de CPF](../docs/66_Desafio_Forca_Avancados.md) | [Voltar ao Índice](../README.md)
+Anterior: [63 Video Operador Ternario](../docs/63_Video_Operador_Ternario.md) | Proximo: [69 Solucao Teste1 Q04](../docs/69_Solucao_Teste1_Q04.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

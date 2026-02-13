@@ -53,8 +53,8 @@ Tente executar pelo botão **Run** (ou pelo menu Run/Debug).
 Qual é o nome do pacote de extensões que você deve instalar para programar em Java no VSCode?
 
 ---
+
 <!-- nav_start -->
 ---
-Anterior: [JDK, JRE e JVM](../docs/28_JDK_JRE_JVM.md) | Próximo: [Lista de ExercÃ­cios 2](../docs/30_Lista_Exercicios_2.md) | [Voltar ao Índice](../README.md)
+Anterior: [28 JDK JRE JVM](../docs/28_JDK_JRE_JVM.md) | Proximo: [30 Lista Exercicios 2](../docs/30_Lista_Exercicios_2.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

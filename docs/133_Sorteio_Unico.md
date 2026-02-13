@@ -297,6 +297,5 @@ Mas por enquanto, seu código está ótimo para fixar vetor + laços + funções
 
 <!-- nav_start -->
 ---
-Anterior: [CÃ³digo Final Jogo da Forca](../docs/132_Codigo_Final_Forca.md) | Próximo: [Aplicativo Gerenciamento de Alunos](../docs/134_Gerenciamento_Alunos.md) | [Voltar ao Índice](../README.md)
+Anterior: [132 Codigo Final Forca](../docs/132_Codigo_Final_Forca.md) | Proximo: [134 Gerenciamento Alunos](../docs/134_Gerenciamento_Alunos.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

@@ -110,6 +110,5 @@ Quando você vê um `}` no código, você deve **aumentar** ou **diminuir** um n
 
 <!-- nav_start -->
 ---
-Anterior: [Caractere de Escape \\](../docs/21_Caractere_de_Escape.md) | Próximo: [Conceito: Operadores MatemÃ¡ticos](../docs/23_Conceito_Operadores_Matematicos.md) | [Voltar ao Índice](../README.md)
+Anterior: [21 Caractere de Escape](../docs/21_Caractere_de_Escape.md) | Proximo: [23 Conceito Operadores Matematicos](../docs/23_Conceito_Operadores_Matematicos.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

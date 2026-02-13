@@ -128,6 +128,5 @@ Na atribuição direta, quem decide o valor que vai para a variável: o usuário
 
 <!-- nav_start -->
 ---
-Anterior: [Tipos de Dados e Intervalos de Valores](../docs/16_Tipos_Dados_Intervalos.md) | Próximo: [Comandos para leitura de nÃºmeros](../docs/18_Leitura_Numeros.md) | [Voltar ao Índice](../README.md)
+Anterior: [16 Tipos Dados Intervalos](../docs/16_Tipos_Dados_Intervalos.md) | Proximo: [18 Leitura Numeros](../docs/18_Leitura_Numeros.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

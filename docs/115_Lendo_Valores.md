@@ -101,6 +101,5 @@ A lógica do laço continua a mesma: **executa pelo menos uma vez e para quando 
 
 <!-- nav_start -->
 ---
-Anterior: [Exemplo: IteraÃ§Ã£o sobre caracteres](../docs/114_Iteracao_Caracteres.md) | Próximo: [Exemplo: CÃ¡lculo NÃºmeros Primos](../docs/116_Numeros_Primos.md) | [Voltar ao Índice](../README.md)
+Anterior: [114 Iteracao Caracteres](../docs/114_Iteracao_Caracteres.md) | Proximo: [116 Numeros Primos](../docs/116_Numeros_Primos.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

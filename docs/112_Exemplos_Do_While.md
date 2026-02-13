@@ -224,6 +224,5 @@ Nesse caso, o menu vai continuar (porque `0 != 3`) e cair no `default` (opção 
 
 <!-- nav_start -->
 ---
-Anterior: [VÃ­deo: Do While](../docs/111_Video_Do_While.md) | Próximo: [Estruturas de RepetiÃ§Ã£o Do e For](../docs/113_Do_e_For.md) | [Voltar ao Índice](../README.md)
+Anterior: [111 Video Do While](../docs/111_Video_Do_While.md) | Proximo: [113 Do e For](../docs/113_Do_e_For.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

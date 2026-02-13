@@ -351,6 +351,5 @@ Isso é exatamente o que torna esse desafio bom: ele junta vários fundamentos n
 
 <!-- nav_start -->
 ---
-Anterior: [Pedra, papel, tesoura com vetor](../docs/131_Pedra_Papel_Tesoura_Vetor.md) | Próximo: [Sorteio Ãºnico de valores](../docs/133_Sorteio_Unico.md) | [Voltar ao Índice](../README.md)
+Anterior: [131 Pedra Papel Tesoura Vetor](../docs/131_Pedra_Papel_Tesoura_Vetor.md) | Proximo: [133 Sorteio Unico](../docs/133_Sorteio_Unico.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

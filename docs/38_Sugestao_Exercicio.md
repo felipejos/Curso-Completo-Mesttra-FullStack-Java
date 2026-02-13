@@ -116,6 +116,5 @@ Qual método do `Scanner` você vai usar para ler **nota decimal**: `nextInt()` 
 
 <!-- nav_start -->
 ---
-Anterior: [Código de Exemplo para o Try Catch](../docs/37_Codigo_Exemplo_Try_Catch.md) | Próximo: [Solução lista Exercí­cios 1](../docs/39_Solucao_Lista_Exercicios_1.md) | [Voltar ao Índice](../README.md)
+Anterior: [37 Codigo Exemplo Try Catch](../docs/37_Codigo_Exemplo_Try_Catch.md) | Proximo: [39 Solucao Lista Exercicios 1](../docs/39_Solucao_Lista_Exercicios_1.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

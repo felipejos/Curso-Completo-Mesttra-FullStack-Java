@@ -128,6 +128,5 @@ Mesmo algoritmo do dia 23/10/2025 (Calculadora de área de Figuras Geométricas)
 
 <!-- nav_start -->
 ---
-Anterior: [Algoritmo Morangos e MaÃ§as](../docs/90_Morangos_Macas.md) | Próximo: [Lista de ExercÃ­cios 7](../docs/92_Lista_Exercicios_07.md) | [Voltar ao Índice](../README.md)
+Anterior: [90 Morangos Macas](../docs/90_Morangos_Macas.md) | Proximo: [92 Lista Exercicios 07](../docs/92_Lista_Exercicios_07.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

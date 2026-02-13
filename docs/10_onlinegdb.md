@@ -70,8 +70,8 @@ O site **onlinegdb** permite testarmos pequenos trechos de código sem a necessi
    - o que apareceu no console após clicar em **RUN**
 
 ---
+
 <!-- nav_start -->
 ---
-Anterior: [Comandos de entrada e saÃ­da](../docs/9_Comandos_Entrada_Saida.md) | Próximo: [Comandos de entrada e saÃ­da de dados no JAVA](../docs/11_Entrada_Saida_Dados_Java.md) | [Voltar ao Índice](../README.md)
+Anterior: [9 Comandos Entrada Saida](../docs/9_Comandos_Entrada_Saida.md) | Proximo: [11 Entrada Saida Dados Java](../docs/11_Entrada_Saida_Dados_Java.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

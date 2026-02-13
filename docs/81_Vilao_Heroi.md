@@ -131,6 +131,5 @@ Depois o programa compara as escolhas e mostra o **resultado da batalha** com ba
 
 <!-- nav_start -->
 ---
-Anterior: [ExercÃ­cio Acerte o NÃºmero](../docs/80_Acerte_Numero.md) | Próximo: [Entendendo o Conceito de Bibliotecas](../docs/82_Conceito_Bibliotecas.md) | [Voltar ao Índice](../README.md)
+Anterior: [80 Acerte Numero](../docs/80_Acerte_Numero.md) | Proximo: [82 Conceito Bibliotecas](../docs/82_Conceito_Bibliotecas.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

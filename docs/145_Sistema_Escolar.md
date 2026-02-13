@@ -699,8 +699,8 @@ Ajuda muito nos exercícios:
     LEFT JOIN disciplina d ON d.id_professor = pr.id_professor
     GROUP BY pr.id_professor, pe.nome
     ORDER BY qtde DESC;
+
 <!-- nav_start -->
 ---
-Anterior: [Banco de Dados Loja Virtual](../docs/144_Loja_Virtual.md) | Próximo: [Conceitos Gerais](../docs/146_Conceitos_Gerais.md) | [Voltar ao Índice](../README.md)
+Anterior: [144 Loja Virtual](../docs/144_Loja_Virtual.md) | Proximo: [146 Conceitos Gerais](../docs/146_Conceitos_Gerais.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

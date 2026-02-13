@@ -131,6 +131,5 @@ O fluxo fica natural:
 
 <!-- nav_start -->
 ---
-Anterior: [Exemplo: CÃ¡lculo NÃºmeros Primos](../docs/116_Numeros_Primos.md) | Próximo: [Exemplo: Contagem de caracteres](../docs/118_Contagem_Caracteres.md) | [Voltar ao Índice](../README.md)
+Anterior: [116 Numeros Primos](../docs/116_Numeros_Primos.md) | Proximo: [118 Contagem Caracteres](../docs/118_Contagem_Caracteres.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

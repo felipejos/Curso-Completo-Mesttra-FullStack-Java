@@ -92,6 +92,5 @@ Ele usa `switch case` para decidir qual cálculo executar e `try-catch` para evi
 
 <!-- nav_start -->
 ---
-Anterior: [Exemplo de usando do charAt()](../docs/77_Exemplo_charAt.md) | Próximo: [ExcercÃ­cio Pedra Papel e Tesoura](../docs/79_Pedra_Papel_Tesoura.md) | [Voltar ao Índice](../README.md)
+Anterior: [77 Exemplo charAt](../docs/77_Exemplo_charAt.md) | Proximo: [79 Pedra Papel Tesoura](../docs/79_Pedra_Papel_Tesoura.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

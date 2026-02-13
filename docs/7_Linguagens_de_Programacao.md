@@ -45,6 +45,5 @@ No seu contexto atual (Java + MySQL + API), faz sentido continuar firme em **Jav
 
 <!-- nav_start -->
 ---
-Anterior: [Algoritmos](../docs/6_Algoritmos.md) | Próximo: [ComentÃ¡rios em CÃ³digo](../docs/8_Comentarios_em_Codigo.md) | [Voltar ao Índice](../README.md)
+Anterior: [6 Algoritmos](../docs/6_Algoritmos.md) | Proximo: [8 Comentarios em Codigo](../docs/8_Comentarios_em_Codigo.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

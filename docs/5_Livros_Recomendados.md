@@ -41,6 +41,5 @@ Escolha 1 livro da pasta e escreva:
 
 <!-- nav_start -->
 ---
-Anterior: [Antes de Desistir](../docs/4_Antes_de_desistir.md) | Próximo: [Algoritmos](../docs/6_Algoritmos.md) | [Voltar ao Índice](../README.md)
+Anterior: [4 Antes de desistir](../docs/4_Antes_de_desistir.md) | Proximo: [6 Algoritmos](../docs/6_Algoritmos.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

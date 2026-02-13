@@ -116,8 +116,8 @@ Responda:
     SELECT p.nome, t.telefone
     FROM pessoa p
     JOIN telefone t ON t.id_pessoa = p.id_pessoa;
+
 <!-- nav_start -->
 ---
-Anterior: [Banco de Dados Sistema Escolar](../docs/145_Sistema_Escolar.md) | Próximo: [Conceito Joins](../docs/147_Conceito_Joins.md) | [Voltar ao Índice](../README.md)
+Anterior: [145 Sistema Escolar](../docs/145_Sistema_Escolar.md) | Proximo: [147 Conceito Joins](../docs/147_Conceito_Joins.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

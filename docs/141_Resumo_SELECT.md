@@ -193,9 +193,7 @@ Pense assim (simplificado):
 - JOIN (INNER e LEFT pelo menos)
 - Subquery (casos simples)
 
-
 <!-- nav_start -->
 ---
-Anterior: [InstalaÃ§Ã£o do MySQL Server](../docs/140_Instalacao_MySQL_Server.md) | Próximo: [ExercÃ­cios SQL](../docs/142_Exercicios_SQL.md) | [Voltar ao Índice](../README.md)
+Anterior: [140 Instalacao MySQL Server](../docs/140_Instalacao_MySQL_Server.md) | Proximo: [142 Exercicios SQL](../docs/142_Exercicios_SQL.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

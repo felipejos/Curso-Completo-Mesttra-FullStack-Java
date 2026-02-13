@@ -56,6 +56,5 @@ Qual comando você usa para confirmar no terminal que o Java está instalado e a
 
 <!-- nav_start -->
 ---
-Anterior: [Lista de Exercí­cios 1](../docs/26_Lista_Exercicios_1.md) | Próximo: [JDK, JRE e JVM](../docs/28_JDK_JRE_JVM.md) | [Voltar ao Índice](../README.md)
+Anterior: [26 Lista Exercicios 1](../docs/26_Lista_Exercicios_1.md) | Proximo: [28 JDK JRE JVM](../docs/28_JDK_JRE_JVM.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

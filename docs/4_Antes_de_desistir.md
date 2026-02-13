@@ -37,6 +37,5 @@ Complete as frases:
 
 <!-- nav_start -->
 ---
-Anterior: [Ansiedade](../docs/3_Ansiedade.md) | Próximo: [Links Livros Recomendados](../docs/5_Livros_Recomendados.md) | [Voltar ao Índice](../README.md)
+Anterior: [3 Ansiedade](../docs/3_Ansiedade.md) | Proximo: [5 Livros Recomendados](../docs/5_Livros_Recomendados.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

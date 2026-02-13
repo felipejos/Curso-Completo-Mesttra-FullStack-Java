@@ -125,6 +125,5 @@ Por que o código usa `scanner.nextLine();` depois de ler com `nextInt()`/`nextD
 
 <!-- nav_start -->
 ---
-Anterior: [AtribuiÃ§Ã£o direta de dados](../docs/17_Atribuicao_Direta.md) | Próximo: [Realizando a limpeza do buffer](../docs/19_Limpeza_Buffer.md) | [Voltar ao Índice](../README.md)
+Anterior: [17 Atribuicao Direta](../docs/17_Atribuicao_Direta.md) | Proximo: [19 Limpeza Buffer](../docs/19_Limpeza_Buffer.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

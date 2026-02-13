@@ -118,6 +118,5 @@ Você está digitando a altura/peso com **vírgula** (`1,75`) ou com **ponto** (
 
 <!-- nav_start -->
 ---
-Anterior: [QuestÃ£o 04](../docs/53_Questao_04.md) | Próximo: [Teoria If Else](../docs/55_Teoria_If_Else.md) | [Voltar ao Índice](../README.md)
+Anterior: [53 Questao 04](../docs/53_Questao_04.md) | Proximo: [55 Teoria If Else](../docs/55_Teoria_If_Else.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

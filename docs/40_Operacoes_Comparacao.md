@@ -114,6 +114,5 @@ Crie um programa que:
 
 <!-- nav_start -->
 ---
-Anterior: [SoluÃ§Ã£o lista ExercÃ­cios 1](../docs/39_Solucao_Lista_Exercicios_1.md) | Próximo: [Entendendo os Operadores de ComparaÃ§Ã£o](../docs/41_Entendendo_Operadores_Comparacao.md) | [Voltar ao Índice](../README.md)
+Anterior: [39 Solucao Lista Exercicios 1](../docs/39_Solucao_Lista_Exercicios_1.md) | Proximo: [41 Entendendo Operadores Comparacao](../docs/41_Entendendo_Operadores_Comparacao.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

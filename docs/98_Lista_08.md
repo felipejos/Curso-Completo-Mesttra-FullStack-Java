@@ -128,6 +128,5 @@ https://judge.beecrowd.com/pt/problems/view/1021
 
 <!-- nav_start -->
 ---
-Anterior: [CÃ¡lculo de Venda - Resposta](../docs/96_Calculo_Venda_Resposta.md) | Próximo: [Lista 8 - Algoritmos SequÃªnciais](../docs/98_Lista_08.md) | [Voltar ao Índice](../README.md)
+Anterior: [96 Calculo Venda Resposta](../docs/96_Calculo_Venda_Resposta.md) | Proximo: [99 Lista 09](../docs/99_Lista_09.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

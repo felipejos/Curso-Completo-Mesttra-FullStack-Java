@@ -547,6 +547,5 @@ Link: https://youtu.be/7cYKvkQu4lU
 
 <!-- nav_start -->
 ---
-Anterior: [Lista de ExercÃ­cios 6 - Estruturas de DecisÃ£o](../docs/74_Lista_Exercicios_06.md) | Próximo: [charAt() - Obtendo uma posiÃ§Ã£o de uma String](../docs/76_charAt.md) | [Voltar ao Índice](../README.md)
+Anterior: [74 Lista Exercicios 06](../docs/74_Lista_Exercicios_06.md) | Proximo: [76 charAt](../docs/76_charAt.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

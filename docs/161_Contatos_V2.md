@@ -574,8 +574,8 @@ Roteiro mínimo de testes:
 3) Para o exercício de “vários e-mails”, você prefere remover e-mail por **índice** ou criar uma classe `Email` com ID?
 
 ---
+
 <!-- nav_start -->
 ---
-Anterior: [Gerenciamento de Contatos V1](../docs/160_Contatos_V1.md) | Próximo: [VÃ­deo: Primeira AplicaÃ§Ã£o de Console com o Banco de Dados](../docs/162_Video_Primeira_App_BD.md) | [Voltar ao Índice](../README.md)
+Anterior: [160 Contatos V1](../docs/160_Contatos_V1.md) | Proximo: [162 Video Primeira App BD](../docs/162_Video_Primeira_App_BD.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

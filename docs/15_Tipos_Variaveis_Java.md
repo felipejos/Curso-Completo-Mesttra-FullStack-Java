@@ -104,6 +104,5 @@ Qual tipo você usaria para guardar **um email** e por quê?
 
 <!-- nav_start -->
 ---
-Anterior: [VariÃ¡veis](../docs/14_Variaveis.md) | Próximo: [Tipos de Dados e Intervalos de Valores](../docs/16_Tipos_Dados_Intervalos.md) | [Voltar ao Índice](../README.md)
+Anterior: [14 Variaveis](../docs/14_Variaveis.md) | Proximo: [16 Tipos Dados Intervalos](../docs/16_Tipos_Dados_Intervalos.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

@@ -80,6 +80,5 @@ Os exercícios abaixo no beecrowd são possíveis de resolver apenas com comando
 
 <!-- nav_start -->
 ---
-Anterior: [Lista 8 - Algoritmos SequÃªnciais](../docs/98_Lista_08.md) | Próximo: [Conceito de Classe e Objeto](../docs/100_Classe_e_Objeto.md) | [Voltar ao Índice](../README.md)
+Anterior: [98 Lista 08](../docs/98_Lista_08.md) | Proximo: [100 Classe e Objeto](../docs/100_Classe_e_Objeto.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

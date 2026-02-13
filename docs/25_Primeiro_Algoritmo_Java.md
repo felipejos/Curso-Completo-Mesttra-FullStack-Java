@@ -51,6 +51,5 @@ No Java, qual é o método que “começa” a execução do programa?
 
 <!-- nav_start -->
 ---
-Anterior: [VÃ­deo: Operadores MatemÃ¡ticos](../docs/24_Video_Operadores_Matematicos.md) | Próximo: [Lista de ExercÃ­cios 1](../docs/26_Lista_Exercicios_1.md) | [Voltar ao Índice](../README.md)
+Anterior: [24 Video Operadores Matematicos](../docs/24_Video_Operadores_Matematicos.md) | Proximo: [26 Lista Exercicios 1](../docs/26_Lista_Exercicios_1.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

@@ -56,6 +56,5 @@ Assista ao vídeo a seguir para entender na prática como fazer o processo de De
 
 <!-- nav_start -->
 ---
-Anterior: [Entendendo o Conceito de Bibliotecas](../docs/82_Conceito_Bibliotecas.md) | Próximo: [Conceito Geral: FunÃ§Ãµes e Procedimentos](../docs/84_Conceito_Geral_Funcoes.md) | [Voltar ao Índice](../README.md)
+Anterior: [82 Conceito Bibliotecas](../docs/82_Conceito_Bibliotecas.md) | Proximo: [84 Conceito Geral Funcoes](../docs/84_Conceito_Geral_Funcoes.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

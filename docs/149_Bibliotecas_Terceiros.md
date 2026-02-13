@@ -225,8 +225,8 @@ Em projetos profissionais, o mais comum é **Maven** ou **Gradle**, porque:
 
 3) Use `StringUtils.join(...)` para juntar um array de palavras com `" - "` no meio.
    Ex.: `["Java", "SQL", "Git"]` → `Java - SQL - Git`
+
 <!-- nav_start -->
 ---
-Anterior: [Entrega: Hackathon](../docs/148_Entrega_Hackathon.md) | Próximo: [O que Ã© um pacote em Java](../docs/150_O_que_e_Pacote.md) | [Voltar ao Índice](../README.md)
+Anterior: [148 Entrega Hackathon](../docs/148_Entrega_Hackathon.md) | Proximo: [150 O que e Pacote](../docs/150_O_que_e_Pacote.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

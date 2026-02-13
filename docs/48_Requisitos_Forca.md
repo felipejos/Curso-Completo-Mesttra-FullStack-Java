@@ -204,6 +204,5 @@ Implemente primeiro **apenas a validação da entrada**:
 
 <!-- nav_start -->
 ---
-Anterior: [Jogo da Forca](../docs/47_Jogo_da_Forca.md) | Próximo: [Teste 1: Deve ser resolvido atÃ© 10/10/2025](../docs/49_Teste_1.md) | [Voltar ao Índice](../README.md)
+Anterior: [46 Desafio Jogo Forca](../docs/46_Desafio_Jogo_Forca.md) | Proximo: [50 Questao 01](../docs/50_Questao_01.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

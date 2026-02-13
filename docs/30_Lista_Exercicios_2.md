@@ -92,5 +92,5 @@ Em um exercício qualquer, quais são as 3 partes que você identifica antes de 
 
 <!-- nav_start -->
 ---
-Anterior: [Instalação do VSCode e Plugins](../docs/29_Instalacao_VSCode_Plugins.md) | Próximo: [Comando printf()](../docs/31_Comando_printf.md) | [Voltar ao Índice](../README.md)
+Anterior: [29 Instalacao VSCode Plugins](../docs/29_Instalacao_VSCode_Plugins.md) | Proximo: [31 Comando printf](../docs/31_Comando_printf.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->

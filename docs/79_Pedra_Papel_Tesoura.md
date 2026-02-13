@@ -95,10 +95,9 @@ Completar o jogo para:
 - A validação evita que o programa quebre caso o usuário digite algo fora do esperado.
 - O computador escolhe aleatoriamente usando `SecureRandom`.
 
---- 
+---
 
 <!-- nav_start -->
 ---
-Anterior: [Calculadora de Ã¡rea de Figuras GeomÃ©tricas](../docs/78_Calculadora_Area.md) | Próximo: [ExercÃ­cio Acerte o NÃºmero](../docs/80_Acerte_Numero.md) | [Voltar ao Índice](../README.md)
+Anterior: [78 Calculadora Area](../docs/78_Calculadora_Area.md) | Proximo: [80 Acerte Numero](../docs/80_Acerte_Numero.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

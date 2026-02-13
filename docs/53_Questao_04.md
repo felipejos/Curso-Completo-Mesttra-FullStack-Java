@@ -143,6 +143,5 @@ No Java, `nextFloat()` pode falhar se você digitar **vírgula** dependendo da L
 
 <!-- nav_start -->
 ---
-Anterior: [QuestÃ£o 03](../docs/52_Questao_03.md) | Próximo: [QuestÃ£o 05](../docs/54_Questao_05.md) | [Voltar ao Índice](../README.md)
+Anterior: [52 Questao 03](../docs/52_Questao_03.md) | Proximo: [54 Questao 05](../docs/54_Questao_05.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

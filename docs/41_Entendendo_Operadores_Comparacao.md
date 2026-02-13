@@ -143,6 +143,5 @@ Leia duas idades e diga qual é maior (ou se são iguais), usando `if` + compara
 
 <!-- nav_start -->
 ---
-Anterior: [OperaÃ§Ãµes de ComparaÃ§Ã£o](../docs/40_Operacoes_Comparacao.md) | Próximo: [Operadores LÃ³gico](../docs/42_Operadores_Logico.md) | [Voltar ao Índice](../README.md)
+Anterior: [40 Operacoes Comparacao](../docs/40_Operacoes_Comparacao.md) | Proximo: [42 Operadores Logico](../docs/42_Operadores_Logico.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

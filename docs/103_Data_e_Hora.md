@@ -130,6 +130,5 @@ Além de formatar com `format()`, você pode **ler uma data digitada** com `pars
 
 <!-- nav_start -->
 ---
-Anterior: [Classe utilitÃ¡ria para leitura de dados](../docs/102_Classe_Utilitaria_Leitura.md) | Próximo: [Criando uma Data ou Hora a partir de uma String](../docs/104_Data_Hora_de_String.md) | [Voltar ao Índice](../README.md)
+Anterior: [102 Classe Utilitaria Leitura](../docs/102_Classe_Utilitaria_Leitura.md) | Proximo: [104 Data Hora de String](../docs/104_Data_Hora_de_String.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

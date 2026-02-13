@@ -72,8 +72,8 @@ Só que aqui é o programa fazendo isso no terminal.
    - onde você imprime resultado (System.out)
 
 ---
+
 <!-- nav_start -->
 ---
-Anterior: [ComentÃ¡rios em CÃ³digo](../docs/8_Comentarios_em_Codigo.md) | Próximo: [OnlineGDB](../docs/10_OnlineGDB.md) | [Voltar ao Índice](../README.md)
+Anterior: [8 Comentarios em Codigo](../docs/8_Comentarios_em_Codigo.md) | Proximo: [10 onlinegdb](../docs/10_onlinegdb.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

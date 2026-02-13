@@ -227,6 +227,5 @@ Use `do...while` quando:
 
 <!-- nav_start -->
 ---
-Anterior: [Analogia de uma RepetiÃ§Ã£o no mundo real](../docs/109_Analogia_Repeticao.md) | Próximo: [VÃ­deo: Do While](../docs/111_Video_Do_While.md) | [Voltar ao Índice](../README.md)
+Anterior: [109 Analogia Repeticao](../docs/109_Analogia_Repeticao.md) | Proximo: [111 Video Do While](../docs/111_Video_Do_While.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

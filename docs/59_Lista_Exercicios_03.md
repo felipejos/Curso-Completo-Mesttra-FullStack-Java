@@ -339,6 +339,5 @@ Escolha **um** exercício e escreva só isto:
 
 <!-- nav_start -->
 ---
-Anterior: [VÃ­deos Sobre Estruturas de DecisÃ£o](../docs/58_Videos_Estruturas_Decisao.md) | Próximo: [Conceito Switch Case](../docs/60_Conceito_Switch_Case.md) | [Voltar ao Índice](../README.md)
+Anterior: [58 Videos Estruturas Decisao](../docs/58_Videos_Estruturas_Decisao.md) | Proximo: [60 Conceito Switch Case](../docs/60_Conceito_Switch_Case.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

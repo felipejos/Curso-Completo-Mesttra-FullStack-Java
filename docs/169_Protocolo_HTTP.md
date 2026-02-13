@@ -1,4 +1,4 @@
-# Protocolo HTTP
+﻿# Protocolo HTTP
 
 ---
 
@@ -21,18 +21,22 @@ Em comunicações web, o cliente se comunica com o servidor através da troca de
 ### Comunicação entre Cliente Servidor
 
 Comunicação entre Cliente Servidor
+![OnlineGDB - exemplo](../images/http1.png)
 
 ### Requisição com o verbo POST
 
 Requisição com o verbo POST
+![OnlineGDB - exemplo](../images/http2.png)
 
 ### Requisição com o verbo GET
 
 Requisição com o verbo GET
+![OnlineGDB - exemplo](../images/http3.png)
 
 ### Resposta HTTP
 
 Resposta HTTP
+![OnlineGDB - exemplo](../images/http4.png)
 
 ---
 
@@ -41,7 +45,7 @@ Resposta HTTP
 As informações inseridas neste pacote de dados são baseadas no que é digitado na barra de endereços do browser (navegador de Internet por exemplo) + conteúdo presente no formulário html. Parte do conteúdo presente no request line e header, são ouriundos do que é digitado na barra de endereços do browser.
 
 O conteúdo digitado na barra de endereços pode ser composto por algumas estruturas. A imagem a seguir, apresenta um exemplo mais completo possível de informações digitadas em um endereço no browser.
-
+![OnlineGDB - exemplo](../images/http5.png)
 ---
 
 ## URI, URL e URN
@@ -146,5 +150,5 @@ O Status Code de uma requisição é parte importante de uma Web API, pois com e
 
 <!-- nav_start -->
 ---
-Anterior: [VÃ­deos: Gerenciando Contatos V2](../docs/163_Videos_Contatos_V2.md) | Próximo: [Roteiros de Estudo](../docs/165_Roteiros_Estudo.md) | [Voltar ao Índice](../README.md)
+Anterior: [168 Preparação para aplicação backend no formato de API HTTP](../docs/168_Preparação_para_aplicação_backend_no_formato_de_API_HTTP.md) | Proximo: [170 Primeiro Projeto Spring Boot](../docs/170_Primeiro_Projeto_Spring_Boot.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->

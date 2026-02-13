@@ -69,6 +69,5 @@ O `javac` faz parte do JRE ou do JDK?
 
 <!-- nav_start -->
 ---
-Anterior: [Instalacao do Java](../docs/27_Instalacao_Java.md) | Próximo: [Instalacao do VSCode e Plugins](../docs/29_Instalacao_VSCode_Plugins.md) | [Voltar ao Índice](../README.md)
+Anterior: [27 Instalacao Java](../docs/27_Instalacao_Java.md) | Proximo: [29 Instalacao VSCode Plugins](../docs/29_Instalacao_VSCode_Plugins.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

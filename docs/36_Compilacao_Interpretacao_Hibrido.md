@@ -85,6 +85,5 @@ Quando falamos que Java é “híbrido”, qual é o nome do arquivo intermediá
 
 <!-- nav_start -->
 ---
-Anterior: [VÃ­deo 02: Try Catch](../docs/35_Video_02_Try_Catch.md) | Próximo: [CÃ³digo de Exemplo para o Try Catch](../docs/37_Codigo_Exemplo_Try_Catch.md) | [Voltar ao Índice](../README.md)
+Anterior: [35 Video 02 Try Catch](../docs/35_Video_02_Try_Catch.md) | Proximo: [37 Codigo Exemplo Try Catch](../docs/37_Codigo_Exemplo_Try_Catch.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

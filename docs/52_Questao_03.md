@@ -83,6 +83,5 @@ Sem resolver aqui: se `notaFinalAluno = 59.9` e `percentualFaltas = 0.19`, a exp
 
 <!-- nav_start -->
 ---
-Anterior: [QuestÃ£o 02](../docs/51_Questao_02.md) | Próximo: [QuestÃ£o 04](../docs/53_Questao_04.md) | [Voltar ao Índice](../README.md)
+Anterior: [51 Questao 02](../docs/51_Questao_02.md) | Proximo: [53 Questao 04](../docs/53_Questao_04.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

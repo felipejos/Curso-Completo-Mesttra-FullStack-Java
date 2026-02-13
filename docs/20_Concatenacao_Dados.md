@@ -167,6 +167,5 @@ O que acontece com `+` quando pelo menos um dos lados é `String`: ele soma ou c
 
 <!-- nav_start -->
 ---
-Anterior: [Realizando a limpeza do buffer](../docs/19_Limpeza_Buffer.md) | Próximo: [Caractere de Escape \\](../docs/21_Caractere_de_Escape.md) | [Voltar ao Índice](../README.md)
+Anterior: [19 Limpeza Buffer](../docs/19_Limpeza_Buffer.md) | Proximo: [21 Caractere de Escape](../docs/21_Caractere_de_Escape.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

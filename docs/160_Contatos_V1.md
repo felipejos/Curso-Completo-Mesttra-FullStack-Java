@@ -553,8 +553,8 @@ Isso separa responsabilidades e reduz bagunça no `App`.
 4) Troque a busca por id para retornar também a posição (índice) do contato e explique por quê.
 
 ---
+
 <!-- nav_start -->
 ---
-Anterior: [VÃ­deo: Gerenciamento de Contatos V1](../docs/159_Video_Contatos_V1.md) | Próximo: [Gerenciamento de Contatos V2](../docs/161_Contatos_V2.md) | [Voltar ao Índice](../README.md)
+Anterior: [159 Video Contatos V1](../docs/159_Video_Contatos_V1.md) | Proximo: [161 Contatos V2](../docs/161_Contatos_V2.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

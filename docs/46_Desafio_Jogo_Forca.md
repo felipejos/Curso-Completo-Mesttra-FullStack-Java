@@ -64,6 +64,5 @@ Construir um **jogo da forca** para treinar:
 
 <!-- nav_start -->
 ---
-Anterior: [If Else: ExercÃ­cio 2](../docs/45_If_Else_Exercicio_2.md) | Próximo: [Jogo da Forca](../docs/47_Jogo_da_Forca.md) | [Voltar ao Índice](../README.md)
+Anterior: [45 If Else Exercicio 2](../docs/45_If_Else_Exercicio_2.md) | Proximo: [48 Requisitos Forca](../docs/48_Requisitos_Forca.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

@@ -133,6 +133,5 @@ Qual marcador você usa no `printf` para imprimir um número decimal com **2 cas
 
 <!-- nav_start -->
 ---
-Anterior: [Lista de ExercÃ­cios 2](../docs/30_Lista_Exercicios_2.md) | Próximo: [VÃ­deo: Formatando casas decimais](../docs/32_Video_Casas_Decimais.md) | [Voltar ao Índice](../README.md)
+Anterior: [30 Lista Exercicios 2](../docs/30_Lista_Exercicios_2.md) | Proximo: [32 Video Casas Decimais](../docs/32_Video_Casas_Decimais.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

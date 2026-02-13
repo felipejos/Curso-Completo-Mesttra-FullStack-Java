@@ -148,6 +148,5 @@ Escreva a expressão final juntando as 3 partes com `&&`:
 
 <!-- nav_start -->
 ---
-Anterior: [QuestÃ£o 01](../docs/50_Questao_01.md) | Próximo: [QuestÃ£o 03](../docs/52_Questao_03.md) | [Voltar ao Índice](../README.md)
+Anterior: [50 Questao 01](../docs/50_Questao_01.md) | Proximo: [52 Questao 03](../docs/52_Questao_03.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

@@ -182,6 +182,5 @@ No Java, qual bloco é executado quando ocorre um erro dentro do `try`?
 
 <!-- nav_start -->
 ---
-Anterior: [VÃ­deo: Formatando casas decimais](../docs/32_Video_Casas_Decimais.md) | Próximo: [VÃ­deo 01: Try Catch](../docs/34_Video_01_Try_Catch.md) | [Voltar ao Índice](../README.md)
+Anterior: [32 Video Casas Decimais](../docs/32_Video_Casas_Decimais.md) | Proximo: [34 Video 01 Try Catch](../docs/34_Video_01_Try_Catch.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

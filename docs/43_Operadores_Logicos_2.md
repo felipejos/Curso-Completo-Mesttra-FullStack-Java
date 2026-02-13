@@ -1,4 +1,4 @@
-# 🧠 Operadores Lógicos
+﻿# 🧠 Operadores Lógicos
 
 Os operadores lógicos representam o recurso que nos permite criar expressões lógicas maiores a partir da junção de duas ou mais expressões. Para isso, aplicamos as operações lógicas:
 
@@ -163,6 +163,5 @@ Depois mude `bloqueado` para `true`.
 
 <!-- nav_start -->
 ---
-Anterior: [Operadores Lógico](../docs/42_Operadores_Logico.md) | Pr�ximo: [If Else: Exercício 1](../docs/44_If_Else_Exercicio_1.md) | [Voltar ao �ndice](../README.md)
+Anterior: [42 Operadores Logico](../docs/42_Operadores_Logico.md) | Proximo: [44 If Else Exercicio 1](../docs/44_If_Else_Exercicio_1.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

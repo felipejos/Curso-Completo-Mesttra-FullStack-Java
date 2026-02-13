@@ -267,8 +267,8 @@ Use objetos quando cada “coisa” precisa de seus próprios valores:
    - `celsiusParaFahrenheit(double c)`
    - `fahrenheitParaCelsius(double f)`
 4) Explique (em 2 linhas) por que `main` é `static` e o que isso implica para acessar atributos de instância.
+
 <!-- nav_start -->
 ---
-Anterior: [Reescrevendo uma aplicaÃ§Ã£o para banco de dados](../docs/154_Reescrevendo_App_BD.md) | Próximo: [Exemplo de Classe UtilitÃ¡ria: Validador](../docs/156_Validador.md) | [Voltar ao Índice](../README.md)
+Anterior: [154 Reescrevendo App BD](../docs/154_Reescrevendo_App_BD.md) | Proximo: [156 Validador](../docs/156_Validador.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

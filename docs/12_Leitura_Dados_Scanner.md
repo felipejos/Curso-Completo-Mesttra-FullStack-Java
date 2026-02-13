@@ -67,8 +67,8 @@ A **Scanner** é uma “ferramenta” do Java para **ler dados que o usuário di
 Qual método você usaria para ler um texto com espaços, como “Rua das Flores 123”?
 
 ---
+
 <!-- nav_start -->
 ---
-Anterior: [Comandos de entrada e saÃ­da de dados no JAVA](../docs/11_Entrada_Saida_Dados_Java.md) | Próximo: [DiferenÃ§a entre print e println](../docs/13_Print_vs_Println.md) | [Voltar ao Índice](../README.md)
+Anterior: [11 Entrada Saida Dados Java](../docs/11_Entrada_Saida_Dados_Java.md) | Proximo: [13 Print vs Println](../docs/13_Print_vs_Println.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

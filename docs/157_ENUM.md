@@ -178,8 +178,8 @@ Em vez de tentar uma vez e parar, você pode **repetir até o usuário digitar c
    - Aceite também entradas como `pago`, `Pago`, `PAGO` (ou seja, normalize com `trim().toUpperCase()`).
 
 4) (Desafio) Crie um enum `DiaSemana` e um método `ehFimDeSemana()` retornando `true` para `SABADO` e `DOMINGO`.
+
 <!-- nav_start -->
 ---
-Anterior: [Exemplo de Classe UtilitÃ¡ria: Validador](../docs/156_Validador.md) | Próximo: [ArrayList](../docs/158_ArrayList.md) | [Voltar ao Índice](../README.md)
+Anterior: [156 Validador](../docs/156_Validador.md) | Proximo: [158 ArrayList](../docs/158_ArrayList.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

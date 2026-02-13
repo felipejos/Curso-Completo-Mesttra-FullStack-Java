@@ -334,6 +334,5 @@ Aplique `try/catch` também no **Exercício 01** e **Exercício 02** (eles impor
 
 <!-- nav_start -->
 ---
-Anterior: [SugestÃ£o ExercÃ­cio](../docs/38_Sugestao_Exercicio.md) | Próximo: [OperaÃ§Ãµes de ComparaÃ§Ã£o](../docs/40_Operacoes_Comparacao.md) | [Voltar ao Índice](../README.md)
+Anterior: [38 Sugestao Exercicio](../docs/38_Sugestao_Exercicio.md) | Proximo: [40 Operacoes Comparacao](../docs/40_Operacoes_Comparacao.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

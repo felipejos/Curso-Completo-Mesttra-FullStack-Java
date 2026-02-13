@@ -52,6 +52,5 @@ Complementos (sem substituir o texto acima)
 
 <!-- nav_start -->
 ---
-Anterior: [Conceito de Classe e Objeto](../docs/100_Classe_e_Objeto.md) | Próximo: [Classe utilitÃ¡ria para leitura de dados](../docs/102_Classe_Utilitaria_Leitura.md) | [Voltar ao Índice](../README.md)
+Anterior: [100 Classe e Objeto](../docs/100_Classe_e_Objeto.md) | Proximo: [102 Classe Utilitaria Leitura](../docs/102_Classe_Utilitaria_Leitura.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

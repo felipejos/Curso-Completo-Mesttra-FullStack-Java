@@ -166,6 +166,5 @@ O loop vai continuar **enquanto** a resposta for “NÃO TEM”.
 
 <!-- nav_start -->
 ---
-Anterior: [Estruturas de RepetiÃ§Ã£o](../docs/108_Estruturas_Repeticao_2.md) | Próximo: [Conceito Do While](../docs/110_Do_While.md) | [Voltar ao Índice](../README.md)
+Anterior: [108 Estruturas Repeticao 2](../docs/108_Estruturas_Repeticao_2.md) | Proximo: [110 Do While](../docs/110_Do_While.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

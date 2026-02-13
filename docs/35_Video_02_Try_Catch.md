@@ -77,6 +77,5 @@ Qual é a vantagem de usar `catch` com uma exceção **específica** (ex.: `Arit
 
 <!-- nav_start -->
 ---
-Anterior: [VÃ­deo 01: Try Catch](../docs/34_Video_01_Try_Catch.md) | Próximo: [CompilaÃ§Ã£o, InterpretaÃ§Ã£o e HÃ­brido](../docs/36_Compilacao_Interpretacao_Hibrido.md) | [Voltar ao Índice](../README.md)
+Anterior: [34 Video 01 Try Catch](../docs/34_Video_01_Try_Catch.md) | Proximo: [36 Compilacao Interpretacao Hibrido](../docs/36_Compilacao_Interpretacao_Hibrido.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

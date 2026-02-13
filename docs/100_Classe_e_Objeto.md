@@ -152,7 +152,5 @@ Assim, `c1` e `c2` mostram dados diferentes, mas continuam “sabendo” fazer a
 
 <!-- nav_start -->
 ---
-Anterior: [Lista 9 - Algoritmos de SeleÃ§Ã£o](../docs/99_Lista_09.md) | Próximo: [Classes utilitÃ¡rias versus mÃ©todos estÃ¡ticos](../docs/101_Classes_Utilitarias_vs_Static.md) | [Voltar ao Índice](../README.md)
+Anterior: [99 Lista 09](../docs/99_Lista_09.md) | Proximo: [101 Classes Utilitarias vs Static](../docs/101_Classes_Utilitarias_vs_Static.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-
-

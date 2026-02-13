@@ -160,6 +160,5 @@ E também:
 
 <!-- nav_start -->
 ---
-Anterior: [SubtraÃ§Ã£o Entre Datas e Horas](../docs/105_Subtracao_Datas_Horas.md) | Próximo: [Lista 10 - ExercÃ­cios](../docs/107_Lista_10.md) | [Voltar ao Índice](../README.md)
+Anterior: [105 Subtracao Datas Horas](../docs/105_Subtracao_Datas_Horas.md) | Proximo: [107 Lista 10](../docs/107_Lista_10.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

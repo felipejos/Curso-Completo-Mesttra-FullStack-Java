@@ -179,8 +179,8 @@ Exemplo genérico:
 
 ### 4) Pegadinha do WHERE
 1) Faça um LEFT JOIN e aplique uma condição na tabela da direita primeiro no WHERE e depois no ON. Compare os resultados.
+
 <!-- nav_start -->
 ---
-Anterior: [Conceitos Gerais](../docs/146_Conceitos_Gerais.md) | Próximo: [Entrega: Hackathon](../docs/148_Entrega_Hackathon.md) | [Voltar ao Índice](../README.md)
+Anterior: [146 Conceitos Gerais](../docs/146_Conceitos_Gerais.md) | Proximo: [148 Entrega Hackathon](../docs/148_Entrega_Hackathon.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

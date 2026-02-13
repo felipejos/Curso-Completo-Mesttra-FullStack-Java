@@ -824,8 +824,8 @@ Abaixo está a versão reescrita para banco de dados, mantendo a ideia do menu e
 3) (Java) Adicione uma opção “6 - Exibir aluno com maior média” (SELECT + cálculo).  
 4) (Java) Adicione validação de e-mail (precisa conter `@` e `.`) antes de salvar.  
 5) (DB) Crie uma coluna `status` (`ATIVO/INATIVO`) e mude o “excluir” para marcar `INATIVO` ao invés de apagar.
+
 <!-- nav_start -->
 ---
-Anterior: [VÃ­deo: Executando comandos SQL pelo Java](../docs/153_Video_SQL_no_Java.md) | Próximo: [Resumo de Classes e Objetos](../docs/155_Resumo_Classes_Objetos.md) | [Voltar ao Índice](../README.md)
+Anterior: [153 Video SQL no Java](../docs/153_Video_SQL_no_Java.md) | Proximo: [155 Resumo Classes Objetos](../docs/155_Resumo_Classes_Objetos.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

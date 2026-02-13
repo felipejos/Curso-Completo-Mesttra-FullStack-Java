@@ -129,6 +129,5 @@ Tente dizer o resultado (true/false) de:
 
 <!-- nav_start -->
 ---
-Anterior: [Teste 1: Deve ser resolvido atÃ© 10/10/2025](../docs/49_Teste_1.md) | Próximo: [QuestÃ£o 02](../docs/51_Questao_02.md) | [Voltar ao Índice](../README.md)
+Anterior: [48 Requisitos Forca](../docs/48_Requisitos_Forca.md) | Proximo: [51 Questao 02](../docs/51_Questao_02.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

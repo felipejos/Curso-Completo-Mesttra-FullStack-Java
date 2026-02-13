@@ -133,8 +133,8 @@ Mas, em projetos reais, costuma-se preferir **imports explícitos** (classe por 
 - `com.loja.produtos.Produto`
 - `com.estoque.produtos.Produto`
 E, no `Main`, use as duas (importando uma e referenciando a outra pelo nome completo do pacote).
+
 <!-- nav_start -->
 ---
-Anterior: [Bibliotecas de Terceiros no Java](../docs/149_Bibliotecas_Terceiros.md) | Próximo: [Criando o seu prÃ³prio pacote](../docs/151_Criando_Pacote.md) | [Voltar ao Índice](../README.md)
+Anterior: [149 Bibliotecas Terceiros](../docs/149_Bibliotecas_Terceiros.md) | Proximo: [151 Criando Pacote](../docs/151_Criando_Pacote.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

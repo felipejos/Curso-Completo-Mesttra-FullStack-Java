@@ -109,6 +109,5 @@ Crie variáveis:
 
 <!-- nav_start -->
 ---
-Anterior: [Entendendo os Operadores de ComparaÃ§Ã£o](../docs/41_Entendendo_Operadores_Comparacao.md) | Próximo: [Operadores LÃ³gicos](../docs/43_Operadores_Logicos_2.md) | [Voltar ao Índice](../README.md)
+Anterior: [41 Entendendo Operadores Comparacao](../docs/41_Entendendo_Operadores_Comparacao.md) | Proximo: [43 Operadores Logicos 2](../docs/43_Operadores_Logicos_2.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

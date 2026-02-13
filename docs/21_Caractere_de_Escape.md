@@ -123,6 +123,5 @@ Qual escape você usa para imprimir uma **barra invertida** `\` dentro de uma St
 
 <!-- nav_start -->
 ---
-Anterior: [ConcatenaÃ§Ã£o de Dados](../docs/20_Concatenacao_Dados.md) | Próximo: [IndentaÃ§Ã£o](../docs/22_Indentacao.md) | [Voltar ao Índice](../README.md)
+Anterior: [20 Concatenacao Dados](../docs/20_Concatenacao_Dados.md) | Proximo: [22 Indentacao](../docs/22_Indentacao.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

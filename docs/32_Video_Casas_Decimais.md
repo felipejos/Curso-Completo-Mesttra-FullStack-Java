@@ -60,6 +60,5 @@ Qual é o formatador do `printf` para mostrar **2 casas decimais**?
 
 <!-- nav_start -->
 ---
-Anterior: [Comando printf()](../docs/31_Comando_printf.md) | Próximo: [Uso do Try Catch](../docs/33_Uso_Try_Catch.md) | [Voltar ao Índice](../README.md)
+Anterior: [31 Comando printf](../docs/31_Comando_printf.md) | Proximo: [33 Uso Try Catch](../docs/33_Uso_Try_Catch.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

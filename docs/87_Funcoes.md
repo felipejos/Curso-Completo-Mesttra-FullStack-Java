@@ -224,6 +224,5 @@ Se você quiser, depois você pode me mandar como ficou o seu código refatorado
 
 <!-- nav_start -->
 ---
-Anterior: [Procedimentos com ParÃ¢metros](../docs/86_Procedimentos_Parametros.md) | Próximo: [VÃ­deo Resumo FunÃ§Ãµes e Procedimentos](../docs/88_Video_Resumo_Funcoes.md) | [Voltar ao Índice](../README.md)
+Anterior: [86 Procedimentos Parametros](../docs/86_Procedimentos_Parametros.md) | Proximo: [88 Video Resumo Funcoes](../docs/88_Video_Resumo_Funcoes.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

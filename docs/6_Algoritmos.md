@@ -55,6 +55,5 @@ Escreva passos para:
 
 <!-- nav_start -->
 ---
-Anterior: [Links Livros Recomendados](../docs/5_Livros_Recomendados.md) | Próximo: [Linguagens de ProgramaÃ§Ã£o](../docs/7_Linguagens_de_Programacao.md) | [Voltar ao Índice](../README.md)
+Anterior: [5 Livros Recomendados](../docs/5_Livros_Recomendados.md) | Proximo: [7 Linguagens de Programacao](../docs/7_Linguagens_de_Programacao.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

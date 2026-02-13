@@ -117,6 +117,5 @@ Depois de que você julgar que entendeu o código, tente reescrever este código
 
 <!-- nav_start -->
 ---
-Anterior: [Exemplos PrÃ¡ticos](../docs/88_Video_Resumo_Funcoes.md) | Próximo: [Calcular Ãrea Figuras GeomÃ©tricas](../docs/91_Calcular_Area.md) | [Voltar ao Índice](../README.md)
+Anterior: [88 Video Resumo Funcoes](../docs/88_Video_Resumo_Funcoes.md) | Proximo: [91 Calcular Area](../docs/91_Calcular_Area.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

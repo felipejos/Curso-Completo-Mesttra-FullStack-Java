@@ -163,6 +163,5 @@ Pegue o **Exercício 06 — Dia da semana** (1 a 7) e pense:
 
 <!-- nav_start -->
 ---
-Anterior: [Lista de ExercÃ­cios 03 - Estruturas de DecisÃ£o](../docs/59_Lista_Exercicios_03.md) | Próximo: [VÃ­deo Switch Case](../docs/61_Video_Switch_Case.md) | [Voltar ao Índice](../README.md)
+Anterior: [59 Lista Exercicios 03](../docs/59_Lista_Exercicios_03.md) | Proximo: [61 Video Switch Case](../docs/61_Video_Switch_Case.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

@@ -308,6 +308,5 @@ Sempre que você enxergar “linha e coluna”, pense em `tipo[][]`.
 
 <!-- nav_start -->
 ---
-Anterior: [Diferentes formas de acessar cada elemento do vetor](../docs/125_Acessar_Elementos_Vetor.md) | Próximo: [AplicaÃ§Ã£o com Menu de Escolha](../docs/127_Menu_de_Escolha.md) | [Voltar ao Índice](../README.md)
+Anterior: [125 Acessar Elementos Vetor](../docs/125_Acessar_Elementos_Vetor.md) | Proximo: [127 Menu de Escolha](../docs/127_Menu_de_Escolha.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

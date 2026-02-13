@@ -102,6 +102,5 @@ Quando você digita `abc` no lugar de um número, qual `catch` deve ser executad
 
 <!-- nav_start -->
 ---
-Anterior: [CompilaÃ§Ã£o, InterpretaÃ§Ã£o e HÃ­brido](../docs/36_Compilacao_Interpretacao_Hibrido.md) | Próximo: [SugestÃ£o ExercÃ­cio](../docs/38_Sugestao_Exercicio.md) | [Voltar ao Índice](../README.md)
+Anterior: [36 Compilacao Interpretacao Hibrido](../docs/36_Compilacao_Interpretacao_Hibrido.md) | Proximo: [38 Sugestao Exercicio](../docs/38_Sugestao_Exercicio.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

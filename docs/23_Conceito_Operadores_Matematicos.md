@@ -172,6 +172,5 @@ Qual operador você usa para descobrir o **resto** de uma divisão?
 
 <!-- nav_start -->
 ---
-Anterior: [IndentaÃ§Ã£o](../docs/22_Indentacao.md) | Próximo: [VÃ­deo: Operadores MatemÃ¡ticos](../docs/24_Video_Operadores_Matematicos.md) | [Voltar ao Índice](../README.md)
+Anterior: [22 Indentacao](../docs/22_Indentacao.md) | Proximo: [24 Video Operadores Matematicos](../docs/24_Video_Operadores_Matematicos.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

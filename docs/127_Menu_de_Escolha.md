@@ -125,6 +125,5 @@ Se você conseguir responder essas perguntas, você entendeu o padrão do “Men
 
 <!-- nav_start -->
 ---
-Anterior: [Vetores bidimensionais (ou matrizes)](../docs/126_Matrizes.md) | Próximo: [Desafio: Jogo da Forca](../docs/128_Desafio_Forca.md) | [Voltar ao Índice](../README.md)
+Anterior: [126 Matrizes](../docs/126_Matrizes.md) | Proximo: [128 Desafio Forca](../docs/128_Desafio_Forca.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

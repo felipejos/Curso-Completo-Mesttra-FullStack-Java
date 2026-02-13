@@ -64,8 +64,8 @@ Escolha **uma trilha** do roadmap.sh e faça:
 - Liste 5 caixas (tópicos) em ordem
 - Para cada tópico, escreva:
   - “O que eu preciso conseguir fazer?” (1 frase)
+
 <!-- nav_start -->
 ---
-Anterior: [Roteiros de Estudo](../docs/165_Roteiros_Estudo.md) | Próximo: [Java BÃ¡sico](../docs/167_Java_Basico.md) | [Voltar ao Índice](../README.md)
+Anterior: [170 Primeiro Projeto Spring Boot](../docs/170_Primeiro_Projeto_Spring_Boot.md) | Proximo: [502 Java Basico](../docs/502_Java_Basico.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

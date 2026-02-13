@@ -108,9 +108,7 @@ O que fica “sobrando” no buffer depois que você usa `nextInt()` e aperta EN
 
 ---
 
-
 <!-- nav_start -->
 ---
-Anterior: [Comandos para leitura de nÃºmeros](../docs/18_Leitura_Numeros.md) | Próximo: [ConcatenaÃ§Ã£o de Dados](../docs/20_Concatenacao_Dados.md) | [Voltar ao Índice](../README.md)
+Anterior: [18 Leitura Numeros](../docs/18_Leitura_Numeros.md) | Proximo: [20 Concatenacao Dados](../docs/20_Concatenacao_Dados.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

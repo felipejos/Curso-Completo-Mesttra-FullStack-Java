@@ -78,6 +78,5 @@ Por que `double` é mais comum que `float` em projetos?
 
 <!-- nav_start -->
 ---
-Anterior: [Tipos de VariÃ¡veis no JAVA](../docs/15_Tipos_Variaveis_Java.md) | Próximo: [AtribuiÃ§Ã£o direta de dados](../docs/17_Atribuicao_Direta.md) | [Voltar ao Índice](../README.md)
+Anterior: [15 Tipos Variaveis Java](../docs/15_Tipos_Variaveis_Java.md) | Proximo: [17 Atribuicao Direta](../docs/17_Atribuicao_Direta.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

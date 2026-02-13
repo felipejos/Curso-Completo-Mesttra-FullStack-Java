@@ -68,6 +68,5 @@ Em “faixas” (nota, IMC, idade), use uma destas estratégias:
 
 <!-- nav_start -->
 ---
-Anterior: [Teoria If Else](../docs/55_Teoria_If_Else.md) | Próximo: [Resumo Estruturas de DecisÃ£o](../docs/57_Resumo_Estruturas_Decisao.md) | [Voltar ao Índice](../README.md)
+Anterior: [55 Teoria If Else](../docs/55_Teoria_If_Else.md) | Proximo: [57 Resumo Estruturas Decisao](../docs/57_Resumo_Estruturas_Decisao.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

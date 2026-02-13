@@ -390,8 +390,8 @@ public class Main {
    - leia CPF do usuário,
    - valide,
    - repita até ser válido.
+
 <!-- nav_start -->
 ---
-Anterior: [Resumo de Classes e Objetos](../docs/155_Resumo_Classes_Objetos.md) | Próximo: [Conceito de ENUM](../docs/157_ENUM.md) | [Voltar ao Índice](../README.md)
+Anterior: [155 Resumo Classes Objetos](../docs/155_Resumo_Classes_Objetos.md) | Proximo: [157 ENUM](../docs/157_ENUM.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

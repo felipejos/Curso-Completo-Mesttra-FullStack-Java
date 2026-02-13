@@ -50,6 +50,5 @@ Quando você faz `10 / 6` usando `int`, o Java mantém as casas decimais ou cort
 
 <!-- nav_start -->
 ---
-Anterior: [Conceito: Operadores MatemÃ¡ticos](../docs/23_Conceito_Operadores_Matematicos.md) | Próximo: [Seu primeiro algoritmo em Java](../docs/25_Primeiro_Algoritmo_Java.md) | [Voltar ao Índice](../README.md)
+Anterior: [23 Conceito Operadores Matematicos](../docs/23_Conceito_Operadores_Matematicos.md) | Proximo: [25 Primeiro Algoritmo Java](../docs/25_Primeiro_Algoritmo_Java.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

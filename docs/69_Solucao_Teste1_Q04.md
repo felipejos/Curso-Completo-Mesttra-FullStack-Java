@@ -63,6 +63,5 @@
 
 <!-- nav_start -->
 ---
-Anterior: [SoluÃ§Ã£o de ExercÃ­cio](../docs/65_Desafio_CPF.md) | Próximo: [SoluÃ§Ã£o: Teste1 QuestÃ£o 05](../docs/70_Solucao_Teste1_Q05.md) | [Voltar ao Índice](../README.md)
+Anterior: [65 Desafio CPF](../docs/65_Desafio_CPF.md) | Proximo: [70 Solucao Teste1 Q05](../docs/70_Solucao_Teste1_Q05.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

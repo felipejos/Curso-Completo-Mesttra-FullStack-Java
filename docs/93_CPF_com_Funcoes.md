@@ -102,6 +102,5 @@ Abaixo temos o código de validação do CPF
 
 <!-- nav_start -->
 ---
-Anterior: [Lista de ExercÃ­cios 7](../docs/92_Lista_Exercicios_07.md) | Próximo: [Resposta Lista de ExercÃ­cios 7](../docs/94_Resposta_Lista_Exercicios_07.md) | [Voltar ao Índice](../README.md)
+Anterior: [92 Lista Exercicios 07](../docs/92_Lista_Exercicios_07.md) | Proximo: [94 Resposta Lista Exercicios 07](../docs/94_Resposta_Lista_Exercicios_07.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

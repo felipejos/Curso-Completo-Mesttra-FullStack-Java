@@ -334,6 +334,5 @@
 
 <!-- nav_start -->
 ---
-Anterior: [ExercÃ­cios](../docs/70_Solucao_Teste1_Q05.md) | Próximo: [Lista de ExercÃ­cios 5: Operador TernÃ¡rio](../docs/73_Lista_Exercicios_05.md) | [Voltar ao Índice](../README.md)
+Anterior: [70 Solucao Teste1 Q05](../docs/70_Solucao_Teste1_Q05.md) | Proximo: [73 Lista Exercicios 05](../docs/73_Lista_Exercicios_05.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

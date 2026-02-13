@@ -217,10 +217,7 @@ Outro | Código inválido | Exibir mensagem de erro
         }
     }
 
-
 <!-- nav_start -->
 ---
-Anterior: [Resposta Lista de ExercÃ­cios 7](../docs/94_Resposta_Lista_Exercicios_07.md) | Próximo: [CÃ¡lculo de Venda - Resposta](../docs/96_Calculo_Venda_Resposta.md) | [Voltar ao Índice](../README.md)
+Anterior: [94 Resposta Lista Exercicios 07](../docs/94_Resposta_Lista_Exercicios_07.md) | Proximo: [96 Calculo Venda Resposta](../docs/96_Calculo_Venda_Resposta.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-
-

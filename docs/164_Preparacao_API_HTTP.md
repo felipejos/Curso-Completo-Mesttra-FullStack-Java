@@ -260,8 +260,8 @@ Mas paga o preço:
 4) Faça um `.bat` que imprime uma mensagem antes e depois de rodar o programa.
 
 ---
+
 <!-- nav_start -->
 ---
-Anterior: [VÃ­deos: Gerenciando Contatos V2](../docs/163_Videos_Contatos_V2.md) | Próximo: [Roteiros de Estudo](../docs/165_Roteiros_Estudo.md) | [Voltar ao Índice](../README.md)
+Anterior: [163 Videos Contatos V2](../docs/163_Videos_Contatos_V2.md) | Proximo: [165 Padrões Arquiteturais e Padrões de Projeto](../docs/165_Padrões_Arquiteturais_e_Padrões_de_Projeto.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

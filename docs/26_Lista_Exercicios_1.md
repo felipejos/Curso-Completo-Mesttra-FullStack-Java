@@ -132,6 +132,5 @@ No final, converta para **kg**.
 
 <!-- nav_start -->
 ---
-Anterior: [Seu primeiro algoritmo em Java](../docs/25_Primeiro_Algoritmo_Java.md) | Próximo: [InstalaÃ§Ã£o do Java](../docs/27_Instalacao_Java.md) | [Voltar ao Índice](../README.md)
+Anterior: [25 Primeiro Algoritmo Java](../docs/25_Primeiro_Algoritmo_Java.md) | Proximo: [27 Instalacao Java](../docs/27_Instalacao_Java.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

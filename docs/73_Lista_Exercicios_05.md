@@ -175,6 +175,5 @@ Converter os códigos abaixo para utilizarem **operador ternário** **caso seja 
 
 <!-- nav_start -->
 ---
-Anterior: [Lista de ExercÃ­cios 4: Switch Case](../docs/72_Lista_Exercicios_04.md) | Próximo: [Lista de ExercÃ­cios 6 - Estruturas de DecisÃ£o](../docs/74_Lista_Exercicios_06.md) | [Voltar ao Índice](../README.md)
+Anterior: [72 Lista Exercicios 04](../docs/72_Lista_Exercicios_04.md) | Proximo: [74 Lista Exercicios 06](../docs/74_Lista_Exercicios_06.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

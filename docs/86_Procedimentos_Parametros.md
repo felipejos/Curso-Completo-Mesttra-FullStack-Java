@@ -153,6 +153,5 @@ Faça perguntas ao chatgpt ou pesquise na internet os seguintes questionamentos:
 
 <!-- nav_start -->
 ---
-Anterior: [Procedimentos](../docs/85_Procedimentos.md) | Próximo: [FunÃ§Ãµes](../docs/87_Funcoes.md) | [Voltar ao Índice](../README.md)
+Anterior: [85 Procedimentos](../docs/85_Procedimentos.md) | Proximo: [87 Funcoes](../docs/87_Funcoes.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

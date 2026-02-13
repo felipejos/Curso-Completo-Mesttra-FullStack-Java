@@ -61,6 +61,5 @@ A ideia é você treinar o mesmo padrão com outro contexto.
 
 <!-- nav_start -->
 ---
-Anterior: [Conceito Do While](../docs/110_Do_While.md) | Próximo: [Exemplos de Uso do Do While](../docs/112_Exemplos_Do_While.md) | [Voltar ao Índice](../README.md)
+Anterior: [110 Do While](../docs/110_Do_While.md) | Proximo: [112 Exemplos Do While](../docs/112_Exemplos_Do_While.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

@@ -676,8 +676,8 @@ Essas colunas são usadas o tempo todo:
     SELECT *
     FROM pedido
     WHERE valor_total > (SELECT AVG(valor_total) FROM pedido);
+
 <!-- nav_start -->
 ---
-Anterior: [Banco de Dados Agenda TelefÃ´nica](../docs/143_Agenda_Telefonica.md) | Próximo: [Banco de Dados Sistema Escolar](../docs/145_Sistema_Escolar.md) | [Voltar ao Índice](../README.md)
+Anterior: [143 Agenda Telefonica](../docs/143_Agenda_Telefonica.md) | Proximo: [145 Sistema Escolar](../docs/145_Sistema_Escolar.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

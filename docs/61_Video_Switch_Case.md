@@ -49,6 +49,5 @@ Resolva o **Exercício 06 — Dia da semana** usando `switch`:
 
 <!-- nav_start -->
 ---
-Anterior: [Conceito Switch Case](../docs/60_Conceito_Switch_Case.md) | Próximo: [Operador TernÃ¡rio](../docs/62_Operador_Ternario.md) | [Voltar ao Índice](../README.md)
+Anterior: [60 Conceito Switch Case](../docs/60_Conceito_Switch_Case.md) | Proximo: [62 Operador Ternario](../docs/62_Operador_Ternario.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

@@ -1,4 +1,4 @@
-# Padrões Arquiteturais e Padrões de Projeto
+﻿# Padrões Arquiteturais e Padrões de Projeto
 
 ---
 
@@ -138,7 +138,8 @@ Em resumo, arquitetura e padrões de projeto se complementam: a arquitetura orga
 ---
 
 ---
+
 <!-- nav_start -->
 ---
-Anterior: [VÃ­deos: Gerenciando Contatos V2](../docs/163_Videos_Contatos_V2.md) | Próximo: [Roteiros de Estudo](../docs/165_Roteiros_Estudo.md) | [Voltar ao Índice](../README.md)
+Anterior: [164 Preparacao API HTTP](../docs/164_Preparacao_API_HTTP.md) | Proximo: [166 Padrão Arquitetural MVC](../docs/166_Padrão_Arquitetural_MVC.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->

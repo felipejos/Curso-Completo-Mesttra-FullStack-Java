@@ -151,8 +151,8 @@ Mostre na tela o que foi digitado:
 Qual mensagem você vai colocar no `System.out.print(...)` para pedir o endereço do usuário?
 
 ---
+
 <!-- nav_start -->
 ---
-Anterior: [OnlineGDB](../docs/10_OnlineGDB.md) | Próximo: [Leitura de Dados com a Classe Scanner](../docs/12_Leitura_Dados_Scanner.md) | [Voltar ao Índice](../README.md)
+Anterior: [10 onlinegdb](../docs/10_onlinegdb.md) | Proximo: [12 Leitura Dados Scanner](../docs/12_Leitura_Dados_Scanner.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

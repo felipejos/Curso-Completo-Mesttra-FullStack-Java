@@ -9,6 +9,5 @@ Assista ao vídeo abaixo:
 
 <!-- nav_start -->
 ---
-Anterior: [FunÃ§Ãµes](../docs/87_Funcoes.md) | Próximo: [Exemplos PrÃ¡ticos](../docs/90_Morangos_Macas.md) | [Voltar ao Índice](../README.md)
+Anterior: [87 Funcoes](../docs/87_Funcoes.md) | Proximo: [90 Morangos Macas](../docs/90_Morangos_Macas.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

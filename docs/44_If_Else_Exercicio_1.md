@@ -143,6 +143,5 @@ Exemplo de saída:
 
 <!-- nav_start -->
 ---
-Anterior: [Operadores LÃ³gicos](../docs/43_Operadores_Logicos_2.md) | Próximo: [If Else: ExercÃ­cio 2](../docs/45_If_Else_Exercicio_2.md) | [Voltar ao Índice](../README.md)
+Anterior: [43 Operadores Logicos 2](../docs/43_Operadores_Logicos_2.md) | Proximo: [45 If Else Exercicio 2](../docs/45_If_Else_Exercicio_2.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

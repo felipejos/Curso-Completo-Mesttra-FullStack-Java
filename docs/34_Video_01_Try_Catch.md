@@ -62,6 +62,5 @@ Qual é o bloco que “pega” o erro quando algo falha dentro do `try`?
 
 <!-- nav_start -->
 ---
-Anterior: [Uso do Try Catch](../docs/33_Uso_Try_Catch.md) | Próximo: [VÃ­deo 02: Try Catch](../docs/35_Video_02_Try_Catch.md) | [Voltar ao Índice](../README.md)
+Anterior: [33 Uso Try Catch](../docs/33_Uso_Try_Catch.md) | Proximo: [35 Video 02 Try Catch](../docs/35_Video_02_Try_Catch.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

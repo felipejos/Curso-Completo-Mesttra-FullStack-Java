@@ -33,6 +33,5 @@
 
 <!-- nav_start -->
 ---
-Anterior: [Lista de ExercÃ­cios 5: Operador TernÃ¡rio](../docs/73_Lista_Exercicios_05.md) | Próximo: [Resposta: Lista de ExercÃ­cios 6](../docs/75_Resposta_Lista_Exercicios_06.md) | [Voltar ao Índice](../README.md)
+Anterior: [73 Lista Exercicios 05](../docs/73_Lista_Exercicios_05.md) | Proximo: [75 Resposta Lista Exercicios 06](../docs/75_Resposta_Lista_Exercicios_06.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

@@ -328,8 +328,8 @@ Facilita debug quando o banco não conecta.
 2) Faça um `SELECT` com `WHERE email = ?` recebendo o email por variável.
 3) No `UPDATE`, também altere o `nome` além do email.
 4) No `DELETE`, peça o ID para o usuário via `Scanner` e apague o registro digitado.
+
 <!-- nav_start -->
 ---
-Anterior: [Criando o seu prÃ³prio pacote](../docs/151_Criando_Pacote.md) | Próximo: [VÃ­deo: Executando comandos SQL pelo Java](../docs/153_Video_SQL_no_Java.md) | [Voltar ao Índice](../README.md)
+Anterior: [151 Criando Pacote](../docs/151_Criando_Pacote.md) | Proximo: [153 Video SQL no Java](../docs/153_Video_SQL_no_Java.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

@@ -247,6 +247,5 @@ No exemplo 02 seria o exemplo de sintaxe de como executar uma função, obviamen
 
 <!-- nav_start -->
 ---
-Anterior: [Conceito Geral: FunÃ§Ãµes e Procedimentos](../docs/84_Conceito_Geral_Funcoes.md) | Próximo: [Procedimentos com ParÃ¢metros](../docs/86_Procedimentos_Parametros.md) | [Voltar ao Índice](../README.md)
+Anterior: [84 Conceito Geral Funcoes](../docs/84_Conceito_Geral_Funcoes.md) | Proximo: [86 Procedimentos Parametros](../docs/86_Procedimentos_Parametros.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-

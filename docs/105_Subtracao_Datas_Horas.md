@@ -131,6 +131,5 @@ Mas para exercícios e cálculos locais, `LocalDateTime` é perfeito.
 
 <!-- nav_start -->
 ---
-Anterior: [Criando uma Data ou Hora a partir de uma String](../docs/104_Data_Hora_de_String.md) | Próximo: [OperaÃ§Ãµes de AcrÃ©scimo e SubtraÃ§Ã£o em Datas e Horas](../docs/106_Acrescimo_Subtracao.md) | [Voltar ao Índice](../README.md)
+Anterior: [104 Data Hora de String](../docs/104_Data_Hora_de_String.md) | Proximo: [106 Acrescimo Subtracao](../docs/106_Acrescimo_Subtracao.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->
-
