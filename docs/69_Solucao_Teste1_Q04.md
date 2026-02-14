@@ -1,5 +1,7 @@
 ﻿# Solução: Teste1 Questão 04
 
+---
+
 ## Enunciado (Teste 1 – Questão 04)
 - Escreva um algoritmo que leia as dimensões de um terreno (**frente** e **lateral**).
 - Leia também o **valor do metro quadrado**.
@@ -60,6 +62,106 @@
             teclado.close();
         }
     }
+
+---
+
+# Complemento da Lição
+
+---
+
+## ✅ O que sua solução já atende muito bem
+- Lê as três entradas (**frente**, **lateral**, **valor do metro²**).
+- Calcula o valor do terreno: `frente * lateral * valorMetroQuadrado`.
+- Aplica a regra:
+  - quadrado (`frente == lateral`) → **+10%**
+  - retângulo → **-2%**
+- Usa `try/catch` para capturar erro de digitação (`InputMismatchException`).
+
+---
+
+## ⚠️ Ponto principal do enunciado (“NÃO seja interrompido por exceções”)
+Do jeito que está, se o usuário digitar algo inválido:
+- cai no `catch`,
+- mostra a mensagem,
+- e o programa **termina** (não volta a pedir a entrada).
+
+Para cumprir “não interromper”, o padrão é:
+- **repetir a pergunta** até vir um valor válido (**loop + try/catch**)
+- e **descartar a entrada inválida** do `Scanner` para não ficar preso no mesmo erro
+
+---
+
+## 🧠 Por que precisa “descartar a entrada inválida”?
+Quando o usuário digita letras e você usa `nextInt()`/`nextFloat()`, o `Scanner` não consegue converter e lança `InputMismatchException`.  
+Mas aquele texto inválido continua “parado” na entrada. Se você não limpar, vai falhar de novo na próxima tentativa.
+
+Linha típica para limpar:
+- `teclado.nextLine();` (descarta o que sobrou na linha)
+
+---
+
+## 🧩 Esqueleto do padrão correto (para você encaixar nas 3 leituras)
+
+### 1) Ler inteiro positivo (frente/lateral)
+    int valor = 0;
+
+    while (true) {
+        try {
+            System.out.print("Digite ...: ");
+            valor = teclado.nextInt();
+
+            if (valor <= 0) {
+                System.out.println("Erro: informe um número maior que 0.");
+                continue;
+            }
+
+            break;
+        } catch (InputMismatchException e) {
+            System.out.println("Erro: digite um número inteiro válido.");
+            teclado.nextLine(); // limpa entrada inválida
+        }
+    }
+
+### 2) Ler float positivo (valor do metro²)
+    float valor = 0.0f;
+
+    while (true) {
+        try {
+            System.out.print("Digite ...: ");
+            valor = teclado.nextFloat();
+
+            if (valor <= 0) {
+                System.out.println("Erro: informe um valor maior que 0.");
+                continue;
+            }
+
+            break;
+        } catch (InputMismatchException e) {
+            System.out.println("Erro: digite um número decimal válido.");
+            teclado.nextLine(); // limpa entrada inválida
+        }
+    }
+
+---
+
+## ✅ Ajustes finos (qualidade)
+- `ArithmeticException` aqui tende a não acontecer (não tem divisão). O essencial é `InputMismatchException`.
+- Validar valores:
+  - `frenteMts > 0`
+  - `lateralMts > 0`
+  - `valorMetroQuadrado > 0`
+- Fechar `Scanner` no final é bom (e pode ir em `finally` quando você migrar para loops e/ou múltiplas leituras).
+
+---
+
+## Exercício rápido (1 passo)
+Pegue sua solução e altere **apenas a leitura de `frenteMts`** para o padrão com `while(true)` + `try/catch` + `teclado.nextLine()` no erro.  
+Depois teste digitando:
+- `abc` (tem que avisar e pedir de novo)
+- `-5` (tem que avisar e pedir de novo)
+- `10` (tem que aceitar e seguir)
+
+---
 
 <!-- nav_start -->
 ---

@@ -1,30 +1,42 @@
 ﻿# Resposta: Lista de Exercícios 6
 
+---
+
 > Antes de olhar as respostas, tente você mesmo escrever os algoritmos. 🙂
 
 ---
 
 ## Vídeos com as respostas (por partes)
 
-## Parte 1
+---
+
+### Parte 1  
 Link: https://youtu.be/KyQwtbGtRh8  
 [![Parte 1](https://img.youtube.com/vi/KyQwtbGtRh8/hqdefault.jpg)](https://youtu.be/KyQwtbGtRh8)
 
-## Parte 2
+---
+
+### Parte 2  
 Link: https://youtu.be/bYWTAmh3BEw  
 [![Parte 2](https://img.youtube.com/vi/bYWTAmh3BEw/hqdefault.jpg)](https://youtu.be/bYWTAmh3BEw)
 
-## Parte 3
+---
+
+### Parte 3  
 Link: https://youtu.be/f6iUXsUsE4U  
 [![Parte 3](https://img.youtube.com/vi/f6iUXsUsE4U/hqdefault.jpg)](https://youtu.be/f6iUXsUsE4U)
 
-## Parte 4
+---
+
+### Parte 4  
 Link: https://youtu.be/7cYKvkQu4lU  
 [![Parte 4](https://img.youtube.com/vi/7cYKvkQu4lU/hqdefault.jpg)](https://youtu.be/7cYKvkQu4lU)
 
 ---
 
 # Soluções (códigos)
+
+---
 
 ## Exercício 10 — Par ou Ímpar
 
@@ -544,6 +556,60 @@ Link: https://youtu.be/7cYKvkQu4lU
 
         }
     }
+
+---
+
+# Complemento da Lição
+
+---
+
+## ✅ Observações rápidas (para aprender com os códigos)
+
+### 1) `Scanner` e fechamento
+Vários códigos não fecham o `Scanner`. Em exercícios pequenos funciona, mas o padrão bom é sempre fechar:
+
+    teclado.close();
+
+---
+
+### 2) `nextBoolean()` (Exercício 6) — entrada esperada
+`nextBoolean()` normalmente espera **true** ou **false** (não “1/0”).
+Se o enunciado/quadrinho da lista pedir “V/F”, o mais comum é ler `String` e interpretar.
+
+---
+
+### 3) Exercício 5 — e o caso do zero?
+O enunciado fala “dobro se positivo” e “triplo se negativo”.
+No código atual, se o valor for `0`, `resultado` fica `0` e nada é impresso (porque tem `if (resultado != 0)`).
+Uma saída clara para `0` evita confusão.
+
+---
+
+### 4) Exercício 11 — opção inválida
+O `else` final assume automaticamente a opção “3x com 10%”.
+Se o usuário digitar `9`, cai no `else` também.
+Separar `else if (opcaoPagamento == 4)` e ter um `else` para inválido deixa a regra mais correta.
+
+---
+
+### 5) Exercício 12 — conceito + aprovado/reprovado
+O enunciado menciona imprimir:
+- número do aluno
+- notas
+- ME
+- MA
+- conceito
+- “Aprovado” (A/B/C) ou “Reprovado” (D/E)
+
+O código calcula MA e imprime conceito, mas ainda dá para complementar com a mensagem final “Aprovado/Reprovado” seguindo a regra.
+
+---
+
+## 🧠 Mini-revisão (mnemônico de decisão)
+- **Faixa**: sempre pense em `>=` (de baixo para cima) para evitar buracos.
+- **Ordem**: do maior critério para o menor (ex.: `>= 90`, depois `>= 75`, depois `>= 60`...).
+
+---
 
 <!-- nav_start -->
 ---
