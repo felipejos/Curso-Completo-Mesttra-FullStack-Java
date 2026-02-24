@@ -245,6 +245,124 @@ O exemplo 01 é o comportamento padrão de execução de um procedimento, ou sej
 
 No exemplo 02 seria o exemplo de sintaxe de como executar uma função, obviamente no nosso caso isto irá produzir um erro pois o bloco de comandos foi escrito utilizando o termo `void`.
 
+---
+
+# Complemento da Lição
+
+---
+
+## 🧠 Módulo 1 — O que “procedimento” significa no Java (sem complicar)
+
+No Java, “procedimento” é um nome didático para um **método `void`**.
+
+- `void` significa: **não devolve valor**
+- Ele **executa** e volta para quem chamou
+
+Exemplo do mundo real:
+- Um procedimento é como “tocar o alarme”:
+  - você manda tocar
+  - ele toca
+  - não existe um “resultado” para você guardar em uma variável
+
+---
+
+## 🧩 Módulo 2 — Como identificar um procedimento no código (check rápido)
+
+Um método é procedimento quando tem:
+
+- `static`
+- `void`
+- um nome + parênteses
+- um bloco `{ ... }`
+
+Exemplo:
+
+    static void exibirMenu() {
+        // comandos
+    }
+
+O ponto-chave é: **`void`**.
+
+---
+
+## 🔁 Módulo 3 — Passo a passo do fluxo (com setinhas)
+
+Trecho do `main`:
+
+    exibirMenu();
+    try {
+        // ...
+    }
+
+Fluxo:
+1) Executa `exibirMenu();`
+2) Entra no método `exibirMenu()`
+3) Executa os `System.out.println(...)`
+4) Termina o método
+5) Volta para a próxima linha no `main` (o `try`)
+
+---
+
+## ✅ Módulo 4 — Benefícios reais que você ganha (na prática)
+
+### 1) `main` fica mais “limpo”
+Em vez de um monte de `println`, fica:
+
+    exibirMenu();
+
+Isso melhora a leitura:
+- você olha e já entende “aqui exibe o menu”.
+
+### 2) Você pode reutilizar
+Se amanhã você precisar exibir o menu de novo (ex.: repetir o menu em um loop),
+basta chamar:
+
+    exibirMenu();
+
+Sem copiar e colar.
+
+### 3) Você muda o menu em um só lugar
+Se quiser adicionar “4 - Quadrado”, você altera **apenas dentro** do método.
+
+---
+
+## ⚠️ Módulo 5 — Erros comuns ao criar procedimentos
+
+1) Esquecer o `void`
+- Aí vira função (método com retorno) e o Java exige `return`.
+
+2) Tentar guardar o retorno do procedimento
+- Isso não faz sentido:
+
+    String resultado = exibirMenu();
+
+Porque `exibirMenu()` não devolve nada.
+
+3) Criar o método fora da classe
+- No Java, métodos precisam estar **dentro da classe**.
+
+---
+
+## 🧪 Exercícios (para fixar com prática)
+
+1) Crie um procedimento `exibirTitulo()` que imprime:
+- “=== Calculadora ===”
+
+2) Crie um procedimento `exibirMenuOperacoes()` que imprime:
+- “1 - Somar”
+- “2 - Subtrair”
+- “3 - Sair”
+
+3) No `main`, chame os dois procedimentos antes de pedir a opção.
+
+4) Crie um procedimento `mostrarErroOpcao()` que imprime:
+- “Opção inválida.”
+
+E use ele no `default` do `switch`.
+
+---
+
+
 <!-- nav_start -->
 ---
 Anterior: [84 Conceito Geral Funcoes](../docs/84_Conceito_Geral_Funcoes.md) | Proximo: [86 Procedimentos Parametros](../docs/86_Procedimentos_Parametros.md) | [Voltar ao Indice](../README.md)

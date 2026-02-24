@@ -129,6 +129,132 @@ Depois o programa compara as escolhas e mostra o **resultado da batalha** com ba
 
 ---
 
+# Complemento da Lição
+
+---
+
+## 🧩 Módulo 1 — Visão geral (passo a passo do raciocínio)
+
+1) **O vilão escolhe primeiro (em segredo)**
+- `sorteio.nextInt(3) + 1` gera `1`, `2` ou `3`.
+
+2) **O herói escolhe pelo teclado**
+- Lê como texto (`nextLine`)
+- Converte para número (`Integer.parseInt`)
+- Valida se está entre `1` e `3`
+
+3) **O programa traduz números em ações**
+- `1` → Atacar
+- `2` → Defender
+- `3` → Fugir
+
+4) **O programa aplica as regras**
+- Usa `resultadoBatalha(heroi, vila)` para retornar uma frase pronta.
+
+---
+
+## 🎲 Módulo 2 — Entendendo o sorteio do vilão
+
+    int escolhaVila = sorteio.nextInt(3) + 1;
+
+- `nextInt(3)` gera: `0`, `1` ou `2`
+- Somando `+1`, vira: `1`, `2` ou `3`
+
+Exemplo do mundo real:
+- É como girar uma roleta com 3 resultados e depois “renomear” para 1, 2 e 3.
+
+---
+
+## 🛡️ Módulo 3 — Validação (por que isso evita quebrar)
+
+O problema que pode acontecer:
+- usuário digita `abc`
+- `Integer.parseInt("abc")` gera `NumberFormatException`
+
+Seu `try-catch`:
+- captura o erro
+- mostra mensagem clara
+- encerra com segurança (sem travar o programa)
+
+Além disso, você validou o intervalo:
+- se não for 1..3, também encerra com mensagem.
+
+---
+
+## 🧠 Módulo 4 — Como a função `resultadoBatalha()` “lê” a tabela
+
+A tabela de regras é como “linha e coluna”:
+
+- Linha = escolha do **Herói**
+- Coluna = escolha do **Vilão**
+
+Seu método faz exatamente isso:
+
+1) Primeiro escolhe o “bloco” pela linha (Herói):
+- se `heroi == 1` (Atacar)
+- se `heroi == 2` (Defender)
+- se `heroi == 3` (Fugir)
+
+2) Dentro de cada bloco, usa `switch (vila)` para escolher a coluna.
+
+Exemplo:
+- Herói = `2` (Defender)
+- Vilão = `1` (Atacar)
+- Cai em:
+  - bloco do herói `2`
+  - `case 1` do vilão
+  - retorna: “Você defendeu...”
+
+---
+
+## ✅ Módulo 5 — Mapeamento completo (para conferir rapidamente)
+
+- Herói Atacar (1):
+  - Vilão Atacar (1) → ambos se ferem
+  - Vilão Defender (2) → vilão bloqueia
+  - Vilão Fugir (3) → herói acerta pelas costas
+
+- Herói Defender (2):
+  - Vilão Atacar (1) → herói bloqueia
+  - Vilão Defender (2) → ninguém se fere
+  - Vilão Fugir (3) → vilão foge
+
+- Herói Fugir (3):
+  - Vilão Atacar (1) → herói escapa por pouco
+  - Vilão Defender (2) → herói foge, vilão não segue
+  - Vilão Fugir (3) → ambos fogem
+
+---
+
+## ⚠️ Erros comuns (que seu código já evita)
+
+- Digitar texto e quebrar o programa → evitado com `try-catch`
+- Digitar `0` ou `4` e cair em regra inexistente → evitado com validação 1..3
+- Mostrar número sem significado → evitado com `nomeAcao()`
+
+---
+
+## 🧪 Exercícios (evolução do mesmo jogo)
+
+1) Faça o programa mostrar também os números escolhidos:
+- “Herói: 2 (Defender)”
+- “Vilão: 1 (Atacar)”
+
+2) Faça o jogo ter 3 rodadas:
+- no final mostre quantas vitórias/derrotas/empates do herói
+
+3) Crie um placar de “dano”:
+- ataque bem-sucedido tira 2 pontos de vida
+- ambos se ferem tira 1 de cada
+- defender não perde vida
+- fugir não perde vida
+- fim quando alguém chegar a 0
+
+---
+
+
+---
+
 <!-- nav_start -->
 ---
 Anterior: [80 Acerte Numero](../docs/80_Acerte_Numero.md) | Proximo: [82 Conceito Bibliotecas](../docs/82_Conceito_Bibliotecas.md) | [Voltar ao Indice](../README.md)

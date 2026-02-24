@@ -69,9 +69,9 @@ Código: https://drive.google.com/drive/folders/1a2WOA_IPDou0GggNIpGBiLgHe80cY-4
    - porta (`server.port`)
    - configuração de banco (se houver)
 
----
+--- 
 
 <!-- nav_start -->
 ---
-Anterior: [169 Protocolo HTTP](../docs/169_Protocolo_HTTP.md) | Proximo: [501 Orientacoes](../docs/501_Orientacoes.md) | [Voltar ao Indice](../README.md)
+Anterior: [170 Esqueleto API Spring Boot](../docs/170_Esqueleto_API_Spring_Boot.md) | Proximo: [172 Primeiro Projeto Spring Boot com Frontend](../docs/172_Primeiro_Projeto_Spring_Boot_com_Frontend.md) | [Voltar ao Indice](../README.md)
 <!-- nav_end -->

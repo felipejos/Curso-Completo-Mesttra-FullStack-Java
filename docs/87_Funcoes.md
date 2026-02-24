@@ -7,8 +7,6 @@ Com base no código abaixo peça o chatgpt para.
 
 Para isto copie e cole o texto e o código no prompt do chatgpt.
 
-
-
 Sou iniciante em programação, aprendi sobre variavéis, comandos de entrada e saída e estrutras de decisão, me explique o conceito de funções em java. Explique como é a sintaxe e execução de funções criadas pelo próprio usuário. Quais funções de usuário poderiam ser criadas no código abaixo para otimizar o algoritmo e tirar proveito dos conceitos de funções.
 
 
@@ -221,6 +219,127 @@ Obs.: aqui é só um exemplo didático. Você pode escolher se quer “tentar de
   - você quer deixar o `main` mais organizado.
 
 Se você quiser, depois você pode me mandar como ficou o seu código refatorado e eu te digo se você realmente transformou em funções do jeito certo (sem mudar a lógica).
+
+---
+
+# Complemento da Lição
+
+---
+
+## 🧠 Aula 1 — Função, Procedimento e “Método” (mapa mental)
+
+No Java, **tudo é método**. A diferença prática para iniciantes é:
+
+- **Procedimento**: método com `void`
+  - faz uma ação (exibir menu, imprimir texto)
+  - não devolve nada
+
+- **Função**: método com retorno (`int`, `double`, `String`, `boolean`...)
+  - calcula/processa algo
+  - devolve um valor com `return`
+
+Mini regra para não errar:
+- Se você consegue escrever: `resultado = ...;` → provavelmente é **função**
+- Se você só chama e pronto: `...();` → provavelmente é **procedimento**
+
+---
+
+## 🧩 Aula 2 — Assinatura da função (o que o Java enxerga)
+
+Quando você cria uma função, o Java “guarda”:
+
+- Nome do método (ex.: `calcularAreaCirculo`)
+- Quantidade e tipos de parâmetros (ex.: `(double)`)
+- Tipo de retorno (ex.: `double`)
+
+Isso é importante porque:
+- a chamada precisa “combinar” com a definição
+- se não combinar, dá erro antes de rodar (erro de compilação)
+
+Exemplo mental:
+- se você definiu: `calcularAreaCirculo(double raio)`
+- você deve chamar: `calcularAreaCirculo(2.0)`
+- se chamar: `calcularAreaCirculo()` → falta argumento
+- se chamar: `calcularAreaCirculo("2")` → tipo errado
+
+---
+
+## 🧱 Aula 3 — Como refatorar seu algoritmo usando funções (passo a passo)
+
+Objetivo: deixar o `main` mais “limpo”, com decisões e chamadas, e empurrar cálculos para funções.
+
+### Passo 1: transformar cada fórmula em uma função (mais fácil)
+Crie 3 funções:
+
+    static double calcularAreaCirculo(double raio) {
+        return 3.14159 * raio * raio;
+    }
+
+    static double calcularAreaRetangulo(double largura, double altura) {
+        return largura * altura;
+    }
+
+    static double calcularAreaTriangulo(double base, double altura) {
+        return (base * altura) / 2.0;
+    }
+
+Resultado prático:
+- você tira as fórmulas de dentro do `switch`
+- o `switch` fica focado em “qual figura foi escolhida”
+
+---
+
+## 🧠 Aula 4 — Funções que “pagam o custo” (as que mais ajudam de verdade)
+
+Além das funções de cálculo, as que mais ajudam iniciantes são as de **leitura**:
+
+Por quê?
+- hoje o código repete prompts e leitura
+- `try-catch` fica espalhado
+- a lógica de “ler um número” aparece várias vezes
+
+Ideia (conceito de responsabilidade única):
+- `lerDouble(...)` cuida só de ler um `double`
+- `lerInt(...)` cuida só de ler um `int`
+- o `main` decide o fluxo
+
+---
+
+## ⚠️ Aula 5 — Erros comuns ao criar funções (para evitar dor de cabeça)
+
+1) Esquecer o `return` em função
+- Se o retorno é `double`, tem que devolver `double`.
+
+2) Tentar usar variável do `main` dentro da função (escopo)
+- Se a função precisa de um valor, ela recebe por parâmetro.
+
+3) Misturar “calcular” com “imprimir”
+- Função de cálculo idealmente só calcula e retorna.
+- Exibir mensagem pode ficar em procedimento (ou no `main`).
+
+---
+
+## ✅ Aula 6 — Checklist de qualidade (iniciante, mas profissional)
+
+- [ ] Cada função tem um nome que explica o que faz (`calcularAreaTriangulo`)
+- [ ] Cada função recebe só os dados necessários (parâmetros mínimos)
+- [ ] Funções de cálculo não fazem `System.out.println` (só retornam)
+- [ ] O `main` fica mais curto e mais fácil de ler
+
+---
+
+## 🧪 Exercícios (para consolidar sem decorar)
+
+1) Crie a função `calcularAreaCirculo(double raio)` e use no `case 1`.
+2) Crie a função `calcularAreaRetangulo(double largura, double altura)` e use no `case 2`.
+3) Crie a função `calcularAreaTriangulo(double base, double altura)` e use no `case 3`.
+4) Crie uma função `formatarArea(String figura, double area)` que retorne uma `String` pronta.
+5) Identifique no seu código o que é:
+- procedimento (void)
+- função (com retorno)
+
+---
+
 
 <!-- nav_start -->
 ---
