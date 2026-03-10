@@ -21,7 +21,7 @@
   - [Linguagens de Programação](docs/7_Linguagens_de_Programacao.md)
   - [Comentários em Código](docs/8_Comentarios_em_Codigo.md)
   - [Comandos de entrada e saída](docs/9_Comandos_Entrada_Saida.md)
-  - [OnlineGDB](docs/10_OnlineGDB.md)
+  - [OnlineGDB](docs/10_onlinegdb.md)
   - [Comandos de entrada e saída de dados no JAVA](docs/11_Entrada_Saida_Dados_Java.md)
   - [Leitura de Dados com a Classe Scanner](docs/12_Leitura_Dados_Scanner.md)
 
@@ -74,9 +74,7 @@
   - [If Else: Exercício 1](docs/44_If_Else_Exercicio_1.md)
   - [If Else: Exercício 2](docs/45_If_Else_Exercicio_2.md)
   - [Desafio Jogo da Forca](docs/46_Desafio_Jogo_Forca.md)
-  - [Jogo da Forca](docs/47_Jogo_da_Forca.md)
   - [Requisitos do Jogo da Forca](docs/48_Requisitos_Forca.md)
-  - [Teste 1: Deve ser resolvido até 10/10/2025](docs/49_Teste_1.md)
   - [Questão 01](docs/50_Questao_01.md)
   - [Questão 02](docs/51_Questao_02.md)
   - [Questão 03](docs/52_Questao_03.md)
@@ -235,14 +233,31 @@
 - Preparação para API HTTP
   - [Vídeos: Preparação para aplicação backend no formato de API HTTP](docs/164_Preparacao_API_HTTP.md)
 
+- Arquitetura e Padrões de Projeto
+  - [Padrões Arquiteturais e Padrões de Projeto](docs/165_Padrões_Arquiteturais_e_Padrões_de_Projeto.md)
+  - [Padrão Arquitetural MVC](docs/166_Padrão_Arquitetural_MVC.md)
+  - [Desafio](docs/167_Desafio.md)
+
+- Aplicação Backend em API HTTP / Spring Boot
+  - [Preparação para aplicação backend no formato de API HTTP](docs/168_Preparação_para_aplicação_backend_no_formato_de_API_HTTP.md)
+  - [Protocolo HTTP](docs/169_Protocolo_HTTP.md)
+  - [Esqueleto API Spring Boot](docs/170_Esqueleto_API_Spring_Boot.md)
+  - [Primeiro Projeto Spring Boot](docs/171_Primeiro_Projeto_Spring_Boot.md)
+  - [Primeiro Projeto Spring Boot com Frontend](docs/172_Primeiro_Projeto_Spring_Boot_com_Frontend.md)
+  - [Primeiro Projeto Spring Boot + Frontend Console e Swing](docs/173_Primeiro Projeto Spring Boot + Frontend Console e Swing.md)
+  - [Sistema de Biblioteca](docs/174_Sistema_de_Biblioteca.md)
+
+- Projeto Final
+  - [Projeto Gerenciador de Lista de Tarefas](docs/507_Projeto_Gerenciador_de_Lista_de_Tarefas.md)
+
 - Roteiros de Estudo
   - [Roteiros de Estudo](docs/165_Roteiros_Estudo.md)
-  - [Orientações](docs/166_Orientacoes.md)
-  - [Java Básico](docs/167_Java_Basico.md)
-  - [FrontEnd](docs/168_FrontEnd.md)
-  - [BackEnd](docs/169_BackEnd.md)
-  - [SpringBoot](docs/170_SpringBoot.md)
-  - [Banco de Dados](docs/171_Banco_de_Dados.md)
+  - [Orientações](docs/501_Orientacoes.md)
+  - [Java Básico](docs/502_Java_Basico.md)
+  - [FrontEnd](docs/503_FrontEnd.md)
+  - [BackEnd](docs/504_BackEnd.md)
+  - [SpringBoot](docs/505_SpringBoot.md)
+  - [Banco de Dados](docs/506_Banco_de_Dados.md)
 
 
 ## 🗂️ Estrutura do repositório
