@@ -244,7 +244,7 @@
   - [Esqueleto API Spring Boot](docs/170_Esqueleto_API_Spring_Boot.md)
   - [Primeiro Projeto Spring Boot](docs/171_Primeiro_Projeto_Spring_Boot.md)
   - [Primeiro Projeto Spring Boot com Frontend](docs/172_Primeiro_Projeto_Spring_Boot_com_Frontend.md)
-  - [Primeiro Projeto Spring Boot + Frontend Console e Swing](docs/173_Primeiro Projeto Spring Boot + Frontend Console e Swing.md)
+  - [Primeiro Projeto Spring Boot + Frontend Console e Swing](docs/173_Primeiro_Projeto_Spring_Boot_Frontend_Console_e_Swing.md)
   - [Sistema de Biblioteca](docs/174_Sistema_de_Biblioteca.md)
 
 - Projeto Final
