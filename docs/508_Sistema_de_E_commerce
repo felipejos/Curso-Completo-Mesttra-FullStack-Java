@@ -1,0 +1,302 @@
+# Sistema de E-commerce
+
+Documento guia para projetar uma API de comércio eletrônico completa, com domínio rico, transações seguras e camadas bem definidas.
+
+## 📚 Conteúdo Original (Mantido na Íntegra)
+
+> Sistema de E-commerce
+> Objetivos 
+> Este projeto consiste em desenvolver um sistema backend no formato API RESTful (ou pacote de classes), permitindo que usuários naveguem por produtos, realizem compras, gerenciem carrinho, pedidos e pagamentos.
+>
+> O sistema deve conter CRUDs completos, regras de negócio reais, autenticação, controle de estoque e boas práticas de arquitetura.
+>
+>
+> Objetivos principais do projeto
+> Esta API deve demonstrar domínio de:
+>
+> Criação de APIs REST
+> Modelagem de domínio mais complexo
+> Relacionamentos entre entidades
+> Controle de estoque
+> Processamento de pedidos
+> Regras de negócio reais
+> Autenticação e autorização (JWT)
+> Paginação, filtros e busca
+> Transações no banco de dados
+> Tratamento de erros robusto
+> Documentação
+>
+>
+> Modelo de Dados Sugerido
+> Usuário (users)
+> Campo	Tipo	Descrição
+> id	inteiro	Identificador
+> nome	string	Nome do usuário
+> email	string	Único
+> senha	string	Hash
+> data_criacao	datetime	Criação
+> Produto (products)
+> Campo	Tipo	Descrição
+> id	inteiro	Identificador
+> nome	string	Nome do produto
+> descricao	string	Detalhes
+> preco	decimal	Valor
+> estoque	inteiro	Quantidade disponível
+> ativo	boolean	Produto disponível
+> data_criacao	datetime	Criação
+> Carrinho (cart)
+> Campo	Tipo	Descrição
+> id	inteiro	Identificador
+> id_usuario	inteiro	Dono do carrinho
+>
+>
+> Item do Carrinho (cart_items)
+> Campo	Tipo	Descrição
+> id	inteiro	Identificador
+> id_carrinho	inteiro	FK
+> id_produto	inteiro	FK
+> quantidade	inteiro	Quantidade
+>
+>
+> Pedido (orders)
+> Campo	Tipo	Descrição
+> id	inteiro	Identificador
+> id_usuario	inteiro	Cliente
+> status	enum	pendente, pago, enviado, cancelado
+> valor_total	decimal	Total
+> data_criacao	datetime	Criação
+> Itens do Pedido (order_items)
+> Campo	Tipo	Descrição
+> id	inteiro	Identificador
+> id_pedido	inteiro	FK
+> id_produto	inteiro	FK
+> quantidade	inteiro	Quantidade
+> preco_unitario	decimal	Snapshot do preço
+> Pagamento (payments)
+> Campo	Tipo	Descrição
+> id	inteiro	Identificador
+> id_pedido	inteiro	FK
+> status	enum	pendente, aprovado, recusado
+> metodo	enum	cartão, pix, boleto
+> data_pagamento	datetime	Data
+> Funcionalidades
+> 1️ - Cadastro de usuário (POST /users)
+> Cria novo usuário.
+>
+>
+> Validações:
+>
+> email único
+> senha obrigatória
+> Erros:
+>
+> email duplicado → 409
+> dados inválidos → 400
+>
+>
+> 2️ - Login (POST /auth/login)
+> Retorna token JWT.
+>
+>
+> Validações:
+>
+> email e senha corretos
+> Erro:
+>
+> credenciais inválidas → 401
+>
+>
+> 3️ - Listar produtos (GET /products)
+> Permite:
+>
+> paginação
+> filtros:
+> preço mínimo/máximo
+> nome (busca)
+> produtos ativos
+> Exemplo:
+>
+> /products?min=10&max=100&search=mouse
+> 4️ - Criar produto (POST /products)
+> (Apenas admin)
+>
+> Validações:
+>
+> nome obrigatório
+> preço > 0
+> estoque >= 0
+>
+>
+> 5️ - Atualizar produto (PUT/PATCH /products/:id)
+> Permite alterar:
+>
+> nome
+> preço
+> estoque
+> status (ativo/inativo)
+>
+>
+> 6️ - Adicionar item ao carrinho (POST /cart/items)
+> Exemplo:
+>
+> { "product_id": 1, "quantidade": 2 }
+> Regras:
+>
+> verificar estoque disponível
+> se já existir → somar quantidade
+> Erro:
+>
+> estoque insuficiente → 422
+>
+>
+> 7️ - Listar carrinho (GET /cart)
+> Retorna:
+>
+> itens
+> valor total
+>
+>
+> 8️ - Remover item do carrinho (DELETE /cart/items/:id)
+> Remove item específico.
+>
+>
+>
+> 9️ - Atualizar quantidade (PATCH /cart/items/:id)
+> Valida:
+>
+> quantidade > 0
+> estoque suficiente
+>
+>
+> - Finalizar compra (POST /orders)
+> O que acontece:
+>
+> Valida carrinho
+> Verifica estoque
+> Cria pedido
+> Cria itens do pedido
+> Calcula valor total
+> Atualiza estoque (IMPORTANTE → transação)
+> Erros:
+>
+> carrinho vazio → 400
+> estoque insuficiente → 422
+>
+>
+> 11 - Listar pedidos do usuário (GET /orders)
+> Retorna apenas pedidos do usuário autenticado.
+>
+>
+>
+> 12 - Detalhes do pedido (GET /orders/:id)
+> Inclui:
+>
+> itens
+> status
+> valor total
+> Erro:
+>
+> pedido não pertence ao usuário → 403
+>
+>
+> 13 - Atualizar status do pedido (PATCH /orders/:id/status)
+> (Apenas admin)
+>
+> Fluxo:
+>
+> pendente → pago → enviado
+>
+>
+> 14 - Processar pagamento (POST /payments)
+> Simulação de pagamento.
+>
+> Exemplo:
+>
+>
+>
+> { "order_id": 1, "metodo": "pix" }
+>
+>
+> Regras:
+>
+> atualizar status do pedido para "pago" se aprovado
+>
+>
+> 15 - Cancelar pedido (PATCH /orders/:id/cancel)
+> Regras:
+>
+> só pode cancelar se não enviado
+> devolver estoque
+>
+>
+> Regras:
+>
+> só pode cancelar se não enviado
+> devolver estoque
+> Observações
+> Autenticação
+> JWT obrigatório para:
+>
+> carrinho
+> pedidos
+> pagamentos
+> Admin:
+>
+> criação de produtos
+> alteração de status
+> Tratamento global de erros
+> Padrão:
+>
+>
+>
+> { "error": "ValidationError", "message": "Invalid stock" }
+>
+>
+> Códigos:
+>
+>
+> 400 → erro do cliente
+> 401 → não autenticado
+> 403 → sem permissão
+> 404 → não encontrado
+> 409 → conflito
+> 422 → validação
+> 500 → erro interno
+> Logs e Auditoria
+> requisições
+> erros
+> login/logout
+> criação de pedidos
+> Testes automatizados
+> Testar:
+>
+> criação de pedido
+> controle de estoque
+> carrinho
+> autenticação
+> pagamento
+> Funcionalidades Extras
+> Cupons de desconto
+> Avaliação de produtos
+> Lista de desejos (wishlist)
+> Frete (simulado)
+> Integração com gateway de pagamento
+> Upload de imagens de produto
+> Dicas para Portfólio
+> Use transações no banco (ESSENCIAL aqui)
+> Demonstre controle de concorrência (estoque)
+> Documente com Swagger
+> Separe camadas (Controller, Service, Repository)
+
+## 🔍 Complemento Explicativo
+
+Para garantir consistência entre carrinho, pedido e pagamento, utilize transações distribuídas ou, pelo menos, um fluxo transacional único que envolva verificação/atualização de estoque, criação de pedidos e gravação dos itens. Combine bloqueios otimistas (campos `version`) com consultas `FOR UPDATE` quando necessário para evitar que dois usuários comprem o último item simultaneamente. Além disso, padronize eventos de domínio (por exemplo, `OrderCreated`, `PaymentApproved`) para facilitar integrações futuras com faturamento, notificações ou sistemas de logística.
+
+Recomenda-se expor documentação viva via OpenAPI/Swagger, habilitar paginação padrão (limit/offset) e filtros reutilizáveis com especificações (ex.: `Specification` no Spring Data). Centralize o tratamento de exceções com um `ExceptionHandler` global que retorne o JSON padronizado informado no requisito, registrando logs estruturados (correlação por request ID) para auditoria e troubleshooting.
+
+## 💻 Desafios de Código
+
+1. **Workflow de Pagamento Assíncrono:** Implemente uma fila simulada (ou tabela de eventos) para processar pagamentos em segundo plano. O endpoint `/payments` apenas valida a solicitação e enfileira o processamento, enquanto um job confirma se o pagamento foi aprovado ou recusado e atualiza o pedido com consistência.
+2. **Controle de Estoque Consciente de Concorrência:** Adicione testes de carga (ex.: com Gatling ou k6) que disparem múltiplas compras simultâneas do mesmo produto, validando que o estoque nunca fique negativo graças a transações e bloqueios adequados.
+3. **Relatórios Analíticos:** Crie um endpoint `/analytics/sales` que consolide faturamento por período, produtos mais vendidos e taxa de cancelamento. Utilize consultas agregadas com janelas de tempo configuráveis e exponha os resultados em formato pronto para dashboards.
+
